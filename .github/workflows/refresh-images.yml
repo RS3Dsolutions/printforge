@@ -3,12 +3,11 @@ name: Refresh product photos
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - "products.json"
-      - "fetch_product_images.py"
-      - ".github/workflows/refresh-images.yml"
+      - 'products.json'
+      - 'fetch_product_images.py'
+      - '.github/workflows/refresh-images.yml'
 
 permissions:
   contents: write
@@ -16,7 +15,6 @@ permissions:
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,39 +24,46 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Install dependencies and Chromium
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
 
-      - name: Fetch product photos
-        run: |
-          python fetch_product_images.py
+      - name: Fetch real product photos
+        run: python fetch_product_images.py
 
-      - name: Check for downloaded photos
+      - name: Verify photo coverage
         shell: bash
         run: |
-          count=$(find assets/products -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) 2>/dev/null | wc -l)
+          count=$(find assets/products -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l)
+          products=$(python - <<'PY'
+          import json
+          d=json.load(open('products.json',encoding='utf-8'))
+          print(sum(bool(p.get('imagePaths')) for p in d.get('products',[])))
+          PY
+          )
+          total=$(python - <<'PY'
+          import json
+          d=json.load(open('products.json',encoding='utf-8'))
+          print(len(d.get('products',[])))
+          PY
+          )
+          echo "Local photos: $count"
+          echo "Products with photos: $products/$total"
+          if [ "$count" -eq 0 ]; then echo '::error::No local product photos were produced.'; exit 1; fi
+          if [ "$products" -eq 0 ]; then echo '::error::No products have photos.'; exit 1; fi
 
-          echo "Downloaded product images: $count"
-
-          if [ "$count" -eq 0 ]; then
-            echo "::error::No product photos were downloaded."
-            exit 1
-          fi
-
-      - name: Commit downloaded photos
+      - name: Commit photos and manifest
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add products.json assets/products
-
           if git diff --cached --quiet; then
-            echo "No image changes to commit."
+            echo 'No photo changes to commit.'
           else
-            git commit -m "Update product photos [skip ci]"
+            git commit -m 'Refresh local product photos [skip ci]'
             git push
           fi
