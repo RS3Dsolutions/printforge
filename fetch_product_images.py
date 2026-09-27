@@ -103,11 +103,18 @@ def browser_capture(src, dest, max_images=3):
         with sync_playwright() as pw:
             browser=pw.chromium.launch(headless=True)
             page=browser.new_page(viewport={'width':1440,'height':1100}, user_agent=UA)
-            page.goto(src, wait_until='domcontentloaded', timeout=45000)
-            page.wait_for_timeout(2500)
+            
+            # Some catalogue records point at the site's /files tab; the gallery lives on the model page.
+            browser_src = re.sub(r'/files/?$', '', src)
+            page.goto(browser_src, wait_until='domcontentloaded', timeout=60000)
+            page.wait_for_timeout(5000)
             # Force lazy-loaded gallery images to materialize.
-            page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.35)')
+            page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.25)')
+            page.wait_for_timeout(1000)
+            page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.65)')
             page.wait_for_timeout(1200)
+            page.evaluate('window.scrollTo(0, 0)')
+            page.wait_for_timeout(700)
             imgs=page.locator('img')
             count=imgs.count()
             candidates=[]
@@ -115,7 +122,7 @@ def browser_capture(src, dest, max_images=3):
                 try:
                     el=imgs.nth(i)
                     box=el.bounding_box()
-                    if not box or box['width'] < 180 or box['height'] < 120: continue
+                    if not box or box['width'] < 160 or box['height'] < 100: continue
                     srcv=el.get_attribute('src') or el.get_attribute('data-src') or ''
                     alt=(el.get_attribute('alt') or '').lower()
                     low=(srcv+' '+alt).lower()
@@ -141,6 +148,19 @@ def browser_capture(src, dest, max_images=3):
                         target.unlink(missing_ok=True)
                 except Exception:
                     continue
+            # If the gallery is rendered without ordinary <img> elements, use the browser's
+            # resolved OpenGraph image as a final real-photo candidate.
+            if got == 0:
+                try:
+                    og = page.locator('meta[property=\"og:image\"]').get_attribute('content')
+                    if og:
+                        target=dest/'1.jpg'
+                        resp=page.request.get(og, timeout=30000)
+                        if resp.ok and len(resp.body()) > 10000:
+                            target.write_bytes(resp.body())
+                            got=1
+                except Exception:
+                    pass
             browser.close()
     except Exception as e:
         print(f'  browser capture failed: {type(e).__name__}: {e}')
@@ -150,7 +170,7 @@ def browser_capture(src, dest, max_images=3):
 d=json.loads(DATA.read_text(encoding='utf-8'))
 summary=[]
 for p in d.get('products',[]):
-    src=p.get('source')
+    src=p.get('sourceUrl') or p.get('source')
     if not src or not src.startswith('http'):
         continue
     dest=ASSET/p['id']; dest.mkdir(parents=True,exist_ok=True)
