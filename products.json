@@ -97,7 +97,11 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-OFF-003/1.jpg",
+        "assets/products/PF-OFF-003/2.jpg",
+        "assets/products/PF-OFF-003/3.jpg"
+      ],
       "platform": "MakerWorld",
       "creator": "zagtrosD",
       "license": "CC BY — commercial use permitted with attribution",
@@ -297,7 +301,11 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-HOM-006/1.png",
+        "assets/products/PF-HOM-006/2.png",
+        "assets/products/PF-HOM-006/3.jpg"
+      ],
       "platform": "MakerWorld",
       "creator": "Bux / Make My Vase",
       "license": "Creative Commons Public Domain — commercial use stated",
@@ -357,7 +365,11 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-ELX-002/1.jpg",
+        "assets/products/PF-ELX-002/2.jpg",
+        "assets/products/PF-ELX-002/3.jpg"
+      ],
       "platform": "MakerWorld",
       "creator": "zagtrosD",
       "license": "CC BY — commercial use permitted with attribution",
@@ -497,7 +509,11 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-HOB-004/1.jpg",
+        "assets/products/PF-HOB-004/2.jpg",
+        "assets/products/PF-HOB-004/3.jpg"
+      ],
       "platform": "MakerWorld",
       "creator": "Meshminds2",
       "license": "Creative Commons Public Domain — creator states commercial use allowed",
@@ -517,7 +533,11 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-HOB-005/1.png",
+        "assets/products/PF-HOB-005/2.jpg",
+        "assets/products/PF-HOB-005/3.jpg"
+      ],
       "platform": "MakerWorld",
       "creator": "Tobkar_",
       "license": "CC BY-SA 4.0 — commercial use permitted with attribution",
