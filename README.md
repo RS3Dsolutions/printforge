@@ -1,18 +1,17 @@
-# PrintForge V5 — customer catalogue + automatic product-photo pipeline
+# PrintForge V5.2
 
-This version is designed for the public customer storefront.
+Customer-facing 3D-print catalogue for GitHub Pages.
 
-## Customer-facing
-- Real product photographs are downloaded from the approved source model pages by the GitHub Actions workflow.
-- Product images are stored in the repository under `assets/products/<product-id>/` and served locally by GitHub Pages.
-- No material, creator, source URL, licence text, STL/3MF, or model-file information is shown in the storefront.
-- WhatsApp ordering uses the official WhatsApp send endpoint and provides a visible fallback link if the browser does not open WhatsApp automatically.
-- Products without a successfully fetched real photo are not shown to customers until the photo is available.
+## Customer experience
+- Real product photographs are fetched automatically from each approved source page.
+- Product descriptions remain visible even before the photo workflow finishes.
+- Customer-facing pages do not show material, creator, licence, source, STL/3MF, or technical model information.
+- Orders collect customer/delivery details and open WhatsApp using the universal `wa.me` handoff.
 
-## Photo pipeline
-`fetch_product_images.py` reads the approved product source URLs from `products.json`, fetches the source pages, extracts gallery/cover image URLs, downloads up to three image files per product, and writes `imagePaths` back to `products.json`.
+## Automatic photos
+The GitHub Action `.github/workflows/refresh-images.yml` runs the `fetch_product_images.py` script. The script uses Jina Reader as a page-fetching fallback for model platforms that block ordinary requests, extracts source-page image URLs, downloads up to three images per product into `assets/products/<product-id>/`, and commits them back to `main`.
 
-The workflow in `.github/workflows/refresh-images.yml` runs when `products.json` or the scraper changes. It commits the downloaded images back to `main`, after which GitHub Pages publishes them. GitHub Pages publishes static files from the repository; no paid hosting is required.
+After the Action completes, GitHub Pages republishes the updated catalogue.
 
-## Licensing note
-Model/physical-print rights and image/photo rights are separate questions. The storefront should only display photographs when the applicable source terms permit the intended reuse. Where a licence requires attribution, the business must retain the required attribution in the internal/legal record or appropriate site notice; customer-facing product cards intentionally omit technical licence metadata.
+## Important
+The catalogue should only contain products whose underlying model rights permit the intended commercial print use. Photograph reuse is a separate rights question; this workflow is intended to obtain the source-page gallery images for internal catalogue preparation and should be reviewed for photo rights before public commercial launch.
