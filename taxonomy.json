@@ -1,65 +1,42 @@
 {
   "Automotive": [
     "Car Accessories",
-    "Car Interior & Storage",
-    "Phone & Device Mounts",
-    "Cable Management",
-    "Dealer & Display",
     "Decorative & Personalization",
+    "Phone & Device Mounts",
     "Replacement Parts"
+  ],
+  "Office & Desk": [
+    "Cable Management",
+    "Desk Organization",
+    "Phone & Tablet"
+  ],
+  "Tools & Workshop": [
+    "Electronics & Soldering",
+    "Maker Tools",
+    "Mechanic & General Workshop",
+    "Workshop Storage"
   ],
   "Home & Living": [
     "Home Decor",
-    "Furniture & Utility",
-    "Hooks & Hanging",
-    "Kitchen & Dining",
-    "Planters & Gardening",
-    "Religious & Decorative",
-    "Home Organization"
-  ],
-  "Tools & Workshop": [
-    "Mechanic & General Workshop",
-    "Electricians",
-    "Plumbers",
-    "Maker Tools",
-    "Electronics & Soldering",
-    "Workshop Storage",
-    "Jigs & Fixtures"
-  ],
-  "Office & Desk": [
-    "Phone & Tablet",
-    "Desk Organization",
-    "Writing & Stationery",
-    "Desk Displays",
-    "Work From Home"
-  ],
-  "Electronics & Tech": [
-    "Storage & Organization",
-    "Enclosures & Cases",
-    "Device Holders",
-    "Cable Management",
-    "Maker Electronics"
+    "Home Organization",
+    "Hooks & Hanging"
   ],
   "Business & Retail": [
-    "Displays & Signage",
-    "QR & Payment",
-    "Product Display",
-    "Countertop Organization",
-    "Corporate & Events"
+    "Displays & Signage"
+  ],
+  "Electronics & Tech": [
+    "Device Holders",
+    "Storage & Organization"
   ],
   "Repair & Replacement": [
     "Replacement Parts",
-    "Knobs & Handles",
-    "Clips & Retainers",
-    "Spacers & Bushings",
-    "Brackets & Covers"
+    "Spacers & Bushings"
   ],
   "Hobby & Gaming": [
-    "RC & Hobby",
-    "RC Parts",
     "Bike & Outdoor",
     "Collectibles & Toys",
     "Keychains & Small Gifts",
-    "Gaming Accessories"
+    "RC & Hobby",
+    "RC Parts"
   ]
 }
