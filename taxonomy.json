@@ -1,0 +1,65 @@
+{
+  "Automotive": [
+    "Car Accessories",
+    "Car Interior & Storage",
+    "Phone & Device Mounts",
+    "Cable Management",
+    "Dealer & Display",
+    "Decorative & Personalization",
+    "Replacement Parts"
+  ],
+  "Home & Living": [
+    "Home Decor",
+    "Furniture & Utility",
+    "Hooks & Hanging",
+    "Kitchen & Dining",
+    "Planters & Gardening",
+    "Religious & Decorative",
+    "Home Organization"
+  ],
+  "Tools & Workshop": [
+    "Mechanic & General Workshop",
+    "Electricians",
+    "Plumbers",
+    "Maker Tools",
+    "Electronics & Soldering",
+    "Workshop Storage",
+    "Jigs & Fixtures"
+  ],
+  "Office & Desk": [
+    "Phone & Tablet",
+    "Desk Organization",
+    "Writing & Stationery",
+    "Desk Displays",
+    "Work From Home"
+  ],
+  "Electronics & Tech": [
+    "Storage & Organization",
+    "Enclosures & Cases",
+    "Device Holders",
+    "Cable Management",
+    "Maker Electronics"
+  ],
+  "Business & Retail": [
+    "Displays & Signage",
+    "QR & Payment",
+    "Product Display",
+    "Countertop Organization",
+    "Corporate & Events"
+  ],
+  "Repair & Replacement": [
+    "Replacement Parts",
+    "Knobs & Handles",
+    "Clips & Retainers",
+    "Spacers & Bushings",
+    "Brackets & Covers"
+  ],
+  "Hobby & Gaming": [
+    "RC & Hobby",
+    "RC Parts",
+    "Bike & Outdoor",
+    "Collectibles & Toys",
+    "Keychains & Small Gifts",
+    "Gaming Accessories"
+  ]
+}

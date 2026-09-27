@@ -1,12 +1,13 @@
-# PrintForge V2 — Commercial Catalogue
+# PrintForge V3 — Structured Customer Catalogue
 
-This version intentionally shows only products whose source listing was checked for commercial-use permission.
+This V3 reorganizes the catalogue around customer intent: broad category → practical subcategory → product → quantity → delivery details → WhatsApp.
 
-Primary customer flow:
-Product → Quantity → Buy now → WhatsApp Business.
+## Important
+- Customer-facing products are limited to the current commercial-use-screened pool.
+- `research_candidates.json` contains candidates intentionally hidden until their commercial rights are verified or purchased.
+- Product preview images in this prototype are locally generated catalogue placeholders. They are deliberately labelled as previews and should be replaced with owned product photos or images whose use is explicitly permitted before commercial launch.
+- No payment is taken on the website. The order form prepares a complete WhatsApp message for PrintForge.
 
-WhatsApp destination: +91 79750 72917
 
-The product images are source-page preview thumbnails served through Thum.io as a prototype. Before commercial launch, replace them with images you own or have explicit permission to use, or with clean product photos of your own prints.
-
-Do not sell a physical product from a listing whose current license/terms no longer permit commercial use. Re-check the source terms before production if the source changes.
+### GitHub browser deployment
+This version is self-contained: catalogue preview SVGs are embedded inside the JSON data files, so there is no images folder to upload. Upload the six files in this package directly to the repository root.

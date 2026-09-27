@@ -1,10 +1,18 @@
-# Commercial-use verification notes
+# Licensing notes
 
-Only products with source listings explicitly showing commercial-use permission were included in the customer catalogue.
+PrintForge V3 separates customer-facing products from research candidates.
 
-Where the source requires attribution, the creator is shown in the product detail view and should be credited as required by the source license.
+## Customer catalogue
+Only products for which the source record explicitly indicated commercial physical-print permission were included.
 
-Important:
-- Commercial permission for the 3D model does not automatically grant rights to use the creator's photos as your own marketing material.
-- The prototype therefore uses source-page preview thumbnails. For a real commercial launch, replace them with your own photographs/renders of prints or images you have explicit rights to use.
-- Re-check every model's current license/merchant terms before producing and selling it.
+## Research candidates
+Models requiring a paid commercial membership/license, unclear licensing, or additional verification are kept in `research_candidates.json` and are not displayed to customers.
+
+## Images
+A model licence allowing commercial physical prints does not automatically mean a creator's original photographs can be reused as PrintForge marketing material. V3 therefore uses locally generated, clearly labelled catalogue preview visuals until PrintForge has its own product photos or explicit image permission.
+
+Re-check creator/platform terms immediately before production because licences and memberships can change.
+
+
+### Deployment note
+The embedded SVGs are PrintForge catalogue-preview graphics created for this prototype; they are not creator photos or downloaded third-party product photography.

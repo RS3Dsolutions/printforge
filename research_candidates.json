@@ -1,0 +1,245 @@
+{
+  "note": "Research candidates intentionally hidden from the customer catalogue until commercial-use permission is verified or purchased.",
+  "candidates": [
+    {
+      "id": "PF-AUTO-003",
+      "name": "Citroën Berlingo Dual Cup Holder",
+      "category": "Automotive",
+      "subcategory": "Car Accessories",
+      "type": "Cup Holders",
+      "description": "A vehicle-specific dual cup holder designed for Citroën Berlingo 2 (2008–2018). Fitment is vehicle-specific and should be confirmed before production.",
+      "material": "PETG / ASA",
+      "platform": "MakerWorld",
+      "creator": "Phabbyg",
+      "license": "Source listing requires current licence verification before commercial sale",
+      "source": "https://makerworld.com/en/models/175450-cupholder-for-citroen-berlingo-2-2008-2018",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2l0cm/Dq24gQmVybGluZ28gRHVhbCBDdXAgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2l0cm/Dq24gQmVybGluZ28gRHVhbCBDdXAgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2l0cm/Dq24gQmVybGluZ28gRHVhbCBDdXAgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-AUTO-004",
+      "name": "Car Coffee Cup Holder Expander",
+      "category": "Automotive",
+      "subcategory": "Car Accessories",
+      "type": "Cup Holders",
+      "description": "A cup-holder expander designed to accommodate larger drink containers in compatible vehicle cup holders. Fitment should be confirmed before production.",
+      "material": "PETG",
+      "platform": "Printables",
+      "creator": "Brian Steiner",
+      "license": "CC BY-NC — commercial use NOT permitted",
+      "source": "https://www.printables.com/model/603296-car-coffee-cup-holder-expander",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIENvZmZlZSBDdXAgSG9sZGVyIEV4cGFuZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIENvZmZlZSBDdXAgSG9sZGVyIEV4cGFuZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIENvZmZlZSBDdXAgSG9sZGVyIEV4cGFuZGVyPC90ZXh0Pgo8L3N2Zz4="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-AUTO-005",
+      "name": "Car Headrest Bag Holder",
+      "category": "Automotive",
+      "subcategory": "Interior Storage",
+      "type": "Hooks & Holders",
+      "description": "A compact headrest-mounted hook for hanging lightweight bags and keeping the rear cabin organised. Vehicle/headrest fitment should be checked.",
+      "material": "PETG / ASA",
+      "platform": "Printables",
+      "creator": "Verified source candidate",
+      "license": "Commercial-use status to be rechecked before sale",
+      "source": "https://www.printables.com/model?category=89",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIEhlYWRyZXN0IEJhZyBIb2xkZXI8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIEhlYWRyZXN0IEJhZyBIb2xkZXI8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+Q2FyIEhlYWRyZXN0IEJhZyBIb2xkZXI8L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-AUTO-006",
+      "name": "Dashboard Cable Clip",
+      "category": "Automotive",
+      "subcategory": "Cable Management",
+      "type": "Cable Clips",
+      "description": "A small clip for routing charging, dashcam or accessory cables neatly around a vehicle dashboard.",
+      "material": "PETG / ASA",
+      "platform": "Printables",
+      "creator": "Source candidate",
+      "license": "Commercial-use status not yet verified",
+      "source": "https://www.printables.com/model?category=89",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+RGFzaGJvYXJkIENhYmxlIENsaXA8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+RGFzaGJvYXJkIENhYmxlIENsaXA8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI3MCIgcng9IjE4Ii8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iMTMwIiByPSIyMCIvPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjEzMCIgcj0iMjAiLz48L2c+Cjx0ZXh0IHg9IjE2NSIgeT0iMzQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzY0NzQ4YiI+UFJJTlRGT1JHRSBDQVRBTE9HVUUgUFJFVklFVzwvdGV4dD4KPHRleHQgeD0iMTY1IiB5PSIyMDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzY0NzQ4YiI+RGFzaGJvYXJkIENhYmxlIENsaXA8L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-OFF-004",
+      "name": "Workshop Storage Bench Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Organizers",
+      "description": "A bench-top stand for arranging hand tools and small accessories so frequently used items stay visible and accessible.",
+      "material": "PLA / PETG",
+      "platform": "Printables",
+      "creator": "Mr Robot",
+      "license": "Commercial-use status not yet verified",
+      "source": "https://www.printables.com/model/390322-workshop-storage-bench-tools-stand",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijg1IiB5PSIxMDUiIHdpZHRoPSIxNzAiIGhlaWdodD0iOTAiIHJ4PSIxMiIvPjxwYXRoIGQ9Ik0xMDUgMTc1IEwxNTAgMTIwIEwyMzUgMTc1Ii8+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTM1IiByPSI4Ii8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPldvcmtzaG9wIFN0b3JhZ2UgQmVuY2ggU3RhbmQ8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijg1IiB5PSIxMDUiIHdpZHRoPSIxNzAiIGhlaWdodD0iOTAiIHJ4PSIxMiIvPjxwYXRoIGQ9Ik0xMDUgMTc1IEwxNTAgMTIwIEwyMzUgMTc1Ii8+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTM1IiByPSI4Ii8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPldvcmtzaG9wIFN0b3JhZ2UgQmVuY2ggU3RhbmQ8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijg1IiB5PSIxMDUiIHdpZHRoPSIxNzAiIGhlaWdodD0iOTAiIHJ4PSIxMiIvPjxwYXRoIGQ9Ik0xMDUgMTc1IEwxNTAgMTIwIEwyMzUgMTc1Ii8+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTM1IiByPSI4Ii8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPldvcmtzaG9wIFN0b3JhZ2UgQmVuY2ggU3RhbmQ8L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-HOM-003",
+      "name": "Ribbed Vase Trio",
+      "category": "Home & Living",
+      "subcategory": "Home Decor",
+      "type": "Vases & Planters",
+      "description": "A decorative family of ribbed vessels suitable as a vase, planter cover or pencil pot. Source licensing must be purchased/confirmed before commercial sale.",
+      "material": "PLA",
+      "platform": "Cults3D",
+      "creator": "Commercial-license seller",
+      "license": "CC0 commercial license — purchase required",
+      "source": "https://cults3d.com/en/tags/cc0",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlJpYmJlZCBWYXNlIFRyaW88L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlJpYmJlZCBWYXNlIFRyaW88L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlJpYmJlZCBWYXNlIFRyaW88L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-HOM-004",
+      "name": "Twisted Spiral Pen Cup",
+      "category": "Home & Living",
+      "subcategory": "Home Decor",
+      "type": "Desk Decor",
+      "description": "A spiral-form pen cup that doubles as a decorative desk accent. The source listing states a CC0 commercial license with purchase.",
+      "material": "PLA / PETG",
+      "platform": "Cults3D",
+      "creator": "SolConcepts",
+      "license": "CC0 commercial license — purchase required",
+      "source": "https://cults3d.com/en/3d-model/home/twisted-spiral-pen-cup",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlR3aXN0ZWQgU3BpcmFsIFBlbiBDdXA8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlR3aXN0ZWQgU3BpcmFsIFBlbiBDdXA8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPlR3aXN0ZWQgU3BpcmFsIFBlbiBDdXA8L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-HOM-005",
+      "name": "Faceted Tribal Planter",
+      "category": "Home & Living",
+      "subcategory": "Planters & Gardening",
+      "type": "Planters",
+      "description": "A faceted planter design intended for decorative home use. The source listing states that a commercial print-and-sell licence is included with purchase.",
+      "material": "PLA / PETG",
+      "platform": "Cults3D",
+      "creator": "Commercial-license seller",
+      "license": "CC0 commercial license — purchase required",
+      "source": "https://cults3d.com/en/3d-model/home/faceted-tribal-planter",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPkZhY2V0ZWQgVHJpYmFsIFBsYW50ZXI8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPkZhY2V0ZWQgVHJpYmFsIFBsYW50ZXI8L3RleHQ+Cjwvc3ZnPg==",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMDUgMTA1IFExNjUgNzUgMjI1IDEwNSBMMjEwIDE5MCBRMTY1IDIxNSAxMjAgMTkwIFoiLz48cGF0aCBkPSJNMTIwIDE0MCBRMTY1IDE1NSAyMTAgMTQwIi8+PC9nPgo8dGV4dCB4PSIxNjUiIHk9IjM0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM2NDc0OGIiPlBSSU5URk9SR0UgQ0FUQUxPR1VFIFBSRVZJRVc8L3RleHQ+Cjx0ZXh0IHg9IjE2NSIgeT0iMjA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2NDc0OGIiPkZhY2V0ZWQgVHJpYmFsIFBsYW50ZXI8L3RleHQ+Cjwvc3ZnPg=="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-BIZ-002",
+      "name": "Desk Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Business Card Holders",
+      "description": "A compact counter-top holder for business cards, loyalty cards or small promotional cards.",
+      "material": "PLA / PETG",
+      "platform": "Printables",
+      "creator": "Commercial-use verified source candidate",
+      "license": "Commercial-use status to be rechecked before sale",
+      "source": "https://www.printables.com/search/models?q=business%20card%20holder",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5EZXNrIEJ1c2luZXNzIENhcmQgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5EZXNrIEJ1c2luZXNzIENhcmQgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5EZXNrIEJ1c2luZXNzIENhcmQgSG9sZGVyPC90ZXh0Pgo8L3N2Zz4="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-BIZ-003",
+      "name": "Counter Price / Menu Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Tabletop Stands",
+      "description": "A simple tabletop holder for prices, menus, product information, payment instructions or promotional cards.",
+      "material": "PLA / PETG",
+      "platform": "Printables",
+      "creator": "Commercial-use verified source candidate",
+      "license": "Commercial-use status to be rechecked before sale",
+      "source": "https://www.printables.com/search/models?q=menu%20holder",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5Db3VudGVyIFByaWNlIC8gTWVudSBTdGFuZDwvdGV4dD4KPC9zdmc+",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5Db3VudGVyIFByaWNlIC8gTWVudSBTdGFuZDwvdGV4dD4KPC9zdmc+",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5Db3VudGVyIFByaWNlIC8gTWVudSBTdGFuZDwvdGV4dD4KPC9zdmc+"
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-ELX-003",
+      "name": "Raspberry Pi Enclosure",
+      "category": "Electronics & Tech",
+      "subcategory": "Enclosures & Cases",
+      "type": "Device Enclosures",
+      "description": "A protective enclosure for compatible Raspberry Pi boards and small electronics projects. Board version should be confirmed before production.",
+      "material": "PLA / PETG",
+      "platform": "Printables",
+      "creator": "Commercial-use verified source candidate",
+      "license": "Commercial-use status to be rechecked before sale",
+      "source": "https://www.printables.com/search/models?q=raspberry%20pi%20case",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijc1IiB5PSI4NSIgd2lkdGg9IjE5MCIgaGVpZ2h0PSIxMjAiIHJ4PSIxNCIvPjxjaXJjbGUgY3g9IjEzNSIgY3k9IjE0NSIgcj0iMjUiLz48cGF0aCBkPSJNMTgwIDEyMCBIMjM1IE0xODAgMTQ1IEgyMzUgTTE4MCAxNzAgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5SYXNwYmVycnkgUGkgRW5jbG9zdXJlPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijc1IiB5PSI4NSIgd2lkdGg9IjE5MCIgaGVpZ2h0PSIxMjAiIHJ4PSIxNCIvPjxjaXJjbGUgY3g9IjEzNSIgY3k9IjE0NSIgcj0iMjUiLz48cGF0aCBkPSJNMTgwIDEyMCBIMjM1IE0xODAgMTQ1IEgyMzUgTTE4MCAxNzAgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5SYXNwYmVycnkgUGkgRW5jbG9zdXJlPC90ZXh0Pgo8L3N2Zz4=",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9Ijc1IiB5PSI4NSIgd2lkdGg9IjE5MCIgaGVpZ2h0PSIxMjAiIHJ4PSIxNCIvPjxjaXJjbGUgY3g9IjEzNSIgY3k9IjE0NSIgcj0iMjUiLz48cGF0aCBkPSJNMTgwIDEyMCBIMjM1IE0xODAgMTQ1IEgyMzUgTTE4MCAxNzAgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5SYXNwYmVycnkgUGkgRW5jbG9zdXJlPC90ZXh0Pgo8L3N2Zz4="
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    },
+    {
+      "id": "PF-BIZ-004",
+      "name": "Business Card / Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Card Holders",
+      "description": "A small countertop display holder for business cards, product cards, appointment cards or promotional inserts. Final model and licence are rechecked before sale.",
+      "material": "PLA / PETG",
+      "platform": "Printables",
+      "creator": "Catalogue research candidate",
+      "license": "Commercial-use status not yet verified",
+      "source": "https://www.printables.com/search/models?q=business%20card%20holder",
+      "images": [
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWVmM2Y4Ii8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5CdXNpbmVzcyBDYXJkIC8gRGlzcGxheSBTdGFuZDwvdGV4dD4KPC9zdmc+",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZjNmMGVhIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5CdXNpbmVzcyBDYXJkIC8gRGlzcGxheSBTdGFuZDwvdGV4dD4KPC9zdmc+",
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzMwIDIyMCI+CjxyZWN0IHdpZHRoPSIzMzAiIGhlaWdodD0iMjIwIiBmaWxsPSIjZWRmNWVmIi8+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMTcyYSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjkwIiB5PSI3NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjUiIHJ4PSIxMiIvPjxyZWN0IHg9IjExMCIgeT0iOTUiIHdpZHRoPSIxMjAiIGhlaWdodD0iNTUiIHJ4PSI4Ii8+PHBhdGggZD0iTTEyMCAxNzUgSDIyMCIvPjwvZz4KPHRleHQgeD0iMTY1IiB5PSIzNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIj5QUklOVEZPUkdFIENBVEFMT0dVRSBQUkVWSUVXPC90ZXh0Pgo8dGV4dCB4PSIxNjUiIHk9IjIwNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjNjQ3NDhiIj5CdXNpbmVzcyBDYXJkIC8gRGlzcGxheSBTdGFuZDwvdGV4dD4KPC9zdmc+"
+      ],
+      "licenseGate": false,
+      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+    }
+  ]
+}
