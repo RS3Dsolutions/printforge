@@ -12,21 +12,12 @@
       "subcategory": "Car Accessories",
       "type": "Cup Holders",
       "description": "A practical insert that helps smaller bottles and cans sit securely inside a compatible vehicle cup holder. Fitment is checked before production.",
-      "material": "PETG / ASA",
-      "platform": "Printables",
-      "creator": "NicholeKnc",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/805112-car-cup-holder-insert",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjEzNSIgeT0iOTIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgiIHJ4PSI5IiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-002",
@@ -35,21 +26,12 @@
       "subcategory": "Car Accessories",
       "type": "Phone Mounts",
       "description": "A compact vent-mounted adapter for compatible phone holders using a 17 mm ball connection. Vehicle compatibility is checked before production.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "sternli27",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/773742-car-vent-phone-holder-mount-adapter-ball-joint-ven",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMTExODI3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMTExODI3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-001",
@@ -58,21 +40,12 @@
       "subcategory": "Phone & Tablet",
       "type": "Phone Stands",
       "description": "A compact desktop phone stand that keeps your phone upright for calls, videos and notifications while leaving access for charging.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Sharmo",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/103341-phone-stand",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMGY3NjZlIi8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMWYyOTM3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-002",
@@ -81,21 +54,12 @@
       "subcategory": "Desk Organization",
       "type": "Organizers",
       "description": "A multi-compartment desktop organizer for pens, small tools and everyday accessories, keeping frequently used items easy to reach.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Handsom Handmade",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/393663-desktop-tool-organizer",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-003",
@@ -104,21 +68,12 @@
       "subcategory": "Desk Organization",
       "type": "Cable & Device Storage",
       "description": "A vertical organizer that keeps multiple USB devices and small accessories together instead of spreading them across your desk.",
-      "material": "PLA / PETG",
-      "platform": "MakerWorld",
-      "creator": "zagtrosD",
-      "license": "CC BY — commercial use permitted with attribution",
-      "source": "https://makerworld.com/en/models/1216269-stackable-usb-tower",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-001",
@@ -127,21 +82,12 @@
       "subcategory": "Maker Tools",
       "type": "Tool Holders",
       "description": "A handy holder for everyday 3D-printer tools, keeping scrapers, cutters and small accessories close to the printer.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Ghislain",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/131247-3d-printer-tool-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-002",
@@ -150,21 +96,12 @@
       "subcategory": "Maker Tools",
       "type": "Tool Holders",
       "description": "A compact printer-side tool holder designed to keep essential tools organized and easy to grab during printing and maintenance.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "dewittj74",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/578109-desktop-3d-printer-tool-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-003",
@@ -173,21 +110,12 @@
       "subcategory": "Mechanic & General Workshop",
       "type": "Power Tool Storage",
       "description": "A wall or bench holder for compatible Bosch Professional 18V tools, helping keep larger tools off the work surface.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "Voytec Calow",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/823119-bosch-professional-18v-power-tool-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-004",
@@ -196,21 +124,12 @@
       "subcategory": "Mechanic & General Workshop",
       "type": "Tool Holders",
       "description": "A simple holder that keeps hex keys together, sorted and easy to access instead of loose in a drawer.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Inori Shizuka / Ky Duong",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/370422-hex-key-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-005",
@@ -219,21 +138,12 @@
       "subcategory": "Maker Tools",
       "type": "Tool Holders",
       "description": "A compact magnetic tool holder for keeping frequently used hand tools visible and within reach around a workshop.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Julien Mairy",
-      "license": "CC BY-SA 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/1570098-magnetic-tool-holder-centauri-carbon-2-cc2",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-006",
@@ -242,21 +152,12 @@
       "subcategory": "Workshop Storage",
       "type": "Tool Holders",
       "description": "A practical holder for organizing SK40 and BT40 tool tags so workshop identification stays clear and consistent.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "Filmatura",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/806777-sk40bt40-tool-tag-holder-20x",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-007",
@@ -265,21 +166,12 @@
       "subcategory": "Maker Tools",
       "type": "Tool Holders",
       "description": "A dedicated holder that keeps selected tools organized around a compatible Original Prusa enclosure setup.",
-      "material": "PETG",
-      "platform": "Printables",
-      "creator": "Ethan Scribner",
-      "license": "GNU GPL v2.0 — commercial use permitted; share-alike obligations apply",
-      "source": "https://www.printables.com/model/383238-customized-tool-holder-for-original-prusa-enclosur",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-001",
@@ -288,21 +180,12 @@
       "subcategory": "Hooks & Hanging",
       "type": "Wall Hooks",
       "description": "A clean wall hook for keys, bags, cables and other lightweight everyday items. A simple way to create extra hanging space.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Mario C",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/1064671-wall-hook",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTY1IiB5PSI5NSIgd2lkdGg9IjEzMCIgaGVpZ2h0PSIzNSIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+PHBhdGggZD0iTTE5NSAxMzAgTDE5NSAyMTUgUTE5NSAyNDUgMjI1IDI0NSBMMjc1IDI0NSBRMzA1IDI0NSAzMDUgMjE1IEwzMDUgMTgwIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTE4MjciIHN0cm9rZS13aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTY1IiB5PSI5NSIgd2lkdGg9IjEzMCIgaGVpZ2h0PSIzNSIgcng9IjEyIiBmaWxsPSIjMTExODI3Ii8+PHBhdGggZD0iTTE5NSAxMzAgTDE5NSAyMTUgUTE5NSAyNDUgMjI1IDI0NSBMMjc1IDI0NSBRMzA1IDI0NSAzMDUgMjE1IEwzMDUgMTgwIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTE4MjciIHN0cm9rZS13aWR0aD0iMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-002",
@@ -311,21 +194,12 @@
       "subcategory": "Home Organization",
       "type": "Remote Holders",
       "description": "A dedicated remote holder that keeps TV and media remotes together instead of disappearing between cushions.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Minitobi26",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/506706-remote-holder-tablewall/files",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE2NSAyNTAgTDE2NSAxMDUgUTE2NSA5MCAxODAgOTAgTDMzMCA5MCBRMzQ1IDkwIDM0NSAxMDUgTDM0NSAyNTAgWiIgZmlsbD0iIzMzNDE1NSIvPjxyZWN0IHg9IjE5NSIgeT0iMTIwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9Ijk1IiByeD0iMTgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE2NSAyNTAgTDE2NSAxMDUgUTE2NSA5MCAxODAgOTAgTDMzMCA5MCBRMzQ1IDkwIDM0NSAxMDUgTDM0NSAyNTAgWiIgZmlsbD0iIzMzNDE1NSIvPjxyZWN0IHg9IjE5NSIgeT0iMTIwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9Ijk1IiByeD0iMTgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-006",
@@ -334,21 +208,12 @@
       "subcategory": "Home Decor",
       "type": "Vases",
       "description": "A decorative geometric vase with a modern twisted form, suitable for shelves, desks and small indoor arrangements.",
-      "material": "PLA",
-      "platform": "MakerWorld",
-      "creator": "Bux / Make My Vase",
-      "license": "Creative Commons Public Domain — commercial use stated",
-      "source": "https://makerworld.com/en/models/743688-twisted-polygon-vase",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE3NSA5MCBMMzA1IDkwIEwyOTIgMTQ1IFEzMjAgMTgwIDMwMCAyNDUgTDE4MCAyNDUgUTE2MCAxODAgMTg4IDE0NSBaIiBmaWxsPSIjMWYyOTM3Ii8+PHBhdGggZD0iTTE5NSAxMjUgUTI0MCAxNjAgMjg1IDEyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjEwIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE3NSA5MCBMMzA1IDkwIEwyOTIgMTQ1IFEzMjAgMTgwIDMwMCAyNDUgTDE4MCAyNDUgUTE2MCAxODAgMTg4IDE0NSBaIiBmaWxsPSIjMGY3NjZlIi8+PHBhdGggZD0iTTE5NSAxMjUgUTI0MCAxNjAgMjg1IDEyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjEwIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-BIZ-001",
@@ -357,21 +222,12 @@
       "subcategory": "Displays & Signage",
       "type": "QR Stands",
       "description": "A clean counter stand for displaying a QR code, payment link, menu, review link or social profile where customers can scan it easily.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Eva Fliger",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/489346-simple-qr-stand",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSI4MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIxMjUiIHJ4PSIxNCIgZmlsbD0iI2Y4ZmFmYyIgc3Ryb2tlPSIjMWYyOTM3IiBzdHJva2Utd2lkdGg9IjEyIi8+PHJlY3QgeD0iMTc1IiB5PSIyMDUiIHdpZHRoPSIxMjAiIGhlaWdodD0iMzUiIHJ4PSIxMiIgZmlsbD0iIzFmMjkzNyIvPjxyZWN0IHg9IjE1NSIgeT0iMTEwIiB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIyNTAiIHk9IjExMCIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiBmaWxsPSIjMWYyOTM3Ii8+PHJlY3QgeD0iMTU1IiB5PSIxNjUiIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgZmlsbD0iIzFmMjkzNyIvPjxyZWN0IHg9IjI1MCIgeT0iMTY1IiB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSI4MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIxMjUiIHJ4PSIxNCIgZmlsbD0iI2Y4ZmFmYyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEyIi8+PHJlY3QgeD0iMTc1IiB5PSIyMDUiIHdpZHRoPSIxMjAiIGhlaWdodD0iMzUiIHJ4PSIxMiIgZmlsbD0iIzMzNDE1NSIvPjxyZWN0IHg9IjE1NSIgeT0iMTEwIiB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIyNTAiIHk9IjExMCIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiBmaWxsPSIjMzM0MTU1Ii8+PHJlY3QgeD0iMTU1IiB5PSIxNjUiIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgZmlsbD0iIzMzNDE1NSIvPjxyZWN0IHg9IjI1MCIgeT0iMTY1IiB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-ELX-001",
@@ -380,21 +236,12 @@
       "subcategory": "Device Holders",
       "type": "USB / Dongle Holders",
       "description": "A compact holder for USB license keys and small dongles, keeping them protected and easy to identify.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Bwar",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/820495-usb-license-key-holder-c6017",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-ELX-002",
@@ -403,21 +250,12 @@
       "subcategory": "Storage & Organization",
       "type": "USB Storage",
       "description": "A stackable storage tower for small USB devices and accessories, helping keep a compact electronics workspace organized.",
-      "material": "PLA / PETG",
-      "platform": "MakerWorld",
-      "creator": "zagtrosD",
-      "license": "CC BY — commercial use permitted with attribution",
-      "source": "https://makerworld.com/en/models/1216269-stackable-usb-tower",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-REP-001",
@@ -426,21 +264,12 @@
       "subcategory": "Replacement Parts",
       "type": "Replacement Knobs",
       "description": "A replacement knob for compatible IKEA UPPHETTA equipment when the original knob is lost or damaged.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "Verified source candidate",
-      "license": "Public Domain — commercial use permitted in current source record",
-      "source": "https://www.printables.com/model/748889-replacement-knob-for-ikea-upphetta",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzMzNDE1NSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzExMTgyNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-REP-002",
@@ -449,21 +278,12 @@
       "subcategory": "Replacement Parts",
       "type": "Replacement Knobs",
       "description": "A replacement-style tripod head knob for compatible hardware when the original control is worn, cracked or missing.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "Beeks1996",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/292117-fluid-tripod-head-knob-replacement",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzFmMjkzNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzFmMjkzNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-REP-003",
@@ -472,21 +292,12 @@
       "subcategory": "Spacers & Bushings",
       "type": "Replacement Components",
       "description": "A small replacement spacer or bushing for compatible assemblies where a simple plastic component has worn out or gone missing.",
-      "material": "PETG / Nylon",
-      "platform": "Custom / source model",
-      "creator": "PrintForge workflow",
-      "license": "Custom design / customer-owned geometry",
-      "source": "#",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzMzNDE1NSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzBmNzY2ZSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-001",
@@ -495,21 +306,12 @@
       "subcategory": "RC & Hobby",
       "type": "Battery Holders",
       "description": "A compact four-cell AA holder for compatible RC and hobby setups, keeping batteries together and easier to install.",
-      "material": "PETG / ABS",
-      "platform": "Printables",
-      "creator": "Sven Kinne",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/808791-4x-aa-battery-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-002",
@@ -518,21 +320,12 @@
       "subcategory": "RC Parts",
       "type": "RC Replacement Parts",
       "description": "A replacement-style steering servo mount for compatible Kyosho Burns RC setups when the original part is damaged or unavailable.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "Cranky Cat",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/743925-kyosho-burns-steering-servo-mount",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzBmNzY2ZSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzMzNDE1NSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-003",
@@ -541,21 +334,12 @@
       "subcategory": "Bike & Outdoor",
       "type": "Device Mounts",
       "description": "A compact 25 mm bar mount for compatible bike and outdoor accessories, useful for mounting selected devices securely.",
-      "material": "PETG",
-      "platform": "Printables",
-      "creator": "Anthony Walley",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/307635-beeline-garmin-14-turn-mount-for-25mm-bars",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzFmMjkzNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzBmNzY2ZSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-004",
@@ -564,21 +348,12 @@
       "subcategory": "Collectibles & Toys",
       "type": "Miniatures",
       "description": "A small decorative dragon collectible designed as a fun desk or shelf piece and a simple gift option.",
-      "material": "PLA / PETG",
-      "platform": "MakerWorld",
-      "creator": "Meshminds2",
-      "license": "Creative Commons Public Domain — creator states commercial use allowed",
-      "source": "https://makerworld.com/en/models/1073648-tiny-dragon-sell-it",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1MCAyMzAgUTEyNSAxNzUgMTcwIDE0NSBMMTUwIDEwNSBMMjA1IDEyNSBRMjUwIDc1IDMwMCAxMjUgTDM1MCAxMDUgTDMzMCAxNTAgUTM3MCAxOTAgMzMwIDIzMCBMMjgwIDIxNSBMMjQwIDI0NSBMMjAwIDIxNSBaIiBmaWxsPSIjMTExODI3Ii8+PGNpcmNsZSBjeD0iMjA1IiBjeT0iMTYwIiByPSI4IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjc1IiBjeT0iMTYwIiByPSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1MCAyMzAgUTEyNSAxNzUgMTcwIDE0NSBMMTUwIDEwNSBMMjA1IDEyNSBRMjUwIDc1IDMwMCAxMjUgTDM1MCAxMDUgTDMzMCAxNTAgUTM3MCAxOTAgMzMwIDIzMCBMMjgwIDIxNSBMMjQwIDI0NSBMMjAwIDIxNSBaIiBmaWxsPSIjMWYyOTM3Ii8+PGNpcmNsZSBjeD0iMjA1IiBjeT0iMTYwIiByPSI4IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjc1IiBjeT0iMTYwIiByPSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-005",
@@ -587,21 +362,12 @@
       "subcategory": "Keychains & Small Gifts",
       "type": "Keychains",
       "description": "A compact vehicle-themed keychain that can be produced in different colours for personal use or gifting.",
-      "material": "PLA / PETG",
-      "platform": "MakerWorld",
-      "creator": "Tobkar_",
-      "license": "CC BY-SA 4.0 — commercial use permitted with attribution",
-      "source": "https://makerworld.com/en/models/831593",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTY1IiB5PSIxMTAiIHdpZHRoPSIxNTAiIGhlaWdodD0iMTEwIiByeD0iMjgiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIyNDAiIGN5PSIxNDAiIHI9IjE4IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjQwIiBjeT0iMTc1IiByPSIyOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjhmYWZjIiBzdHJva2Utd2lkdGg9IjkiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTY1IiB5PSIxMTAiIHdpZHRoPSIxNTAiIGhlaWdodD0iMTEwIiByeD0iMjgiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIyNDAiIGN5PSIxNDAiIHI9IjE4IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjQwIiBjeT0iMTc1IiByPSIyOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjhmYWZjIiBzdHJva2Utd2lkdGg9IjkiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-008",
@@ -610,21 +376,12 @@
       "subcategory": "Electronics & Soldering",
       "type": "Tool Holders",
       "description": "A compact desktop holder for soldering and electronics tools, helping keep frequently used tools upright and within reach.",
-      "material": "PLA / PETG",
-      "platform": "Printables",
-      "creator": "B3rT",
-      "license": "Public Domain — commercial use permitted",
-      "source": "https://www.printables.com/model/256580-holder-solder-tools",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-009",
@@ -633,21 +390,12 @@
       "subcategory": "Maker Tools",
       "type": "3D Printer Accessories",
       "description": "A side-mounted tool holder for compatible Creality K1 Max setups, keeping essential printer tools organized and easy to grab.",
-      "material": "PETG",
-      "platform": "Printables",
-      "creator": "Efe Balun",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/772555-creality-k1-max-tool-holder",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-010",
@@ -656,21 +404,12 @@
       "subcategory": "Maker Tools",
       "type": "Tool Holders",
       "description": "A practical tool holder designed around compatible Prusa enclosure setups, keeping small maintenance tools close to the printer.",
-      "material": "PETG",
-      "platform": "Printables",
-      "creator": "Ethan Scribner",
-      "license": "GNU GPL v2.0 — commercial use permitted; share-alike obligations apply",
-      "source": "https://www.printables.com/model/383238-customized-tool-holder-for-original-prusa-enclosur",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-007",
@@ -679,21 +418,12 @@
       "subcategory": "Car Accessories",
       "type": "Cup Holders",
       "description": "A universal-style cup-holder insert designed to improve grip around smaller bottles, cans and everyday items.",
-      "material": "PETG / ASA",
-      "platform": "Printables",
-      "creator": "NicholeKnc",
-      "license": "CC BY 4.0 — commercial use permitted; attribution required",
-      "source": "https://www.printables.com/model/805112-car-cup-holder-insert",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjEzNSIgeT0iOTIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgiIHJ4PSI5IiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch.",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-011",
@@ -702,21 +432,12 @@
       "subcategory": "Mechanic & General Workshop",
       "type": "Bit Storage",
       "description": "A compact holder that keeps screwdriver bits organized, visible and easy to grab during repairs and workshop work.",
-      "platform": "Printables",
-      "creator": "Jirka",
-      "source": "https://www.printables.com/model/1770956-bit-holder-organizer-drzak-bitu",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-012",
@@ -725,21 +446,12 @@
       "subcategory": "Electronics & Soldering",
       "type": "Tool Holders",
       "description": "A small desktop holder for soldering and electronics tools, helping keep frequently used tools upright and within reach.",
-      "platform": "Printables",
-      "creator": "B3rT",
-      "source": "https://www.printables.com/model/256580-holder-solder-tools",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-013",
@@ -748,21 +460,12 @@
       "subcategory": "Workshop Storage",
       "type": "Organizers",
       "description": "A practical multi-compartment organizer for small tools, accessories and workshop items that otherwise get scattered across the bench.",
-      "platform": "Printables",
-      "creator": "binominem",
-      "source": "https://www.printables.com/model/432373-organizer",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-014",
@@ -771,21 +474,12 @@
       "subcategory": "Workshop Storage",
       "type": "Cable Management",
       "description": "A compact print-in-place cable roller that helps keep loose cables controlled and easy to reposition around a desk or work area.",
-      "platform": "Printables",
-      "creator": "Charles Regaud",
-      "source": "https://www.printables.com/model/1242830-rueda-cable-roller-print-in-place",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMwZjc2NmUiLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-004",
@@ -794,21 +488,12 @@
       "subcategory": "Phone & Tablet",
       "type": "Phone Stands",
       "description": "A desktop phone stand designed to keep your phone upright while leaving space for charging and everyday viewing.",
-      "platform": "Printables",
-      "creator": "Conrad Stenftenagel",
-      "source": "https://www.printables.com/model/413571-phone-stand-and-charger",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMzM0MTU1Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMTExODI3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-005",
@@ -817,21 +502,12 @@
       "subcategory": "Phone & Tablet",
       "type": "Phone Stands",
       "description": "A stable, compact phone holder for phones and tablets, designed for everyday desk use without taking up much space.",
-      "platform": "Printables",
-      "creator": "Jackson George",
-      "source": "https://www.printables.com/model/347366-simple-phone-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMGY3NjZlIi8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMWYyOTM3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-006",
@@ -840,21 +516,12 @@
       "subcategory": "Cable Management",
       "type": "Cable Holders",
       "description": "A neat five-slot cable holder that keeps charging and USB cables separated, organized and easy to reach.",
-      "platform": "Printables",
-      "creator": "3DTimon",
-      "source": "https://www.printables.com/model/1830074-3d-printed-cable-holder-multi-cable-organizer",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-OFF-007",
@@ -863,21 +530,12 @@
       "subcategory": "Desk Organization",
       "type": "Storage Boxes",
       "description": "A simple lidded organizer for small desk, office, craft or electronic items that need to stay contained and tidy.",
-      "platform": "Printables",
-      "creator": "Pepper's 3D Printing",
-      "source": "https://www.printables.com/model/839635-organizer-box-with-lid",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-007",
@@ -886,21 +544,12 @@
       "subcategory": "Home Organization",
       "type": "Cup Holders",
       "description": "A practical cup holder that wedges between sofa cushions to keep a drink stable and reduce spills while relaxing.",
-      "platform": "Printables",
-      "creator": "Anerdyengineer",
-      "source": "https://www.printables.com/model/694847-couch-cup-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMwZjc2NmUiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjEzNSIgeT0iOTIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgiIHJ4PSI5IiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-008",
@@ -909,21 +558,12 @@
       "subcategory": "Hooks & Hanging",
       "type": "Cup Holders",
       "description": "A pegboard-mounted cup holder that keeps a mug or drink off the work surface and within easy reach.",
-      "platform": "Printables",
-      "creator": "JustFunForWork",
-      "source": "https://www.printables.com/model/837975-pegboard-cup-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjEzNSIgeT0iOTIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgiIHJ4PSI5IiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-009",
@@ -932,21 +572,12 @@
       "subcategory": "Home Organization",
       "type": "Cup Holders",
       "description": "A compact magnetic cup holder for workspaces and metal surfaces, useful for keeping a drink safely off the main work area.",
-      "platform": "Printables",
-      "creator": "like_3d",
-      "source": "https://www.printables.com/model/65484-magnetic-cup-holder-for-transparent-filament",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTEwIiB5PSIxMjAiIHdpZHRoPSIyNTAiIGhlaWdodD0iMTA1IiByeD0iMjYiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxODUiIGN5PSIxNzMiIHI9IjM0IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMjg1IiBjeT0iMTczIiByPSIzNCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjEzNSIgeT0iOTIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTgiIHJ4PSI5IiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-010",
@@ -955,21 +586,12 @@
       "subcategory": "Home Organization",
       "type": "Remote Holders",
       "description": "A simple wall-mounted holder that gives a compatible Samsung TV remote a dedicated place instead of leaving it on tables or sofas.",
-      "platform": "Printables",
-      "creator": "Mts 3D prints",
-      "source": "https://www.printables.com/model/716676-samsung-tv-remote-wall-holder-tm2360e",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE2NSAyNTAgTDE2NSAxMDUgUTE2NSA5MCAxODAgOTAgTDMzMCA5MCBRMzQ1IDkwIDM0NSAxMDUgTDM0NSAyNTAgWiIgZmlsbD0iIzExMTgyNyIvPjxyZWN0IHg9IjE5NSIgeT0iMTIwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9Ijk1IiByeD0iMTgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE2NSAyNTAgTDE2NSAxMDUgUTE2NSA5MCAxODAgOTAgTDMzMCA5MCBRMzQ1IDkwIDM0NSAxMDUgTDM0NSAyNTAgWiIgZmlsbD0iIzExMTgyNyIvPjxyZWN0IHg9IjE5NSIgeT0iMTIwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9Ijk1IiByeD0iMTgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-008",
@@ -978,21 +600,12 @@
       "subcategory": "Phone & Device Mounts",
       "type": "Phone Mounts",
       "description": "A vehicle-specific phone mount designed for the Ford Transit 2020+ large center console, with a removable tray for small items.",
-      "platform": "Printables",
-      "creator": "FarOutRide",
-      "source": "https://www.printables.com/model/738933-ford-transit-2020-phone-mount-for-large-center-con",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMTExODI3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMzM0MTU1Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-009",
@@ -1001,21 +614,12 @@
       "subcategory": "Phone & Device Mounts",
       "type": "Phone Mounts",
       "description": "A compact vent mount that positions a compatible MagSafe charger on the vehicle air vent while keeping the charging cable routed neatly.",
-      "platform": "Printables",
-      "creator": "Ben10lightning",
-      "source": "https://www.printables.com/model/133840-apple-magsafe-charger-car-vent-mount",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzBmNzY2ZSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzExMTgyNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-010",
@@ -1024,21 +628,12 @@
       "subcategory": "Replacement Parts",
       "type": "Utility Accessories",
       "description": "A small vehicle accessory designed to reduce water running into the trunk when the rear hatch is opened in wet weather.",
-      "platform": "Printables",
-      "creator": "BloodyT",
-      "source": "https://www.printables.com/model/238125-vw-caddy-trunk-rain-shield",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxZjI5MzciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTI1IiB5PSIxMDUiIHdpZHRoPSIyMzAiIGhlaWdodD0iMTIwIiByeD0iMjIiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNjUiIHk9IjEzNSIgd2lkdGg9IjE1MCIgaGVpZ2h0PSI2MCIgcng9IjEyIiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-AUTO-011",
@@ -1047,21 +642,12 @@
       "subcategory": "Decorative & Personalization",
       "type": "Wheel Accessories",
       "description": "A scalable 60 mm wheel center cap design for compatible VW hubs, useful for replacing missing or damaged center caps.",
-      "platform": "Printables",
-      "creator": "Svenson",
-      "source": "https://www.printables.com/model/1397882-volkswagen-vw-wheel-center-caps-60-mm-scalable",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzMzNDE1NSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzBmNzY2ZSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Fitment checked before production"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-ELX-003",
@@ -1070,21 +656,12 @@
       "subcategory": "Storage & Organization",
       "type": "Battery Holders",
       "description": "A compact four-cell holder that keeps AA batteries together and ready for RC, electronics and hobby projects.",
-      "platform": "Printables",
-      "creator": "Sven Kinne",
-      "source": "https://www.printables.com/model/808791-4x-aa-battery-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-ELX-004",
@@ -1093,21 +670,12 @@
       "subcategory": "Device Holders",
       "type": "Phone Stands",
       "description": "A compact adjustable phone holder with a movable viewing angle for desks, workbenches and electronics setups.",
-      "platform": "Printables",
-      "creator": "pxver.kso",
-      "source": "https://www.printables.com/model/1763888-variable-angle-phone-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMGY3NjZlIi8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHBhdGggZD0iTTE1NSAyNDUgTDIwNSAxMDUgUTIxMiA4NiAyMzIgOTQgTDM0NSAxNTAgUTM1OCAxNTcgMzUwIDE3MyBMMzE1IDI0MiBaIiBmaWxsPSIjMTExODI3Ii8+PHJlY3QgeD0iMjE0IiB5PSIxMTUiIHdpZHRoPSIxMDQiIGhlaWdodD0iNzAiIHJ4PSIxMCIgZmlsbD0iI2Y4ZmFmYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgMjY2IDE1MCkiLz48cmVjdCB4PSIxNDAiIHk9IjIzNSIgd2lkdGg9IjIyNSIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-REP-004",
@@ -1116,21 +684,12 @@
       "subcategory": "Replacement Parts",
       "type": "Connectors & Adapters",
       "description": "A replacement connector for a compatible air pump hose assembly, useful when the original fitting is damaged or unavailable.",
-      "platform": "Printables",
-      "creator": "Matt",
-      "source": "https://www.printables.com/model/1807895-jz-505-air-pump-hose-connector-replacement-pump-at",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzExMTgyNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzExMTgyNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-006",
@@ -1139,21 +698,12 @@
       "subcategory": "RC Parts",
       "type": "Replacement Clips",
       "description": "A stronger replacement-style body clip for compatible RC cars, designed for repeated removal and installation.",
-      "platform": "Printables",
-      "creator": "-MOD_PLANES-",
-      "source": "https://www.printables.com/model/792944-strong-rc-car-body-clip",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzExMTgyNyIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjcyIiByeT0iMjgiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNjgiIHk9IjEyMCIgd2lkdGg9IjE0NCIgaGVpZ2h0PSI5MCIgZmlsbD0iIzMzNDE1NSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyMTAiIHJ4PSI3MiIgcnk9IjI4IiBmaWxsPSIjMGYxNzJhIi8+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjEyMCIgcng9IjMyIiByeT0iMTMiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOB-007",
@@ -1162,21 +712,12 @@
       "subcategory": "RC & Hobby",
       "type": "Battery Holders",
       "description": "A compact holder for four AA cells used in compatible RC hobby setups, keeping batteries together and easier to install.",
-      "platform": "Printables",
-      "creator": "Sven Kinne",
-      "source": "https://www.printables.com/model/808791-4x-aa-battery-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNDUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyOTUiIHk9IjEzMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjkyIiByeD0iMTQiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIyNSIgeT0iMjUiIHdpZHRoPSI0MzAiIGhlaWdodD0iMjUwIiByeD0iMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+"
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-015",
@@ -1185,21 +726,12 @@
       "subcategory": "Mechanic & General Workshop",
       "type": "Bit Storage",
       "description": "A dedicated organizer for small driver bits that keeps the set upright, visible and easy to access at the workbench.",
-      "platform": "Printables",
-      "creator": "Printerchick",
-      "source": "https://www.printables.com/model/492876-wowstick-f1-organizer-bit-size-fixed",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-WRK-016",
@@ -1208,21 +740,12 @@
       "subcategory": "Maker Tools",
       "type": "Printer Accessories",
       "description": "A practical holder for frequently used 3D-printer tools, keeping the workspace organized and the essentials close to the machine.",
-      "platform": "Printables",
-      "creator": "Finn Sullivan",
-      "source": "https://www.printables.com/model/340044-elegoo-neptune-tool-holder",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMzMzQxNTUiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxZjI5MzciLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMTgwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48Y2lyY2xlIGN4PSIyNjAiIGN5PSIxNjUiIHI9IjE3IiBmaWxsPSIjZjhmYWZjIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMTY1IiByPSIxNyIgZmlsbD0iI2Y4ZmFmYyIvPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjE2NSIgcj0iMTciIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIxMzUiIHk9IjE5OCIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIyMiIgcng9IjExIiBmaWxsPSIjNjQ3NDhiIi8+PHJlY3QgeD0iMjUiIHk9IjI1IiB3aWR0aD0iNDMwIiBoZWlnaHQ9IjI1MCIgcng9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg=="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     },
     {
       "id": "PF-HOM-011",
@@ -1231,21 +754,12 @@
       "subcategory": "Home Organization",
       "type": "Organizers",
       "description": "A compact organizer for pens, small accessories and everyday items, helping keep a desk or shelf neat and usable.",
-      "platform": "Printables",
-      "creator": "Giovanni1954",
-      "source": "https://www.printables.com/model/135224-organizer",
-      "license": "Public Domain — commercial use permitted",
-      "images": [
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZjNmOCIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=",
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgNDgwIDMwMCI+CjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NiZDVlMSIgc3RvcC1vcGFjaXR5PSIuMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y3ZjNlYSIvPjxlbGxpcHNlIGN4PSIyNDAiIGN5PSIyNTUiIHJ4PSIxNTAiIHJ5PSIxOCIgZmlsbD0iI2NiZDVlMSIgb3BhY2l0eT0iLjY1Ii8+PHJlY3QgeD0iMTA1IiB5PSIxMDUiIHdpZHRoPSIyNzAiIGhlaWdodD0iMTQ1IiByeD0iMjAiIGZpbGw9IiMxMTE4MjciLz48cmVjdCB4PSIxNDUiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjIxMCIgeT0iMTMwIiB3aWR0aD0iNDIiIGhlaWdodD0iOTUiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIi8+PHJlY3QgeD0iMjc1IiB5PSIxMzAiIHdpZHRoPSI0MiIgaGVpZ2h0PSI5NSIgcng9IjgiIGZpbGw9IiNmOGZhZmMiLz48cmVjdCB4PSIzMzAiIHk9IjEzMCIgd2lkdGg9IjQyIiBoZWlnaHQ9Ijk1IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIvPjxyZWN0IHg9IjI1IiB5PSIyNSIgd2lkdGg9IjQzMCIgaGVpZ2h0PSIyNTAiIHJ4PSIyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
-      ],
-      "imageStatus": "Original catalogue render generated for PrintForge; not copied from source-page photography.",
-      "licenseGate": true,
-      "material": "Selected during production based on use case",
+      "images": [],
       "customerTags": [
         "Made to order",
         "Bulk orders welcome"
-      ]
+      ],
+      "imagePaths": []
     }
   ]
 }
