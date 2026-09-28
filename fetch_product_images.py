@@ -1,4 +1,4 @@
-import json, os, re, sys, time
+import json, os, re, sys, time, hashlib
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -14,6 +14,8 @@ S = requests.Session()
 S.headers.update({'User-Agent': UA, 'Accept-Language': 'en-US,en;q=0.9'})
 BAD = ('avatar', 'logo', 'icon', 'emoji', 'profile', 'favicon', 'badge', 'social', 'qr-code')
 IMG_EXTS = ('.jpg', '.jpeg', '.png', '.webp')
+
+IMAGE_HOSTS = ('media.printables.com','makerworld.bblmw.com','makerworld.com','cdn.','images.','image.')
 
 
 def log(msg=''):
@@ -43,47 +45,40 @@ def extract_images(text, base):
     out = []
     soup = BeautifulSoup(text, 'html.parser')
     for img in soup.find_all('img'):
-        for a in ('src', 'data-src', 'data-original', 'data-lazy-src'):
-            add(out, absu(img.get(a), base))
+        for a in ('src','currentSrc','data-src','data-original','data-lazy-src','data-image','data-url','data-full'):
+            add(out, img.get(a), base)
         ss = img.get('srcset') or img.get('data-srcset')
         if ss:
             for part in ss.split(','):
-                add(out, absu(part.strip().split()[0], base))
-    for m in soup.select('meta[property="og:image"],meta[name="twitter:image"],meta[property="og:image:url"]'):
-        add(out, absu(m.get('content'), base))
-    seen = set()
-    good = []
-    for u in out:
-        if not u or u in seen:
+                add(out, part.strip().split()[0], base)
+    for source in soup.find_all('source'):
+        for a in ('src','srcset','data-src','data-srcset'):
+            val=source.get(a)
+            if not val: continue
+            for part in val.split(','):
+                add(out, part.strip().split()[0], base)
+    for m in soup.select('meta[property="og:image"],meta[property="og:image:url"],meta[name="twitter:image"]'):
+        add(out, m.get('content'), base)
+    # React/Vue serialized state often contains the actual gallery URLs.
+    url_pat = re.compile(r"https?:\\?/\\?/[^\"'\\s<>]+")
+    media_pat = re.compile(r"(?:https?:)?//[^\"'\\s<>]*(?:media\\.printables\\.com|makerworld\\.bblmw\\.com)[^\"'\\s<>]*")
+    for tag in soup.find_all('script'):
+        raw = tag.string or tag.get_text() or ''
+        if not raw or len(raw) > 3_000_000:
             continue
-        seen.add(u)
-        low = u.lower()
-        if any(x in low for x in ('/models/', '/model/', '/user/', '/search', '/collections/')) and not any(x in low for x in ('media.', 'image.', 'cdn.')):
+        for u in url_pat.findall(raw): add(out, u, base)
+        for u in media_pat.findall(raw): add(out, u, base)
+    for host in ('media.printables.com','makerworld.bblmw.com'):
+        pat = re.compile(r"https?://[^\"'\\s<>]*" + re.escape(host) + r"[^\"'\\s<>]*")
+        for u in pat.findall(text): add(out, u, base)
+    seen=set(); good=[]
+    for u in sorted(out, key=lambda x: (-score_url(x), len(x))):
+        if u in seen: continue
+        seen.add(u); low=u.lower()
+        if any(x in low for x in ('/models/','/model/','/user/','/search','/collections/')) and not any(h in low for h in ('media.printables.com','makerworld.bblmw.com')):
             continue
         good.append(u)
-    good.sort(key=lambda u: (0 if any(h in u.lower() for h in ('media.printables.com', 'makerworld.com', 'cdn.', 'images.')) else 1, len(u)))
-    return good
-
-
-def reader_urls(src):
-    return [
-        'https://r.jina.ai/' + src,
-        ('https://r.jina.ai/http://' + src.split('://', 1)[1]) if '://' in src else None,
-    ]
-
-
-def fetch_source(src):
-    for u in reader_urls(src) + [src]:
-        if not u:
-            continue
-        try:
-            r = S.get(u, timeout=18, allow_redirects=True)
-            if r.ok and len(r.text) > 500:
-                return r.text, r.url
-        except Exception:
-            pass
-    return '', src
-
+    return good[:100]
 
 def download(u, path, referer):
     try:
@@ -99,129 +94,106 @@ def download(u, path, referer):
         return False
 
 
-def browser_candidates(page, src):
-    """Return real image URLs exposed by the rendered source page."""
-    candidates = []
-    try:
-        page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.22)')
-        page.wait_for_timeout(350)
-        page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.58)')
-        page.wait_for_timeout(450)
-        page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.88)')
-        page.wait_for_timeout(450)
-        page.evaluate('window.scrollTo(0, 0)')
-        page.wait_for_timeout(300)
 
-        # Prefer OpenGraph image first: it is normally the actual model/product image.
-        for selector in ('meta[property="og:image"]', 'meta[property="og:image:url"]', 'meta[name="twitter:image"]'):
-            val = page.locator(selector).first.get_attribute('content', timeout=1500)
-            if val:
-                candidates.append(absu(val, page.url))
+def score_url(u):
+    low=u.lower(); score=0
+    if any(h in low for h in IMAGE_HOSTS): score+=50
+    if any(x in low for x in ('/images/','/media/','/pictures/','/gallery/','/cover')): score+=20
+    if any(x in low for x in ('thumb','thumbnail','small','avatar','icon')): score-=25
+    return score
 
-        imgs = page.locator('img')
-        count = min(imgs.count(), 100)
-        for i in range(count):
-            try:
-                el = imgs.nth(i)
-                box = el.bounding_box()
-                if not box or box['width'] < 180 or box['height'] < 120:
-                    continue
-                alt = (el.get_attribute('alt', timeout=500) or '').lower()
-                vals = [
-                    el.get_attribute('src', timeout=500),
-                    el.get_attribute('data-src', timeout=500),
-                    el.get_attribute('data-original', timeout=500),
-                ]
-                ss = el.get_attribute('srcset', timeout=500) or el.get_attribute('data-srcset', timeout=500)
-                if ss:
-                    vals.append(ss.split(',')[-1].strip().split()[0])
-                for val in vals:
-                    u = absu(val, page.url)
-                    if not u:
-                        continue
-                    low = (u + ' ' + alt).lower()
-                    if any(x in low for x in BAD):
-                        continue
-                    candidates.append(u)
-            except Exception:
-                continue
-    except Exception:
-        pass
 
-    seen = set()
-    result = []
-    for u in candidates:
-        if not u or u in seen:
-            continue
-        seen.add(u)
-        low = u.lower()
-        if low.startswith('data:'):
-            continue
-        result.append(u)
-    return result[:30]
+def valid_image_bytes(data, content_type=''):
+    if not data or len(data)<10000 or len(data)>15_000_000: return False
+    ct=(content_type or '').lower()
+    return ct.startswith('image/') or data[:3]==b'\xff\xd8\xff' or data[:8]==b'\x89PNG\r\n\x1a\n' or data[:4]==b'RIFF'
 
+
+def save_bytes(data,path,content_type=''):
+    if not valid_image_bytes(data,content_type): return False
+    path.write_bytes(data); return True
 
 def browser_capture(page, src, dest, max_images=3):
-    """Use one persistent Chromium page to capture real gallery images.
-    Returns the number of images saved. No synthetic images are created.
+    """Capture the real gallery images loaded by the source page.
+    Priority: network image responses -> exposed image URLs -> rendered image screenshots.
     """
     browser_src = re.sub(r'/files/?$', '', src)
+    captured=[]
+    def on_response(response):
+        if len(captured) >= 20: return
+        try:
+            ct=(response.headers.get('content-type') or '').lower(); u=response.url; low=u.lower()
+            if not ct.startswith('image/') or any(x in low for x in BAD): return
+            if not any(h in low for h in IMAGE_HOSTS): return
+            body=response.body()
+            if valid_image_bytes(body,ct): captured.append((u,body,ct))
+        except Exception: pass
+    page.on('response', on_response)
     try:
         page.goto(browser_src, wait_until='domcontentloaded', timeout=25000)
         page.wait_for_timeout(1800)
-    except Exception as e:
-        log(f'  browser: {type(e).__name__}')
-        return 0
+        # Force lazy galleries to load.
+        for frac in (0.12,0.30,0.50,0.70,0.90,0):
+            try:
+                page.evaluate(f'window.scrollTo(0, document.body.scrollHeight * {frac})')
+                page.wait_for_timeout(300)
+            except Exception: pass
 
-    candidates = browser_candidates(page, src)
-    got = 0
-    seen_urls = set()
-
-    # First try direct downloads of the real image URLs exposed by the browser.
-    for u in candidates:
-        if got >= max_images:
-            break
-        if u in seen_urls:
-            continue
-        seen_urls.add(u)
-        ext = Path(urlparse(u).path).suffix.lower()
-        if ext not in IMG_EXTS:
-            ext = '.jpg'
-        target = dest / f'{got + 1}{ext}'
-        if download(u, target, browser_src):
-            got += 1
-
-    # If the source blocks direct downloads, screenshot the actual rendered image element.
-    if got < max_images:
+        candidates=[]
         try:
-            imgs = page.locator('img')
-            count = min(imgs.count(), 100)
+            imgs=page.locator('img'); count=min(imgs.count(),150)
             for i in range(count):
-                if got >= max_images:
-                    break
                 try:
-                    el = imgs.nth(i)
-                    box = el.bounding_box()
-                    if not box or box['width'] < 180 or box['height'] < 120:
-                        continue
-                    srcv = el.get_attribute('src', timeout=500) or el.get_attribute('data-src', timeout=500) or ''
-                    alt = (el.get_attribute('alt', timeout=500) or '').lower()
-                    low = (srcv + ' ' + alt).lower()
-                    if any(x in low for x in BAD) or srcv in seen_urls:
-                        continue
-                    el.scroll_into_view_if_needed(timeout=2000)
-                    page.wait_for_timeout(150)
-                    target = dest / f'{got + 1}.jpg'
-                    el.screenshot(path=str(target), type='jpeg', quality=92, timeout=5000)
-                    if target.exists() and target.stat().st_size > 10000:
-                        got += 1
-                except Exception:
-                    continue
-        except Exception:
-            pass
+                    el=imgs.nth(i); box=el.bounding_box()
+                    if not box or box['width']<160 or box['height']<100: continue
+                    vals=[el.get_attribute('src',timeout=300),el.get_attribute('data-src',timeout=300),el.get_attribute('data-original',timeout=300),el.get_attribute('data-image',timeout=300),el.get_attribute('data-full',timeout=300),el.get_attribute('srcset',timeout=300),el.get_attribute('data-srcset',timeout=300)]
+                    try: vals.append(el.evaluate('(e)=>e.currentSrc || ""'))
+                    except Exception: pass
+                    for val in vals:
+                        if not val: continue
+                        for part in val.split(','):
+                            add(candidates,part.strip().split()[0],page.url)
+                except Exception: continue
+        except Exception: pass
+        try:
+            perf=page.evaluate("""() => performance.getEntriesByType('resource').map(e=>e.name).filter(u=>/\\.(?:jpe?g|png|webp)(?:[?#]|$)/i.test(u))""")
+            for u in perf or []: add(candidates,u,page.url)
+        except Exception: pass
+        for selector in ('meta[property="og:image"]','meta[property="og:image:url"]','meta[name="twitter:image"]'):
+            try: add(candidates,page.locator(selector).first.get_attribute('content',timeout=500),page.url)
+            except Exception: pass
 
-    return got
-
+        got=0; seen=set()
+        # Exact bytes received by Chromium are preferable to a secondary HTTP fetch.
+        for u,body,ct in captured:
+            if got>=max_images: break
+            key=hashlib.sha1(u.encode()).hexdigest()
+            if key in seen: continue
+            seen.add(key)
+            if save_bytes(body,dest/f'{got+1}.jpg',ct): got+=1
+        for u in sorted(candidates,key=lambda x:(-score_url(x),len(x))):
+            if got>=max_images or u in seen: continue
+            seen.add(u); ext=Path(urlparse(u).path).suffix.lower(); ext=ext if ext in IMG_EXTS else '.jpg'
+            if download(u,dest/f'{got+1}{ext}',browser_src): got+=1
+        if got<max_images:
+            try:
+                imgs=page.locator('img'); count=min(imgs.count(),150)
+                for i in range(count):
+                    if got>=max_images: break
+                    try:
+                        el=imgs.nth(i); box=el.bounding_box()
+                        if not box or box['width']<180 or box['height']<120: continue
+                        srcv=el.evaluate('(e)=>e.currentSrc || e.src || ""'); alt=(el.get_attribute('alt',timeout=300) or '').lower()
+                        if any(x in (srcv+' '+alt).lower() for x in BAD): continue
+                        el.scroll_into_view_if_needed(timeout=1500); page.wait_for_timeout(100)
+                        target=dest/f'{got+1}.jpg'; el.screenshot(path=str(target),type='jpeg',quality=92,timeout=4000)
+                        if target.exists() and target.stat().st_size>10000: got+=1
+                    except Exception: continue
+            except Exception: pass
+        return got
+    finally:
+        try: page.remove_listener('response',on_response)
+        except Exception: pass
 
 def clean_old_assets(dest):
     for f in dest.iterdir():
