@@ -44,8 +44,8 @@ jobs:
           print(sum(bool(p.get('imagePaths')) for p in d.get('products',[])))
           PY
           )
-          echo "Local photos: $count"
-          echo "Products with photos: $products/54"
+          echo "Local image assets (photos and source previews): $count"
+          echo "Products with image assets: $products/54"
           test "$count" -gt 0
 
       - name: Commit photos and manifest
