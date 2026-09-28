@@ -1,13 +1,12 @@
 name: Refresh product photos
 
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
     paths:
-      - 'products.json'
       - 'fetch_product_images.py'
+      - 'products.json'
       - '.github/workflows/refresh-images.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,29 +14,48 @@ permissions:
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Fetch real product photos through Reader
-        run: python fetch_product_images.py
-
-      - name: Commit downloaded photos
+      - name: Install dependencies and Chromium
         run: |
-          git config user.name 'github-actions[bot]'
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Fetch real product photos
+        run: python -u fetch_product_images.py
+
+      - name: Verify photo coverage
+        run: |
+          count=$(find assets/products -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l)
+          products=$(python - <<'PY'
+          import json
+          d=json.load(open('products.json',encoding='utf-8'))
+          print(sum(bool(p.get('imagePaths')) for p in d.get('products',[])))
+          PY
+          )
+          echo "Local photos: $count"
+          echo "Products with photos: $products/54"
+          test "$count" -gt 0
+
+      - name: Commit photos and manifest
+        run: |
+          git config user.name 'RS3Dsolutions'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add products.json assets/products
+          git add assets/products products.json
           if git diff --cached --quiet; then
-            echo 'No image changes to commit'
+            echo 'No photo or manifest changes to commit.'
           else
-            git commit -m 'Refresh real product photos'
+            git commit -m 'Refresh product photos [skip ci]'
             git push
           fi
