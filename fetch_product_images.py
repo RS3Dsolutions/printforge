@@ -80,6 +80,26 @@ def extract_images(text, base):
         good.append(u)
     return good[:100]
 
+def reader_urls(src):
+    return [
+        'https://r.jina.ai/' + src,
+        ('https://r.jina.ai/http://' + src.split('://', 1)[1]) if '://' in src else None,
+    ]
+
+
+def fetch_source(src):
+    for u in reader_urls(src) + [src]:
+        if not u:
+            continue
+        try:
+            r = S.get(u, timeout=18, allow_redirects=True)
+            if r.ok and len(r.text) > 500:
+                return r.text, r.url
+        except Exception:
+            pass
+    return '', src
+
+
 def download(u, path, referer):
     try:
         r = S.get(u, timeout=12, allow_redirects=True, headers={'Referer': referer})
