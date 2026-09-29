@@ -481,7 +481,11 @@
         "Made to order",
         "Fitment checked before production"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-003/1.jpg",
+        "assets/products/PF-REP-003/2.jpg",
+        "assets/products/PF-REP-003/3.jpg"
+      ],
       "platform": "Printables",
       "creator": "Asraff Amzani",
       "license": "CC BY 4.0 — commercial use permitted; attribution required",
