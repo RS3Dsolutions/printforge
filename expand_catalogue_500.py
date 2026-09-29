@@ -107,31 +107,36 @@ def log(msg):
     print(msg, flush=True)
 
 def gql_search(q, limit=30, ordering="popular"):
+    # Use the same minimal anonymous search shape currently used by public
+    # Printables API clients. Keep the query deliberately small: schema
+    # additions/removals should not make the whole catalogue expansion fail.
     query = """
     query SearchModels($query: String!, $limit: Int, $offset: Int, $ordering: SearchChoicesEnum) {
-      result: searchPrints2(query: $query, printType: print, limit: $limit, offset: $offset, ordering: $ordering) {
+      result: searchPrints2(
+        query: $query
+        printType: print
+        limit: $limit
+        offset: $offset
+        ordering: $ordering
+      ) {
         items {
           id
           name
           slug
-          summary
-          datePublished
+          ratingAvg
           likesCount
           downloadCount
-          ratingAvg
+          datePublished
           user { publicUsername handle }
-          license { id name disallowCommercialUse }
+          license { id name }
           image { filePath }
         }
         totalCount
       }
     }
     """
-    payload = {
-        "operationName": "SearchModels",
-        "query": query,
-        "variables": {"query": q, "limit": limit, "offset": 0, "ordering": ordering}
-    }
+    variables = {"query": q, "limit": limit, "offset": 0, "ordering": ordering}
+    payload = {"operationName": "SearchModels", "query": query, "variables": variables}
     try:
         r = S.post(API, json=payload, timeout=25)
         if not r.ok:
@@ -139,13 +144,37 @@ def gql_search(q, limit=30, ordering="popular"):
             return []
         data = r.json()
         if data.get("errors"):
-            # Some deployments omit disallowCommercialUse. Retry without that field.
-            query2 = query.replace(" disallowCommercialUse", "")
-            payload["query"] = query2
-            r = S.post(API, json=payload, timeout=25)
-            data = r.json()
+            # Fallback to the smallest known-good public search shape.
+            query2 = """
+            query SearchModels($query: String!, $limit: Int, $ordering: SearchChoicesEnum) {
+              result: searchPrints2(query: $query, printType: print, limit: $limit, ordering: $ordering) {
+                items {
+                  id
+                  name
+                  slug
+                  likesCount
+                  downloadCount
+                  user { publicUsername handle }
+                  license { id name }
+                  image { filePath }
+                }
+                totalCount
+              }
+            }
+            """
+            payload2 = {
+                "operationName": "SearchModels",
+                "query": query2,
+                "variables": {"query": q, "limit": limit, "ordering": ordering}
+            }
+            r2 = S.post(API, json=payload2, timeout=25)
+            if not r2.ok:
+                log(f"  API fallback HTTP {r2.status_code} for {q}")
+                return []
+            data = r2.json()
         if data.get("errors"):
-            log(f"  GraphQL error for {q}: {data['errors'][0].get('message','unknown')}")
+            msg = data["errors"][0].get("message", "unknown GraphQL error")
+            log(f"  GraphQL search error for {q}: {msg}")
             return []
         return ((data.get("data") or {}).get("result") or {}).get("items") or []
     except Exception as e:
