@@ -81,10 +81,8 @@ def extract_images(text, base):
     return good[:100]
 
 def printables_api_images(src):
-    """Get public Printables cover/gallery media URLs from the anonymous GraphQL API.
-    This avoids the Cloudflare/security-verification HTML page entirely.
-    """
-    m = re.search(r'/model/(\\d+)', src or '')
+    """Fetch the public Printables gallery image paths from its anonymous GraphQL API."""
+    m = re.search(r'/model/(\d+)', src or '')
     if not m:
         return []
     model_id = m.group(1)
@@ -92,26 +90,40 @@ def printables_api_images(src):
     query ModelImages($id: ID!) {
       print(id: $id) {
         id
-        image { filePath }
+        images { filePath }
       }
     }
     """
     try:
         r = S.post(
             'https://api.printables.com/graphql/',
-            json={'operationName':'ModelImages','query':query,'variables':{'id':model_id}},
-            headers={'Content-Type':'application/json','User-Agent':UA},
+            json={
+                'operationName': 'ModelImages',
+                'query': query,
+                'variables': {'id': model_id}
+            },
+            headers={'Content-Type': 'application/json', 'User-Agent': UA},
             timeout=15
         )
         if not r.ok:
+            log(f'  Printables API HTTP {r.status_code}')
             return []
-        data = r.json().get('data',{}).get('print') or {}
-        fp = (data.get('image') or {}).get('filePath')
-        if not fp:
+        payload = r.json()
+        if payload.get('errors'):
+            log(f'  Printables API GraphQL error: {payload["errors"][0].get("message","unknown error")}')
             return []
-        if fp.startswith('http'):
-            return [fp]
-        return ['https://media.printables.com/' + fp.lstrip('/')]
+        model = (payload.get('data') or {}).get('print') or {}
+        out = []
+        for item in model.get('images') or []:
+            if isinstance(item, dict):
+                fp = item.get('filePath')
+                if fp:
+                    out.append(fp if fp.startswith('http') else 'https://media.printables.com/' + fp.lstrip('/'))
+        seen = []
+        for u in out:
+            if u not in seen:
+                seen.append(u)
+        return seen[:3]
     except Exception as e:
         log(f'  Printables API lookup failed: {e}')
         return []
