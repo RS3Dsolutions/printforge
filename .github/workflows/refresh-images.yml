@@ -7,6 +7,7 @@ on:
     paths:
       - 'products.json'
       - 'fetch_product_images.py'
+      - 'expand_catalogue_500.py'
       - '.github/workflows/refresh-images.yml'
 
 permissions:
@@ -36,6 +37,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
+
+      - name: Expand catalogue with 500 new commercially screened products
+        run: python expand_catalogue_500.py
 
       - name: Fetch real product photos
         run: python fetch_product_images.py
