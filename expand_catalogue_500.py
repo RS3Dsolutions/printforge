@@ -135,7 +135,7 @@ def gql_search(q, limit=30, offset=0, ordering="popular"):
       }
     }
     """
-    variables = {"query": q, "limit": limit, "offset": 0, "ordering": ordering}
+    variables = {"query": q, "limit": limit, "offset": offset, "ordering": ordering}
     payload = {"operationName": "SearchModels", "query": query, "variables": variables}
     try:
         r = S.post(API, json=payload, timeout=25)
