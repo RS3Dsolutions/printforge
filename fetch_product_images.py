@@ -438,17 +438,6 @@ log(f'TOTAL LOCAL PHOTOS: {all_photos}; PRODUCTS WITH PHOTOS: {with_photos}/{len
 
 if all_photos == 0:
     raise SystemExit('No product photos were fetched. The workflow refuses to publish a catalogue with fake/broken image placeholders.')
-, '', src)
-                page.goto(browser_src, wait_until='domcontentloaded', timeout=25000)
-                body_text=(page.locator('body').inner_text(timeout=2000) or '').lower()
-                if 'performing security verification' not in body_text and 'security verification' not in body_text:
-                    target=dest/'source-preview.jpg'
-                    page.screenshot(path=str(target),type='jpeg',quality=88,full_page=False)
-                    if target.exists() and target.stat().st_size>15000:
-                        got=1
-                        log('  FALLBACK: saved non-challenge source-page preview')
-            except Exception:
-                pass
 
         files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
         p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
