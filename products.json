@@ -2,7 +2,7 @@
   "brand": "PrintForge",
   "tagline": "Choose it. We make it.",
   "whatsappNumber": "917975072917",
-  "lastUpdated": "2026-09-27",
+  "lastUpdated": "2026-09-29",
   "commercialUseOnly": true,
   "products": [
     {
@@ -471,23 +471,23 @@
     },
     {
       "id": "PF-REP-003",
-      "name": "Generic Replacement Spacer / Bushing",
+      "name": "Parametric Replacement Bushings",
       "category": "Repair & Replacement",
-      "subcategory": "Spacers & Bushings",
-      "type": "Replacement Components",
-      "description": "A small replacement spacer or bushing for compatible assemblies where a simple plastic component has worn out or gone missing.",
+      "subcategory": "Repair Parts",
+      "type": "Bushings & Spacers",
+      "description": "A configurable replacement bushing for light-duty repairs, fitment work and small mechanical parts. Dimensions and compatibility are confirmed before production.",
       "images": [],
       "customerTags": [
         "Made to order",
-        "Bulk orders welcome"
+        "Fitment checked before production"
       ],
       "imagePaths": [],
-      "platform": "Custom / source model",
-      "creator": "PrintForge workflow",
-      "license": "Custom design / customer-owned geometry",
-      "source": "#",
+      "platform": "Printables",
+      "creator": "Asraff Amzani",
+      "license": "CC BY 4.0 — commercial use permitted; attribution required",
+      "source": "https://www.printables.com/model/550208-parametric-bushings",
       "licenseGate": true,
-      "imageStatus": "Catalogue preview — replace with owned/product photos before commercial launch."
+      "imageStatus": "Catalogue image sourced from the public model gallery."
     },
     {
       "id": "PF-HOB-001",
