@@ -12,6 +12,11 @@ on:
 permissions:
   contents: write
 
+# Never allow two image-refresh jobs to race each other on main.
+concurrency:
+  group: printforge-refresh-product-photos
+  cancel-in-progress: false
+
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
@@ -51,19 +56,44 @@ jobs:
           print(len(d.get('products',[])))
           PY
           )
-          echo "Local photos: $count"
-          echo "Products with photos: $products/$total"
-          if [ "$count" -eq 0 ]; then echo '::error::No local product photos were produced.'; exit 1; fi
-          if [ "$products" -eq 0 ]; then echo '::error::No products have photos.'; exit 1; fi
+          echo "Local image assets (photos and source previews): $count"
+          echo "Products with image assets: $products/$total"
+          if [ "$count" -eq 0 ]; then echo '::error::No local product image assets were produced.'; exit 1; fi
+          if [ "$products" -eq 0 ]; then echo '::error::No products have image assets.'; exit 1; fi
 
       - name: Commit photos and manifest
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
           git add products.json assets/products
+
           if git diff --cached --quiet; then
             echo 'No photo changes to commit.'
-          else
-            git commit -m 'Refresh local product photos [skip ci]'
-            git push
+            exit 0
           fi
+
+          git commit -m 'Refresh local product photos [skip ci]'
+
+          # The image job can run for several minutes. During that time main may
+          # receive another commit. Rebase our generated-image commit onto the
+          # current remote main before pushing instead of failing with
+          # "fetch first".
+          for attempt in 1 2 3; do
+            echo "Synchronizing with origin/main (attempt $attempt/3)..."
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo 'Photos and manifest pushed successfully.'
+              exit 0
+            fi
+
+            echo 'Push raced with another main update; retrying...'
+            sleep 3
+          done
+
+          echo '::error::Could not push generated image assets after 3 synchronization attempts.'
+          exit 1
