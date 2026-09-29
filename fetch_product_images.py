@@ -416,6 +416,8 @@ with sync_playwright() as pw:
                     if target.exists() and target.stat().st_size > 15000:
                         got = 1
                         log('  FALLBACK: saved non-challenge source-page preview')
+            except Exception:
+                pass
 
         files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
         p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
