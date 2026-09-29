@@ -439,22 +439,3 @@ log(f'TOTAL LOCAL PHOTOS: {all_photos}; PRODUCTS WITH PHOTOS: {with_photos}/{len
 if all_photos == 0:
     raise SystemExit('No product photos were fetched. The workflow refuses to publish a catalogue with fake/broken image placeholders.')
 
-        files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
-        p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
-        log(f'  RESULT: {len(p["imagePaths"])} real photos')
-        summary.append((pid, len(p['imagePaths'])))
-
-        # Keep the runner responsive and avoid hammering source sites.
-        time.sleep(0.2)
-
-    context.close()
-    browser.close()
-
-DATA.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
-all_photos = sum(len(p.get('imagePaths', [])) for p in products)
-with_photos = sum(bool(p.get('imagePaths')) for p in products)
-log('')
-log(f'TOTAL LOCAL PHOTOS: {all_photos}; PRODUCTS WITH PHOTOS: {with_photos}/{len(products)}')
-
-if all_photos == 0:
-    raise SystemExit('No product photos were fetched. The workflow refuses to publish a catalogue with fake/broken image placeholders.')
