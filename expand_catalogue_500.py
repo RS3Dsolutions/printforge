@@ -106,7 +106,7 @@ QUERY_GROUPS = {
 def log(msg):
     print(msg, flush=True)
 
-def gql_search(q, limit=30, ordering="popular"):
+def gql_search(q, limit=30, offset=0, ordering="popular"):
     # Use the same minimal anonymous search shape currently used by public
     # Printables API clients. Keep the query deliberately small: schema
     # additions/removals should not make the whole catalogue expansion fail.
@@ -165,7 +165,7 @@ def gql_search(q, limit=30, ordering="popular"):
             payload2 = {
                 "operationName": "SearchModels",
                 "query": query2,
-                "variables": {"query": q, "limit": limit, "ordering": ordering}
+                "variables": {"query": q, "limit": limit, "offset": offset, "ordering": ordering}
             }
             r2 = S.post(API, json=payload2, timeout=25)
             if not r2.ok:
@@ -246,24 +246,33 @@ def main():
 
     candidates = {}
     query_count = 0
+    # Search multiple result pages when the first page is too repetitive.
     for group, queries in QUERY_GROUPS.items():
         for q in queries:
             query_count += 1
-            items = gql_search(q, 30, "popular")
-            log(f"[{query_count}] {group}: {q} -> {len(items)} results")
-            for item in items:
-                src = f"https://www.printables.com/model/{item.get('id')}-{item.get('slug')}" if item.get("id") and item.get("slug") else ""
-                if not src or src in existing_sources or src in candidates:
-                    continue
-                name = clean_name(item.get("name"))
-                if not name or name.lower() in existing_names or blocked(item):
-                    continue
-                if not allowed_license(item.get("license")):
-                    continue
-                # Skip very weak/empty entries.
-                if len(name) < 4:
-                    continue
-                candidates[src] = (group, q, item)
+            for offset in (0, 30, 60):
+                items = gql_search(q, 30, offset, "popular")
+                log(f"[{query_count}] {group}: {q} offset={offset} -> {len(items)} results")
+                if not items:
+                    break
+                for item in items:
+                    src = f"https://www.printables.com/model/{item.get('id')}-{item.get('slug')}" if item.get("id") and item.get("slug") else ""
+                    if not src or src in existing_sources or src in candidates:
+                        continue
+                    name = clean_name(item.get("name"))
+                    if not name or name.lower() in existing_names or blocked(item):
+                        continue
+                    if not allowed_license(item.get("license")):
+                        continue
+                    if len(name) < 4:
+                        continue
+                    candidates[src] = (group, q, item)
+                if len(candidates) >= (TARGET_NEW - len(already_added) + 150):
+                    break
+            if len(candidates) >= (TARGET_NEW - len(already_added) + 150):
+                break
+        if len(candidates) >= (TARGET_NEW - len(already_added) + 150):
+            break
 
     log(f"Commercially-screened unique candidates: {len(candidates)}")
     need = TARGET_NEW - len(already_added)
