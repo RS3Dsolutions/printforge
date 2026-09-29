@@ -80,6 +80,93 @@ def extract_images(text, base):
         good.append(u)
     return good[:100]
 
+def printables_api_images(src):
+    """Get public Printables cover/gallery media URLs from the anonymous GraphQL API.
+    This avoids the Cloudflare/security-verification HTML page entirely.
+    """
+    m = re.search(r'/model/(\\d+)', src or '')
+    if not m:
+        return []
+    model_id = m.group(1)
+    query = """
+    query ModelImages($id: ID!) {
+      print(id: $id) {
+        id
+        image { filePath }
+      }
+    }
+    """
+    try:
+        r = S.post(
+            'https://api.printables.com/graphql/',
+            json={'operationName':'ModelImages','query':query,'variables':{'id':model_id}},
+            headers={'Content-Type':'application/json','User-Agent':UA},
+            timeout=15
+        )
+        if not r.ok:
+            return []
+        data = r.json().get('data',{}).get('print') or {}
+        fp = (data.get('image') or {}).get('filePath')
+        if not fp:
+            return []
+        if fp.startswith('http'):
+            return [fp]
+        return ['https://media.printables.com/' + fp.lstrip('/')]
+    except Exception as e:
+        log(f'  Printables API lookup failed: {e}')
+        return []
+
+
+def makerworld_api_images(src):
+    """Get public MakerWorld cover media from Bambu's anonymous design API."""
+    m = re.search(r'/models/(\\d+)', src or '')
+    if not m:
+        return []
+    model_id = m.group(1)
+    try:
+        r = S.get(
+            f'https://api.bambulab.com/v1/design-service/design/{model_id}',
+            timeout=15,
+            headers={'User-Agent':UA,'Accept':'application/json'}
+        )
+        if not r.ok:
+            return []
+        data = r.json()
+        obj = data.get('data') if isinstance(data,dict) and isinstance(data.get('data'),dict) else data
+        out=[]
+        def add_api(v):
+            if isinstance(v,str) and v.startswith(('http://','https://')):
+                add(out,v)
+        add_api(obj.get('coverUrl') if isinstance(obj,dict) else None)
+        if isinstance(obj,dict):
+            for inst in obj.get('instances') or []:
+                if not isinstance(inst,dict):
+                    continue
+                add_api(inst.get('cover'))
+                for pic in inst.get('pictures') or []:
+                    if isinstance(pic,dict):
+                        add_api(pic.get('url') or pic.get('coverUrl'))
+                    else:
+                        add_api(pic)
+        seen=[]
+        for u in out:
+            if u not in seen:
+                seen.append(u)
+        return seen[:3]
+    except Exception as e:
+        log(f'  MakerWorld API lookup failed: {e}')
+        return []
+
+
+def api_images_for_source(src):
+    low=(src or '').lower()
+    if 'printables.com/' in low:
+        return printables_api_images(src)
+    if 'makerworld.com/' in low:
+        return makerworld_api_images(src)
+    return []
+
+
 def reader_urls(src):
     return [
         'https://r.jina.ai/' + src,
@@ -280,15 +367,28 @@ with sync_playwright() as pw:
             summary.append((pid, len(p['imagePaths'])))
             continue
 
-        # Remove partial/failed old files so the manifest reflects this run cleanly.
+        # Remove old challenge-page screenshots/partial files first.
         clean_old_assets(dest)
-        got = browser_capture(page, src, dest, 3)
 
-        if got == 0:
-            preview = source_preview(page, src, dest)
-            if preview:
-                got = 1
-                log('  FALLBACK: saved real source-page preview')
+        # Platform APIs are the primary path. They return the actual public
+        # gallery/cover media and bypass anti-bot/security-verification HTML.
+        api_urls = api_images_for_source(src)
+        got = 0
+        for u in api_urls:
+            if got >= 3:
+                break
+            ext = Path(urlparse(u).path).suffix.lower()
+            if ext not in IMG_EXTS:
+                ext = '.jpg'
+            f = dest / f'{got + 1}{ext}'
+            if download(u, f, src):
+                got += 1
+        if got:
+            log(f'  API: downloaded {got} source gallery image(s)')
+
+        # Secondary extraction path for platforms/models without a usable API.
+        if got < 3:
+            got += browser_capture(page, src, dest, 3 - got)
 
         if got < 3:
             text, base = fetch_source(src)
@@ -303,6 +403,41 @@ with sync_playwright() as pw:
                     f = dest / f'{got + 1}{ext}'
                     if download(u, f, src):
                         got += 1
+
+        # Only use a source-page screenshot when it is NOT an anti-bot page.
+        if got == 0:
+            try:
+                browser_src = re.sub(r'/files/?
+        files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
+        p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
+        log(f'  RESULT: {len(p["imagePaths"])} real photos')
+        summary.append((pid, len(p['imagePaths'])))
+
+        # Keep the runner responsive and avoid hammering source sites.
+        time.sleep(0.2)
+
+    context.close()
+    browser.close()
+
+DATA.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
+all_photos = sum(len(p.get('imagePaths', [])) for p in products)
+with_photos = sum(bool(p.get('imagePaths')) for p in products)
+log('')
+log(f'TOTAL LOCAL PHOTOS: {all_photos}; PRODUCTS WITH PHOTOS: {with_photos}/{len(products)}')
+
+if all_photos == 0:
+    raise SystemExit('No product photos were fetched. The workflow refuses to publish a catalogue with fake/broken image placeholders.')
+, '', src)
+                page.goto(browser_src, wait_until='domcontentloaded', timeout=25000)
+                body_text=(page.locator('body').inner_text(timeout=2000) or '').lower()
+                if 'performing security verification' not in body_text and 'security verification' not in body_text:
+                    target=dest/'source-preview.jpg'
+                    page.screenshot(path=str(target),type='jpeg',quality=88,full_page=False)
+                    if target.exists() and target.stat().st_size>15000:
+                        got=1
+                        log('  FALLBACK: saved non-challenge source-page preview')
+            except Exception:
+                pass
 
         files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
         p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
