@@ -15,7 +15,7 @@ permissions:
 # Never allow two image-refresh jobs to race each other on main.
 concurrency:
   group: printforge-refresh-product-photos
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh-images:
