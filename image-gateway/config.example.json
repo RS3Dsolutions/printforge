@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "baseUrl": "",
+  "provider": "cloudflare",
+  "allowedSourceHosts": ["media.printables.com", "makerworld.bblmw.com", "makerworld.com"],
+  "thumbnailWidth": 640,
+  "detailWidth": 1280,
+  "format": "auto",
+  "cacheSeconds": 604800
+}
