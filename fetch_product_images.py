@@ -31,10 +31,12 @@ def absu(u, base):
     return urljoin(base, u)
 
 
-def add(out, u):
+def add(out, u, base=None):
     if not u:
         return
     u = u.strip().rstrip('.,')
+    if base:
+        u = absu(u, base)
     low = u.lower()
     if low.startswith('data:') or any(x in low for x in BAD):
         return
