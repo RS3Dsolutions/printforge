@@ -416,20 +416,9 @@ with sync_playwright() as pw:
                     if download(u, f, src):
                         got += 1
 
-        # Only use a source-page screenshot when it is NOT an anti-bot page.
-        if got == 0:
-            try:
-                browser_src = re.sub(r'/files/?$', '', src)
-                page.goto(browser_src, wait_until='domcontentloaded', timeout=25000)
-                body_text = (page.locator('body').inner_text(timeout=2000) or '').lower()
-                if 'performing security verification' not in body_text and 'security verification' not in body_text:
-                    target = dest / 'source-preview.jpg'
-                    page.screenshot(path=str(target), type='jpeg', quality=88, full_page=False)
-                    if target.exists() and target.stat().st_size > 15000:
-                        got = 1
-                        log('  FALLBACK: saved non-challenge source-page preview')
-            except Exception:
-                pass
+        # Never publish source-page screenshots as catalogue product imagery.
+        # If no genuine gallery image was obtained, leave the product without a
+        # fabricated/preview image so the next refresh can retry it safely.
 
         files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
         p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
