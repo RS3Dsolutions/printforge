@@ -88,7 +88,7 @@
         "Bulk orders welcome"
       ],
       "imagePaths": [
-        "assets/products/PF-OFF-002/source-preview.jpg"
+        "assets/products/PF-OFF-002/1.jpg"
       ],
       "platform": "Printables",
       "creator": "Handsom Handmade",
@@ -109,11 +109,7 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [
-        "assets/products/PF-OFF-003/1.jpg",
-        "assets/products/PF-OFF-003/2.jpg",
-        "assets/products/PF-OFF-003/3.jpg"
-      ],
+      "imagePaths": [],
       "platform": "MakerWorld",
       "creator": "zagtrosD",
       "license": "CC BY — commercial use permitted with attribution",
@@ -342,9 +338,14 @@
         "Bulk orders welcome"
       ],
       "imagePaths": [
-        "assets/products/PF-HOM-006/1.png",
-        "assets/products/PF-HOM-006/2.png",
-        "assets/products/PF-HOM-006/3.jpg"
+        "assets/products/PF-HOM-006/1.jpg",
+        "assets/products/PF-HOM-006/2.jpg",
+        "assets/products/PF-HOM-006/3.jpg",
+        "assets/products/PF-HOM-006/4.jpg",
+        "assets/products/PF-HOM-006/5.jpg",
+        "assets/products/PF-HOM-006/6.jpg",
+        "assets/products/PF-HOM-006/7.jpg",
+        "assets/products/PF-HOM-006/8.jpg"
       ],
       "platform": "MakerWorld",
       "creator": "Bux / Make My Vase",
@@ -551,11 +552,7 @@
         "Made to order",
         "Bulk orders welcome"
       ],
-      "imagePaths": [
-        "assets/products/PF-HOB-004/1.jpg",
-        "assets/products/PF-HOB-004/2.jpg",
-        "assets/products/PF-HOB-004/3.jpg"
-      ],
+      "imagePaths": [],
       "platform": "MakerWorld",
       "creator": "Meshminds2",
       "license": "Creative Commons Public Domain — creator states commercial use allowed",
@@ -576,9 +573,7 @@
         "Bulk orders welcome"
       ],
       "imagePaths": [
-        "assets/products/PF-HOB-005/1.png",
-        "assets/products/PF-HOB-005/2.jpg",
-        "assets/products/PF-HOB-005/3.jpg"
+        "assets/products/PF-HOB-005/1.png"
       ],
       "platform": "MakerWorld",
       "creator": "Tobkar_",
@@ -1068,7 +1063,7 @@
         "Bulk orders welcome"
       ],
       "imagePaths": [
-        "assets/products/PF-HOB-007/source-preview.jpg"
+        "assets/products/PF-HOB-007/1.png"
       ],
       "platform": "Printables",
       "creator": "Sven Kinne",
@@ -1114,7 +1109,7 @@
         "Bulk orders welcome"
       ],
       "imagePaths": [
-        "assets/products/PF-WRK-016/source-preview.jpg"
+        "assets/products/PF-WRK-016/1.jpg"
       ],
       "platform": "Printables",
       "creator": "Finn Sullivan",
@@ -1355,9 +1350,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-ELEC-N002/source-preview.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "Lucas Romero",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -1476,7 +1469,8 @@
       ],
       "imagePaths": [
         "assets/products/PF-ELEC-N003/1.png",
-        "assets/products/PF-ELEC-N003/2.png"
+        "assets/products/PF-ELEC-N003/2.png",
+        "assets/products/PF-ELEC-N003/3.png"
       ],
       "platform": "Printables",
       "creator": "Brady Snyder",
@@ -1694,7 +1688,8 @@
         "Commercial-use source verified"
       ],
       "imagePaths": [
-        "assets/products/PF-OFF-N005/1.jpeg"
+        "assets/products/PF-OFF-N005/1.jpeg",
+        "assets/products/PF-OFF-N005/2.jpeg"
       ],
       "platform": "Printables",
       "creator": "rtarbutton",
@@ -1886,9 +1881,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-AUTO-N007/source-preview.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "Black5urn",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -2827,7 +2820,8 @@
       ],
       "imagePaths": [
         "assets/products/PF-HOM-N014/1.jpg",
-        "assets/products/PF-HOM-N014/2.jpg"
+        "assets/products/PF-HOM-N014/2.jpg",
+        "assets/products/PF-HOM-N014/3.jpg"
       ],
       "platform": "Printables",
       "creator": "Joshua's Oddities",
@@ -4782,9 +4776,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-AUTO-N031/source-preview.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "M 3D",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -5584,7 +5576,7 @@
         "Commercial-use source verified"
       ],
       "imagePaths": [
-        "assets/products/PF-ELEC-N037/source-preview.jpg"
+        "assets/products/PF-ELEC-N037/1.jpg"
       ],
       "platform": "Printables",
       "creator": "Loudifier",
@@ -5607,7 +5599,7 @@
         "Commercial-use source verified"
       ],
       "imagePaths": [
-        "assets/products/PF-HOM-N037/source-preview.jpg"
+        "assets/products/PF-HOM-N037/1.png"
       ],
       "platform": "Printables",
       "creator": "Bumbonen223",
@@ -6401,7 +6393,7 @@
         "Commercial-use source verified"
       ],
       "imagePaths": [
-        "assets/products/PF-OFF-N044/source-preview.jpg"
+        "assets/products/PF-OFF-N044/1.jpg"
       ],
       "platform": "Printables",
       "creator": "Lynnwood Maker Space",
@@ -6667,9 +6659,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-ELEC-N046/source-preview.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "DIY TECHOS",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -8935,7 +8925,8 @@
       ],
       "imagePaths": [
         "assets/products/PF-OFF-N065/1.png",
-        "assets/products/PF-OFF-N065/2.jpg"
+        "assets/products/PF-OFF-N065/2.jpg",
+        "assets/products/PF-OFF-N065/3.jpg"
       ],
       "platform": "Printables",
       "creator": "Hugo Wientjens",
@@ -8957,9 +8948,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-ELEC-N065/source-preview.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "Max",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -9790,7 +9779,8 @@
       ],
       "imagePaths": [
         "assets/products/PF-OFF-N072/1.png",
-        "assets/products/PF-OFF-N072/2.png"
+        "assets/products/PF-OFF-N072/2.png",
+        "assets/products/PF-OFF-N072/3.png"
       ],
       "platform": "Printables",
       "creator": "miXme",
@@ -13037,7 +13027,7 @@
         "Commercial-use source verified"
       ],
       "imagePaths": [
-        "assets/products/PF-OFF-N099/source-preview.jpg"
+        "assets/products/PF-OFF-N099/1.jpg"
       ],
       "platform": "Printables",
       "creator": "Spacerunaway",
@@ -13232,10 +13222,7 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [
-        "assets/products/PF-OFF-N101/1.jpg",
-        "assets/products/PF-OFF-N101/2.jpg"
-      ],
+      "imagePaths": [],
       "platform": "Printables",
       "creator": "Vaty79",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -13256,7 +13243,11 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-001/1.jpeg",
+        "assets/products/PF-REP-001/2.jpeg",
+        "assets/products/PF-REP-001/3.jpeg"
+      ],
       "platform": "Printables",
       "creator": "philon",
       "license": "Public Domain — commercial use permitted",
@@ -13277,7 +13268,11 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-002/1.jpg",
+        "assets/products/PF-REP-002/2.jpg",
+        "assets/products/PF-REP-002/3.jpg"
+      ],
       "platform": "Printables",
       "creator": "3D Printy",
       "license": "CC BY 4.0 — commercial use permitted with attribution",
@@ -13298,7 +13293,11 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-003/1.jpg",
+        "assets/products/PF-REP-003/2.jpg",
+        "assets/products/PF-REP-003/3.jpg"
+      ],
       "platform": "Printables",
       "creator": "CrazyModding",
       "license": "CC0 / Public Domain — commercial use permitted",
@@ -13319,7 +13318,9 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-004/1.jpg"
+      ],
       "platform": "Printables",
       "creator": "3D Printy",
       "license": "CC BY 4.0 — commercial use permitted with attribution",
@@ -13340,7 +13341,11 @@
         "Made to order",
         "Commercial-use source verified"
       ],
-      "imagePaths": [],
+      "imagePaths": [
+        "assets/products/PF-REP-005/1.jpg",
+        "assets/products/PF-REP-005/2.jpg",
+        "assets/products/PF-REP-005/3.jpg"
+      ],
       "platform": "Printables",
       "creator": "Mirko",
       "license": "CC0 / Public Domain — commercial use permitted",
