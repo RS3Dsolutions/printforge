@@ -123,7 +123,7 @@ def printables_api_images(src):
         for u in out:
             if u not in seen:
                 seen.append(u)
-        return seen[:3]
+        return seen[:8]
     except Exception as e:
         log(f'  Printables API lookup failed: {e}')
         return []
@@ -164,7 +164,7 @@ def makerworld_api_images(src):
         for u in out:
             if u not in seen:
                 seen.append(u)
-        return seen[:3]
+        return seen[:8]
     except Exception as e:
         log(f'  MakerWorld API lookup failed: {e}')
         return []
@@ -232,14 +232,14 @@ def save_bytes(data,path,content_type=''):
     if not valid_image_bytes(data,content_type): return False
     path.write_bytes(data); return True
 
-def browser_capture(page, src, dest, max_images=3):
+def browser_capture(page, src, dest, max_images=8):
     """Capture the real gallery images loaded by the source page.
     Priority: network image responses -> exposed image URLs -> rendered image screenshots.
     """
     browser_src = re.sub(r'/files/?$', '', src)
     captured=[]
     def on_response(response):
-        if len(captured) >= 20: return
+        if len(captured) >= 40: return
         try:
             ct=(response.headers.get('content-type') or '').lower(); u=response.url; low=u.lower()
             if not ct.startswith('image/') or any(x in low for x in BAD): return
@@ -373,7 +373,7 @@ with sync_playwright() as pw:
         dest = ASSET / pid
         dest.mkdir(parents=True, exist_ok=True)
         existing = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
-        if len(existing) >= 3:
+        if len(existing) >= 8:
             p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in existing[:3]]
             log(f'  KEEP: {len(p["imagePaths"])} existing photos')
             summary.append((pid, len(p['imagePaths'])))
@@ -399,14 +399,14 @@ with sync_playwright() as pw:
             log(f'  API: downloaded {got} source gallery image(s)')
 
         # Secondary extraction path for platforms/models without a usable API.
-        if got < 3:
-            got += browser_capture(page, src, dest, 3 - got)
+        if got < 8:
+            got += browser_capture(page, src, dest, 8 - got)
 
-        if got < 3:
+        if got < 8:
             text, base = fetch_source(src)
             if text:
                 urls = extract_images(text, base)
-                for u in urls[:40]:
+                for u in urls[:80]:
                     if got >= 3:
                         break
                     ext = Path(urlparse(u).path).suffix.lower()
@@ -421,7 +421,7 @@ with sync_playwright() as pw:
         # fabricated/preview image so the next refresh can retry it safely.
 
         files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
-        p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:3]]
+        p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:8]]
         log(f'  RESULT: {len(p["imagePaths"])} real photos')
         summary.append((pid, len(p['imagePaths'])))
 
