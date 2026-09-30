@@ -125,7 +125,7 @@ def printables_api_images(src):
         for u in out:
             if u not in seen:
                 seen.append(u)
-        return seen[:8]
+        return seen[:20]
     except Exception as e:
         log(f'  Printables API lookup failed: {e}')
         return []
@@ -316,25 +316,6 @@ def browser_capture(page, src, dest, max_images=8):
         try: page.remove_listener('response',on_response)
         except Exception: pass
 
-def source_preview(page, src, dest):
-    """Last-resort real source-page preview. This is NOT a fabricated product image.
-    It captures the actual public source page as rendered by Chromium so the catalogue
-    never shows a fake placeholder when a gallery image URL cannot be extracted.
-    """
-    try:
-        browser_src = re.sub(r'/files/?$', '', src)
-        page.goto(browser_src, wait_until='domcontentloaded', timeout=25000)
-        page.wait_for_timeout(2200)
-        page.evaluate("window.scrollTo(0, 0)")
-        page.wait_for_timeout(400)
-        target = dest / 'source-preview.jpg'
-        page.screenshot(path=str(target), type='jpeg', quality=88, full_page=False)
-        if target.exists() and target.stat().st_size > 15000:
-            return target
-    except Exception as e:
-        log(f'  SOURCE PREVIEW ERROR: {e}')
-    return None
-
 def clean_old_assets(dest):
     for f in dest.iterdir():
         if f.is_file() and f.suffix.lower() in IMG_EXTS:
@@ -376,7 +357,7 @@ with sync_playwright() as pw:
         dest.mkdir(parents=True, exist_ok=True)
         existing = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
         if len(existing) >= 8:
-            p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in existing[:3]]
+            p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in existing[:8]]
             log(f'  KEEP: {len(p["imagePaths"])} existing photos')
             summary.append((pid, len(p['imagePaths'])))
             continue
@@ -389,7 +370,7 @@ with sync_playwright() as pw:
         api_urls = api_images_for_source(src)
         got = 0
         for u in api_urls:
-            if got >= 3:
+            if got >= 8:
                 break
             ext = Path(urlparse(u).path).suffix.lower()
             if ext not in IMG_EXTS:
