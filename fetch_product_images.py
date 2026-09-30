@@ -133,7 +133,7 @@ def printables_api_images(src):
 
 def makerworld_api_images(src):
     """Get public MakerWorld cover media from Bambu's anonymous design API."""
-    m = re.search(r'/models/(\\d+)', src or '')
+    m = re.search(r'/models/(\d+)', src or '')
     if not m:
         return []
     model_id = m.group(1)
@@ -390,7 +390,7 @@ with sync_playwright() as pw:
             if text:
                 urls = extract_images(text, base)
                 for u in urls[:80]:
-                    if got >= 3:
+                    if got >= 8:
                         break
                     ext = Path(urlparse(u).path).suffix.lower()
                     if ext not in IMG_EXTS:
