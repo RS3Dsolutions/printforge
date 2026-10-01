@@ -56,6 +56,30 @@ def _walk_designs(obj):
         for value in obj:
             yield from _walk_designs(value)
 
+def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
+    """GET JSON with conservative pacing and exponential backoff for 429s."""
+    for attempt in range(6):
+        try:
+            r=S.get(url, params=params, timeout=timeout)
+            if r.status_code == 429:
+                wait=[5,15,30,60,90,120][attempt]
+                print(f"{label} HTTP 429; backing off {wait}s (attempt {attempt+1}/6)",flush=True)
+                time.sleep(wait)
+                continue
+            if not r.ok:
+                print(f"{label} HTTP {r.status_code}",flush=True)
+                return None
+            time.sleep(min_delay)
+            return r.json()
+        except Exception as exc:
+            if attempt >= 5:
+                print(f"{label} error after retries: {exc}",flush=True)
+                return None
+            wait=[3,8,15,30,60][attempt]
+            print(f"{label} error: {exc}; retrying in {wait}s",flush=True)
+            time.sleep(wait)
+    return None
+
 def discover_api(group, terms, pages=5, page_size=30):
     """Discover models through the public keyword search endpoint.
 
@@ -73,15 +97,17 @@ def discover_api(group, terms, pages=5, page_size=30):
                 "limit":page_size
             })
             url=f"{API_BASE}/search-service/select/design2?{params}"
-            try:
-                r=S.get(url,timeout=30)
-                if not r.ok:
-                    print(f"Search '{term}' HTTP {r.status_code}",flush=True)
-                    break
-                payload=r.json()
-                hits=list(_walk_designs(payload))
-                if not hits:
-                    break
+            payload=get_json(
+                url,
+                timeout=30,
+                label=f"Search '{term}' page {page+1}",
+                min_delay=1.5
+            )
+            if payload is None:
+                break
+            hits=list(_walk_designs(payload))
+            if not hits:
+                break
                 added=0
                 for item in hits:
                     mid=str(item.get("id") or "").strip()
@@ -103,23 +129,19 @@ def discover_api(group, terms, pages=5, page_size=30):
                 print(f"  {term} page {page+1}: {len(hits)} hits, {added} new",flush=True)
                 if len(hits)<page_size:
                     break
-            except Exception as exc:
-                print(f"Search error '{term}' page {page+1}: {exc}",flush=True)
-                break
-            time.sleep(.15)
+
     return out
 
 def detail(mid):
-    try:
-        r=S.get(f"{API_BASE}/design-service/design/{mid}",timeout=20)
-        if not r.ok:
-            return None
-        d=r.json()
-        if isinstance(d,dict) and isinstance(d.get("data"),dict):
-            d=d["data"]
-        return d if isinstance(d,dict) else None
-    except Exception:
-        return None
+    d=get_json(
+        f"{API_BASE}/design-service/design/{mid}",
+        timeout=20,
+        label=f"Detail {mid}",
+        min_delay=1.0
+    )
+    if isinstance(d,dict) and isinstance(d.get("data"),dict):
+        d=d["data"]
+    return d if isinstance(d,dict) else None
 
 def license_ok(v):
     x=norm(v).upper().replace("CREATIVE COMMONS ","")
@@ -201,12 +223,15 @@ def main():
     ranked.sort(reverse=True)
 
     scored=[]
-    detail_limit=min(len(ranked),1200)
+    detail_limit=min(len(ranked),1800)
     for n,(_,mid,src,group,item) in enumerate(ranked[:detail_limit],1):
-        d=detail(mid)
+        # design2 already exposes license metadata on many results. Use it
+        # immediately so we do not spend a rate-limited detail request.
+        item_license=item.get("license") or item.get("licenseName") or ""
+        d=item if license_ok(item_license) else detail(mid)
         if not d:
             continue
-        lic=d.get("license") or ""
+        lic=d.get("license") or d.get("licenseName") or item_license
         if not license_ok(lic):
             continue
         title=d.get("title") or item.get("title") or ""
@@ -220,7 +245,7 @@ def main():
         scored.append((sc,group,canonical,d))
         if n%50==0:
             print("Detailed",n,"accepted",len(scored),flush=True)
-        time.sleep(.08)
+
 
     scored.sort(key=lambda x:x[0],reverse=True)
     selected=[]
