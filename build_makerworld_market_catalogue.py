@@ -234,7 +234,7 @@ def detail_browser(context, src, mid):
             licenses=re.findall(r'(?i)\\b(CC\\s*BY(?:-SA|-ND)?|CC0|Public Domain)\\b',blob)
         lic=licenses[0].strip() if licenses else ""
         creator=""
-        m=re.search(r'(?i)(?:designCreator|creator)[^A-Za-z]{0,30}(?:name|nickname|handle)[^A-Za-z]{0,20}["\\']([^"\\']+)["\\']',blob)
+        m=re.search(r"""(?i)(?:designCreator|creator)[^A-Za-z]{0,30}(?:name|nickname|handle)[^A-Za-z]{0,20}["']([^"']+)["']""",blob)
         if m:
             creator=m.group(1).strip()
         if not title:
