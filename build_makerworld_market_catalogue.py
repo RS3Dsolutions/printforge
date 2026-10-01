@@ -44,36 +44,67 @@ PRACTICAL=re.compile(r"\b(holder|mount|stand|organizer|clip|bracket|adapter|case
 def norm(s):
     return re.sub(r"[^a-z0-9]+"," ",(s or "").lower()).strip()
 
-def discover_api(group, terms, pages=10, page_size=50):
+def _walk_designs(obj):
+    """Yield design-like dictionaries from several MakerWorld response shapes."""
+    if isinstance(obj, dict):
+        if obj.get("id") and (obj.get("title") or obj.get("name")):
+            yield obj
+        for key, value in obj.items():
+            if key in {"data","result","results","list","items","designs","records","hits"}:
+                yield from _walk_designs(value)
+    elif isinstance(obj, list):
+        for value in obj:
+            yield from _walk_designs(value)
+
+def discover_api(group, terms, pages=5, page_size=30):
+    """Discover models through the public keyword search endpoint.
+
+    We intentionally avoid the authenticated category-navigation endpoint.
+    Keyword search gives us market-relevant candidates without requiring a
+    Bambu account/token in GitHub Actions.
+    """
     out={}
-    wanted=[norm(t) for t in terms]
-    for category in GROUP_SOURCES[group]:
-        nav=CATEGORY_ROOTS[category]
+    for term in terms:
+        keyword=norm(term)
         for page in range(pages):
-            params=urlencode({"navKey":nav,"offset":page*page_size,"limit":page_size})
-            url=f"{API_BASE}/search-service/select/design/nav?{params}"
+            params=urlencode({
+                "keyword":keyword,
+                "offset":page*page_size,
+                "limit":page_size
+            })
+            url=f"{API_BASE}/search-service/select/design2?{params}"
             try:
                 r=S.get(url,timeout=30)
                 if not r.ok:
-                    print(f"Feed {category} HTTP {r.status_code}",flush=True)
+                    print(f"Search '{term}' HTTP {r.status_code}",flush=True)
                     break
                 payload=r.json()
-                hits=payload.get("hits",[]) if isinstance(payload,dict) else []
+                hits=list(_walk_designs(payload))
                 if not hits:
                     break
-                for raw in hits:
-                    item=raw.get("design") if isinstance(raw,dict) and isinstance(raw.get("design"),dict) else raw
-                    if not isinstance(item,dict) or not item.get("id"):
+                added=0
+                for item in hits:
+                    mid=str(item.get("id") or "").strip()
+                    if not mid:
                         continue
                     title=str(item.get("title") or item.get("name") or "")
                     tags=" ".join(map(str,item.get("tags") or []))
                     text_value=norm(f"{title} {tags}")
-                    if not any(t in text_value for t in wanted) or BLOCK.search(text_value):
+                    if BLOCK.search(text_value):
                         continue
-                    mid=str(item["id"])
-                    out[mid]=(f"https://makerworld.com/en/models/{mid}",group,"",item)
+                    # Keep the exact requested keyword represented in title/tags
+                    # so a broad API response does not pollute another category.
+                    if keyword not in text_value and not PRACTICAL.search(text_value):
+                        continue
+                    src=f"https://makerworld.com/en/models/{mid}"
+                    if mid not in out:
+                        out[mid]=(src,group,term,item)
+                        added+=1
+                print(f"  {term} page {page+1}: {len(hits)} hits, {added} new",flush=True)
+                if len(hits)<page_size:
+                    break
             except Exception as exc:
-                print(f"Feed error {category} page {page+1}: {exc}",flush=True)
+                print(f"Search error '{term}' page {page+1}: {exc}",flush=True)
                 break
             time.sleep(.15)
     return out
