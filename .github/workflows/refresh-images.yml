@@ -39,6 +39,9 @@ jobs:
           pip install requests beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
 
+      - name: Validate catalogue script syntax
+        run: python -m py_compile build_makerworld_market_catalogue.py
+
       - name: Source and curate MakerWorld market catalogue
         run: python build_makerworld_market_catalogue.py
 
