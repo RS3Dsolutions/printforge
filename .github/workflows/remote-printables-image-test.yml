@@ -1,0 +1,69 @@
+name: Test remote Printables images
+
+on:
+  push:
+    branches:
+      - experiment/remote-printables-images
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Printables media URLs
+        shell: python
+        run: |
+          import json, requests
+
+          models = {
+              "PF-AUTO-001": "805112",
+              "PF-AUTO-002": "773742",
+              "PF-OFF-001": "103341",
+          }
+
+          gql = """
+          query ModelImages($id: ID!) {
+            print(id: $id) {
+              id
+              name
+              images { filePath }
+            }
+          }
+          """
+
+          session = requests.Session()
+          session.headers.update({
+              "User-Agent": "Mozilla/5.0",
+              "Content-Type": "application/json",
+          })
+
+          for pid, mid in models.items():
+              print(f"\\n=== {pid} / Printables {mid} ===")
+              r = session.post(
+                  "https://api.printables.com/graphql/",
+                  json={"operationName":"ModelImages","query":gql,"variables":{"id":mid}},
+                  timeout=20,
+              )
+              print("GraphQL:", r.status_code)
+              data = r.json()
+              model = ((data.get("data") or {}).get("print") or {})
+              print("Model:", model.get("name"))
+              urls=[]
+              for item in model.get("images") or []:
+                  fp=item.get("filePath") if isinstance(item,dict) else None
+                  if fp:
+                      urls.append(fp if fp.startswith("http") else "https://media.printables.com/"+fp.lstrip("/"))
+              for i, url in enumerate(urls[:3], 1):
+                  print(f"IMAGE_{i}_URL={url}")
+                  h = session.get(url, headers={
+                      "Origin":"https://rs3dsolutions.github.io",
+                      "Referer":"https://rs3dsolutions.github.io/printforge/",
+                  }, timeout=20, allow_redirects=True, stream=True)
+                  print("  status=", h.status_code)
+                  print("  final_url=", h.url)
+                  print("  content_type=", h.headers.get("content-type"))
+                  print("  content_length=", h.headers.get("content-length"))
+                  print("  cache_control=", h.headers.get("cache-control"))
+                  print("  access_control_allow_origin=", h.headers.get("access-control-allow-origin"))
+                  print("  server=", h.headers.get("server"))
+                  h.close()
