@@ -67,3 +67,24 @@ jobs:
                   print("  access_control_allow_origin=", h.headers.get("access-control-allow-origin"))
                   print("  server=", h.headers.get("server"))
                   h.close()
+
+      - name: Browser render test
+        shell: bash
+        run: |
+          cat > /tmp/printforge-image-test.html <<'HTML'
+          <!doctype html><meta charset="utf-8"><title>PrintForge remote image test</title>
+          <img id="a" src="https://media.printables.com/media/prints/805112/images/6230316_109e0f4d-418d-489d-bb5e-c246f8b18764_4d7461cd-e67f-46a9-9fd2-5763aea18f65/20240305_073828.jpg">
+          <img id="b" src="https://media.printables.com/media/prints/773742/images/6015293_4cbbe08d-021c-472b-89b7-6c6cc5d7c669_d192b8f4-b96e-4406-8dd1-3be60666dc30/img_20240220_193902.jpg">
+          <img id="c" src="https://media.printables.com/media/prints/103341/images/1039739_76a19cb0-7d26-4816-b0df-edf8c2dfd6b8/20211223_103834.jpg">
+          <pre id="out">waiting</pre>
+          <script>
+          setTimeout(()=>{
+            out.textContent=[a,b,c].map((x,i)=>`image_${i+1}: complete=${x.complete} naturalWidth=${x.naturalWidth} naturalHeight=${x.naturalHeight}`).join('\\n');
+          },2500);
+          </script>
+          HTML
+          BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          echo "Browser: $BROWSER"
+          "$BROWSER" --headless --no-sandbox --disable-gpu --allow-file-access-from-files --dump-dom file:///tmp/printforge-image-test.html > /tmp/dom.txt
+          cat /tmp/dom.txt
+          grep -q "naturalWidth=[1-9]" /tmp/dom.txt
