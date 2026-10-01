@@ -214,6 +214,39 @@ def detail(mid):
         d=d["data"]
     return d if isinstance(d,dict) else None
 
+def detail_browser(context, src, mid):
+    """Read license and basic metadata from a public MakerWorld model page."""
+    page=context.new_page()
+    try:
+        page.goto(src, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(1200)
+        html=page.content()
+        title=(page.title() or "").replace(" | MakerWorld","").strip()
+        desc=""
+        try:
+            desc=page.locator('meta[name="description"]').get_attribute("content") or ""
+        except Exception:
+            pass
+        blob=html
+        # Prefer explicit license fields embedded in page JSON, then visible text.
+        licenses=re.findall(r'(?i)(?:license(?:Name)?)[^A-Za-z]{0,20}(CC\\s*BY(?:-SA|-ND)?|CC0|Public Domain|BY(?:-SA|-ND)?)',blob)
+        if not licenses:
+            licenses=re.findall(r'(?i)\\b(CC\\s*BY(?:-SA|-ND)?|CC0|Public Domain)\\b',blob)
+        lic=licenses[0].strip() if licenses else ""
+        creator=""
+        m=re.search(r'(?i)(?:designCreator|creator)[^A-Za-z]{0,30}(?:name|nickname|handle)[^A-Za-z]{0,20}["\\']([^"\\']+)["\\']',blob)
+        if m:
+            creator=m.group(1).strip()
+        if not title:
+            title=mid
+        d={"id":mid,"title":title,"summary":desc,"license":lic,"creator":creator}
+        return d
+    except Exception as exc:
+        print(f"Model page error {mid}: {exc}",flush=True)
+        return None
+    finally:
+        page.close()
+
 def license_ok(v):
     x=norm(v).upper().replace("CREATIVE COMMONS ","")
     return any(a in x for a in ALLOW)
