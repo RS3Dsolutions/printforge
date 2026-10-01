@@ -16,7 +16,7 @@ TARGET=446
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
 S=requests.Session(); S.headers.update({"User-Agent":UA,"Accept-Language":"en-US,en;q=0.9"})
 API_BASE="https://api.bambulab.com/v1"
-CATEGORY_ROOTS={"household":"category_400","education":"category_500","tools":"category_700","toys_games":"category_800","3d_printer":"category_900","hobby_diy":"category_300"}
+CATEGORY_ROOTS={"household":"category_800","education":"category_500","tools":"category_700","toys_games":"category_400","3d_printer":"category_900","hobby_diy":"category_300"}
 GROUP_SOURCES={
  "Automotive":["hobby_diy","tools","3d_printer","household"],
  "Tools & Workshop":["tools","3d_printer","hobby_diy"],
@@ -199,7 +199,8 @@ def main():
     print("Category counts:",counts,flush=True)
 
 if __name__=="__main__":
-    main()    candidates={}
+    main()
+
     for group,terms in GROUPS.items():
         print("Discovering",group,flush=True)
         for mid,candidate in discover_api(group,terms).items():
