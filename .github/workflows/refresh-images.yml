@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - 'fetch_product_images.py'
+      - 'build_catalogue_shards.py'
+      - 'products.json'
       - '.github/workflows/refresh-images.yml'
 
 permissions:
@@ -38,6 +40,9 @@ jobs:
 
       - name: Fetch real product photos
         run: python fetch_product_images.py
+
+      - name: Build catalogue shards
+        run: python build_catalogue_shards.py
 
       - name: Verify photo coverage
         shell: bash
@@ -78,7 +83,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          git add products.json assets/products
+          git add products.json assets/products catalogue/manifest.json catalogue/products-*.json
 
           if git diff --cached --quiet; then
             echo 'No photo changes to commit.'
