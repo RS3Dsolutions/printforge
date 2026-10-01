@@ -42,23 +42,34 @@ jobs:
       - name: Verify photo coverage
         shell: bash
         run: |
-          count=$(find assets/products -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) 2>/dev/null | wc -l)
-          products=$(python - <<'PY'
+          python - <<'PY'
           import json
+          from urllib.parse import urlparse
+
           d=json.load(open('products.json',encoding='utf-8'))
-          print(sum(bool(p.get('imagePaths')) for p in d.get('products',[])))
-          PY
+          products=d.get('products',[])
+          total=len(products)
+          with_images=sum(bool(p.get('imagePaths')) for p in products)
+          remote_urls=sum(
+              1 for p in products for u in (p.get('imagePaths') or [])
+              if urlparse(u).scheme in ('http','https')
           )
-          total=$(python - <<'PY'
-          import json
-          d=json.load(open('products.json',encoding='utf-8'))
-          print(len(d.get('products',[])))
-          PY
+          local_refs=sum(
+              1 for p in products for u in (p.get('imagePaths') or [])
+              if urlparse(u).scheme not in ('http','https')
           )
-          echo "Local image assets (photos and source previews): $count"
-          echo "Products with image assets: $products/$total"
-          if [ "$count" -eq 0 ]; then echo '::error::No local product image assets were produced.'; exit 1; fi
-          if [ "$products" -eq 0 ]; then echo '::error::No products have image assets.'; exit 1; fi
+
+          print(f'Products with image assets: {with_images}/{total}')
+          print(f'Remote image URLs: {remote_urls}')
+          print(f'Local image references: {local_refs}')
+
+          if total == 0:
+              raise SystemExit('::error::Catalogue contains no products.')
+          if with_images != total:
+              missing=[p.get('id') for p in products if not p.get('imagePaths')]
+              print('Missing image products:', ', '.join(missing[:50]))
+              raise SystemExit('::error::One or more products have no image assets.')
+          PY
 
       - name: Commit photos and manifest
         shell: bash
