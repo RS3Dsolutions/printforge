@@ -4,6 +4,7 @@ import json, math, re, time
 from pathlib import Path
 from urllib.parse import urlencode
 import requests
+from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/"products.json"
@@ -79,6 +80,68 @@ def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
             print(f"{label} error: {exc}; retrying in {wait}s",flush=True)
             time.sleep(wait)
     return None
+
+def discover_browser(group_terms, pages=4, page_size=30):
+    """Use MakerWorld's browser session when api.bambulab.com is rate-limited."""
+    out={}
+    with sync_playwright() as pw:
+        browser=pw.chromium.launch(headless=True)
+        context=browser.new_context(user_agent=UA, locale="en-US", viewport={"width":1440,"height":900})
+        page=context.new_page()
+        page.goto("https://makerworld.com/en/search/models", wait_until="domcontentloaded", timeout=60000)
+        time.sleep(2)
+        for group,terms in group_terms:
+            for term in terms:
+                keyword=norm(term)
+                for page_no in range(pages):
+                    url="https://makerworld.com/api/v1/search-service/select/design2?" + urlencode({"keyword":keyword,"offset":page_no*page_size,"limit":page_size})
+                    try:
+                        result=page.evaluate("""async (url) => {
+                            const r=await fetch(url,{credentials:"include",headers:{"Accept":"application/json"}});
+                            return {status:r.status,text:await r.text()};
+                        }""", url)
+                        if result["status"] == 200:
+                            payload=json.loads(result["text"])
+                            hits=list(_walk_designs(payload))
+                        else:
+                            print(f"Browser API '{term}' page {page_no+1} HTTP {result['status']}",flush=True)
+                            search_url="https://makerworld.com/en/search/models?" + urlencode({"isFromSearchList":"true","keyword":keyword,"p":page_no+1})
+                            page.goto(search_url, wait_until="domcontentloaded", timeout=60000)
+                            time.sleep(2)
+                            links=page.locator('a[href*="/en/models/"]').evaluate_all("(els)=>els.map(a=>({href:a.href,title:(a.innerText||a.getAttribute('title')||'').trim()}))")
+                            hits=[]
+                            for link in links:
+                                m=re.search(r"/en/models/(\d+)(?:-|$)",link.get("href",""))
+                                if m:
+                                    hits.append({"id":m.group(1),"title":link.get("title","")})
+                        if not hits:
+                            break
+                        added=0
+                        for item in hits:
+                            mid=str(item.get("id") or "").strip()
+                            if not mid:
+                                continue
+                            title=str(item.get("title") or item.get("name") or "")
+                            tags=" ".join(map(str,item.get("tags") or []))
+                            text_value=norm(f"{title} {tags}")
+                            if BLOCK.search(text_value):
+                                continue
+                            if keyword not in text_value and not PRACTICAL.search(text_value):
+                                continue
+                            src=f"https://makerworld.com/en/models/{mid}"
+                            if mid not in out:
+                                out[mid]=(src,group,term,item)
+                                added+=1
+                        print(f"  browser {term} page {page_no+1}: {len(hits)} hits, {added} new",flush=True)
+                        if len(hits)<page_size:
+                            break
+                    except Exception as exc:
+                        print(f"Browser search error '{term}' page {page_no+1}: {exc}",flush=True)
+                        break
+                    time.sleep(1.0)
+        context.close()
+        browser.close()
+    return out
 
 def discover_api(group, terms, pages=5, page_size=30):
     """Discover models through the public keyword search endpoint.
@@ -206,6 +269,11 @@ def main():
     for group,terms in GROUPS.items():
         print("Discovering",group,flush=True)
         candidates.update(discover_api(group,terms))
+        if len(candidates)==0:
+            break
+    if len(candidates)<700:
+        print("Switching to MakerWorld browser-backed discovery.",flush=True)
+        candidates=discover_browser(list(GROUPS.items()),pages=4,page_size=30)
     print("Unique discovered after keyword filtering:",len(candidates),flush=True)
 
     ranked=[]
