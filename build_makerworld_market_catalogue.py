@@ -81,71 +81,75 @@ def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
             time.sleep(wait)
     return None
 
-def discover_browser(group_terms, pages=4, page_size=30):
-    """Use MakerWorld's browser session when api.bambulab.com is rate-limited."""
+def discover_category_pages(group_terms, pages=15):
+    """Discover practical MakerWorld models from public category pages."""
     out={}
+    category_urls={
+        "hobby_diy":"https://makerworld.com/en/3d-models/300-hobby-and-diy",
+        "household":"https://makerworld.com/en/3d-models/400-household",
+        "education":"https://makerworld.com/en/3d-models/500-education",
+        "tools":"https://makerworld.com/en/3d-models/700-tools",
+        "3d_printer":"https://makerworld.com/en/3d-models/900-3d-printer",
+    }
+    def classify(title):
+        text_value=norm(title)
+        if BLOCK.search(text_value) or not PRACTICAL.search(text_value):
+            return None
+        best=None
+        best_score=0
+        for group,terms in group_terms:
+            score_value=sum(1 for term in terms if norm(term) in text_value)
+            if score_value>best_score:
+                best=group
+                best_score=score_value
+        return best
     with sync_playwright() as pw:
         browser=pw.chromium.launch(headless=True)
         context=browser.new_context(user_agent=UA, locale="en-US", viewport={"width":1440,"height":900})
         page=context.new_page()
-        page.goto("https://makerworld.com/en/search/models", wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(5000)
-        for group,terms in group_terms:
-            for term in terms:
-                keyword=norm(term)
-                for page_no in range(pages):
-                    url="https://makerworld.com/api/v1/search-service/select/design2?" + urlencode({"keyword":keyword,"offset":page_no*page_size,"limit":page_size})
+        for source_key,root in category_urls.items():
+            for page_no in range(1,pages+1):
+                url=root + ("?p=%d" % page_no)
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     try:
-                        result=page.evaluate("""async (url) => {
-                            const r=await fetch(url,{credentials:"include",headers:{"Accept":"application/json"}});
-                            return {status:r.status,text:await r.text()};
-                        }""", url)
-                        if result["status"] == 200:
-                            payload=json.loads(result["text"])
-                            hits=list(_walk_designs(payload))
-                        else:
-                            print(f"Browser API '{term}' page {page_no+1} HTTP {result['status']}",flush=True)
-                            search_url="https://makerworld.com/en/search/models?" + urlencode({"isFromSearchList":"true","keyword":keyword,"p":page_no+1})
-                            page.goto(search_url, wait_until="domcontentloaded", timeout=60000)
-                            try:
-                                page.wait_for_selector('a[href*="/en/models/"]', timeout=15000)
-                            except Exception:
-                                pass
-                            page.wait_for_timeout(2500)
-                            links=page.locator('a[href*="/en/models/"]').evaluate_all("(els)=>els.map(a=>({href:a.href,title:(a.innerText||a.getAttribute('title')||a.textContent||'').trim()}))")
-                            hits=[]
-                            for link in links:
-                                m=re.search(r"/en/models/(\d+)(?:-|$)",link.get("href",""))
-                                if m:
-                                    hits.append({"id":m.group(1),"title":link.get("title","")})
-                        if not hits:
-                            break
-                        added=0
-                        for item in hits:
-                            mid=str(item.get("id") or "").strip()
-                            if not mid:
-                                continue
-                            title=str(item.get("title") or item.get("name") or "")
-                            tags=" ".join(map(str,item.get("tags") or []))
-                            text_value=norm(f"{title} {tags}")
-                            if BLOCK.search(text_value):
-                                continue
-                            if keyword not in text_value and not PRACTICAL.search(text_value):
-                                continue
-                            src=f"https://makerworld.com/en/models/{mid}"
-                            if mid not in out:
-                                out[mid]=(src,group,term,item)
-                                added+=1
-                        print(f"  browser {term} page {page_no+1}: {len(hits)} hits, {added} new",flush=True)
-                        if len(hits)<page_size:
-                            break
-                    except Exception as exc:
-                        print(f"Browser search error '{term}' page {page_no+1}: {exc}",flush=True)
+                        page.wait_for_selector('a[href*="/en/models/"]', timeout=12000)
+                    except Exception:
+                        pass
+                    page.wait_for_timeout(1800)
+                    links=page.locator('a[href*="/en/models/"]').evaluate_all("""els=>els.map(a=>({
+                        href:a.href,
+                        title:(a.innerText||a.getAttribute('title')||a.textContent||'').trim()
+                    }))""")
+                    unique={}
+                    for link in links:
+                        href=link.get("href","")
+                        m=re.search(r"/en/models/(\d+)(?:-([^?#]+))?",href)
+                        if not m:
+                            continue
+                        mid=m.group(1)
+                        title=link.get("title","")
+                        unique[mid]=(href,title)
+                    if not unique:
+                        print(f"Category {source_key} page {page_no}: no model links",flush=True)
                         break
-                    time.sleep(1.0)
+                    added=0
+                    for mid,(href,title) in unique.items():
+                        group=classify(title)
+                        if not group:
+                            continue
+                        if mid not in out:
+                            out[mid]=(href.split("?")[0],group,"category:"+source_key,{"id":mid,"title":title})
+                            added+=1
+                    print(f"  category {source_key} page {page_no}: {len(unique)} model links, {added} practical new",flush=True)
+                except Exception as exc:
+                    print(f"Category page error {source_key} p{page_no}: {exc}",flush=True)
+                    break
+                time.sleep(0.7)
         context.close()
         browser.close()
     return out
+
 
 def discover_api(group, terms, pages=5, page_size=30):
     """Discover models through the public keyword search endpoint.
