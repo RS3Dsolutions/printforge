@@ -306,62 +306,57 @@ def main():
     existing_names={norm(p.get("name")) for p in products}
     existing_sources={p.get("source") for p in products}
 
-    candidates={}
-    for group,terms in GROUPS.items():
-        print("Discovering",group,flush=True)
-        candidates.update(discover_api(group,terms))
-        if len(candidates)==0:
-            break
+    print("Discovering MakerWorld from public category pages.",flush=True)
+    candidates=discover_category_pages(list(GROUPS.items()),pages=15)
+    print("Unique category-page candidates:",len(candidates),flush=True)
     if len(candidates)<700:
-        print("Switching to MakerWorld browser-backed discovery.",flush=True)
-        candidates=discover_browser(list(GROUPS.items()),pages=4,page_size=30)
-    print("Unique discovered after keyword filtering:",len(candidates),flush=True)
+        raise SystemExit(f"Only {len(candidates)} practical MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
 
     ranked=[]
     for mid,(src,group,term,item) in candidates.items():
-        title=str(item.get("title") or item.get("name") or "")
-        tags=" ".join(map(str,item.get("tags") or []))
-        stats=item.get("stats") or {}
-        downloads=int(item.get("downloadCount") or stats.get("downloadCount") or 0)
-        prints=int(item.get("printCount") or stats.get("printCount") or 0)
-        likes=int(item.get("likeCount") or stats.get("likeCount") or 0)
-        rough=2.0*math.log1p(downloads)+2.8*math.log1p(prints)+1.1*math.log1p(likes)
-        if PRACTICAL.search(f"{title} {tags}"):
-            rough+=8
+        title=str(item.get("title") or "")
+        rough=8 if PRACTICAL.search(title) else 0
+        rough+=3 if any(k in norm(title) for k in ["custom","parametric","modular"]) else 0
+        if group in ("Automotive","Repair","Business & Retail"):
+            rough+=3
         ranked.append((rough,mid,src,group,item))
     ranked.sort(reverse=True)
 
     scored=[]
-    detail_limit=min(len(ranked),1800)
-    for n,(_,mid,src,group,item) in enumerate(ranked[:detail_limit],1):
-        # design2 already exposes license metadata on many results. Use it
-        # immediately so we do not spend a rate-limited detail request.
-        item_license=item.get("license") or item.get("licenseName") or ""
-        d=item if license_ok(item_license) else detail(mid)
-        if not d:
-            continue
-        lic=d.get("license") or d.get("licenseName") or item_license
-        if not license_ok(lic):
-            continue
-        title=d.get("title") or item.get("title") or ""
-        if norm(title) in existing_names or src in existing_sources:
-            continue
-        sc=score(d,group)
-        if sc<8:
-            continue
-        slug=str(d.get("slug") or item.get("slug") or "").strip()
-        canonical=f"https://makerworld.com/en/models/{mid}-{slug}" if slug else src
-        scored.append((sc,group,canonical,d))
-        if n%50==0:
-            print("Detailed",n,"accepted",len(scored),flush=True)
+    with sync_playwright() as pw:
+        browser=pw.chromium.launch(headless=True)
+        context=browser.new_context(user_agent=UA, locale="en-US", viewport={"width":1440,"height":900})
+        for n,(_,mid,src,group,item) in enumerate(ranked[:1400],1):
+            d=detail_browser(context,src,mid)
+            if not d:
+                continue
+            lic=d.get("license") or ""
+            if not license_ok(lic):
+                continue
+            title=d.get("title") or item.get("title") or ""
+            if norm(title) in existing_names or src in existing_sources:
+                continue
+            d["downloadCount"]=0
+            d["printCount"]=0
+            d["likeCount"]=0
+            sc=score(d,group)
+            if sc<8:
+                continue
+            scored.append((sc,group,src,d))
+            if n%50==0:
+                print("Verified",n,"accepted",len(scored),flush=True)
+            if len(scored)>=650:
+                break
+        context.close()
+        browser.close()
 
-
+    print("Qualifying licensed MakerWorld products:",len(scored),flush=True)
     scored.sort(key=lambda x:x[0],reverse=True)
     selected=[]
     seen=set()
     counts={g:0 for g in GROUPS}
     total_terms=sum(len(v) for v in GROUPS.values())
-    quota={g:max(20,round(TARGET*len(terms)/total_terms)) for g,terms in GROUPS.items()}
+    quota={g:max(15,round(TARGET*len(terms)/total_terms)) for g,terms in GROUPS.items()}
 
     for sc,g,src,d in scored:
         key=norm(d.get("title"))
@@ -377,7 +372,7 @@ def main():
     if len(selected)<TARGET:
         for sc,g,src,d in scored:
             key=norm(d.get("title"))
-            if key in seen:
+            if not key or key in seen:
                 continue
             selected.append((sc,g,src,d))
             seen.add(key)
@@ -385,7 +380,7 @@ def main():
                 break
 
     if len(selected)<TARGET:
-        raise SystemExit(f"Only {len(selected)} qualifying MakerWorld products found; refusing to create a fake 446.")
+        raise SystemExit(f"Only {len(selected)} qualifying MakerWorld products found; refusing to create a fake {TARGET}.")
 
     base=max([int(re.search(r"(\d+)$",p.get("id","0")).group(1)) for p in products if p.get("id","").startswith("PF-MW-")]+[0])
     for i,(sc,g,src,d) in enumerate(selected,1):
@@ -394,7 +389,7 @@ def main():
     data["products"]=products
     data["total"]=len(products)
     data["withImages"]=sum(bool(p.get("imagePaths")) for p in products)
-    data["newProducts"]=446
+    data["newProducts"]=TARGET
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Added {TARGET} MakerWorld products. Catalogue total: {len(products)}",flush=True)
     print("Category counts:",counts,flush=True)
