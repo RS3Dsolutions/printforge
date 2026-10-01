@@ -38,7 +38,7 @@ GROUPS={
     "Creator & Gaming":["controller stand","game controller holder","headset holder","gaming desk accessory","stream deck mount","microphone holder","camera mount","desk gaming organizer"],
     "Repair":["replacement part","replacement clip","replacement knob","repair bracket","hinge repair","appliance replacement","vacuum replacement","furniture repair","mounting bracket"]
 }
-ALLOW={"CC0","BY","BY-SA","PUBLIC DOMAIN","CC BY","CC BY-SA"}
+ALLOW={"CC0","BY","BY-SA","BY-ND","PUBLIC DOMAIN","CC BY","CC BY-SA","CC BY-ND"}
 BLOCK=re.compile(r"\b(weapon|gun|firearm|ammo|grenade|knife|sword|cosplay|figurine|fanart|pokemon|marvel|disney|star wars|harry potter|nintendo logo|medical|prosthetic|baby|food safe|food-contact)\b",re.I)
 PRACTICAL=re.compile(r"\b(holder|mount|stand|organizer|clip|bracket|adapter|case|box|rack|hook|replacement|repair|storage|jig|fixture|caddy|tray|dock|charger|cover)\b",re.I)
 
