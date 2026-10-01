@@ -85,6 +85,6 @@ jobs:
           HTML
           BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
           echo "Browser: $BROWSER"
-          "$BROWSER" --headless --no-sandbox --disable-gpu --allow-file-access-from-files --dump-dom file:///tmp/printforge-image-test.html > /tmp/dom.txt
+          "$BROWSER" --headless --no-sandbox --disable-gpu --allow-file-access-from-files --virtual-time-budget=6000 --dump-dom file:///tmp/printforge-image-test.html > /tmp/dom.txt
           cat /tmp/dom.txt
           grep -q "naturalWidth=[1-9]" /tmp/dom.txt
