@@ -356,32 +356,28 @@ with sync_playwright() as pw:
         dest = ASSET / pid
         dest.mkdir(parents=True, exist_ok=True)
         existing = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
-        if len(existing) >= 8:
-            p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in existing[:8]]
-            log(f'  KEEP: {len(p["imagePaths"])} existing photos')
-            summary.append((pid, len(p['imagePaths'])))
-            continue
 
-        # Remove old challenge-page screenshots/partial files first.
+        # Remove old challenge-page screenshots/partial files before resolving the
+        # current source. Existing local photos are retained only if no remote/API
+        # gallery can be resolved.
         clean_old_assets(dest)
 
-        # Platform APIs are the primary path. They return the actual public
-        # gallery/cover media and bypass anti-bot/security-verification HTML.
+        # Platform APIs are the primary path. For supported platforms we keep the
+        # original public gallery URLs instead of copying image bytes into GitHub.
+        # This keeps the catalogue lightweight and lets the source CDN handle image delivery.
         api_urls = api_images_for_source(src)
-        got = 0
-        for u in api_urls:
-            if got >= 8:
-                break
-            ext = Path(urlparse(u).path).suffix.lower()
-            if ext not in IMG_EXTS:
-                ext = '.jpg'
-            f = dest / f'{got + 1}{ext}'
-            if download(u, f, src):
-                got += 1
-        if got:
-            log(f'  API: downloaded {got} source gallery image(s)')
+        if api_urls:
+            p['imagePaths'] = api_urls[:8]
+            clean_old_assets(dest)
+            log(f'  REMOTE: using {len(p["imagePaths"])} public source image URL(s)')
+            summary.append((pid, len(p['imagePaths'])))
+            time.sleep(0.2)
+            continue
 
-        # Secondary extraction path for platforms/models without a usable API.
+        # Secondary extraction/browser path for sources without a usable public image API.
+        # These are kept local because the source URL cannot be safely resolved to a
+        # stable remote gallery URL by the current resolver.
+        got = 0
         if got < 8:
             got += browser_capture(page, src, dest, 8 - got)
 
@@ -398,6 +394,12 @@ with sync_playwright() as pw:
                     f = dest / f'{got + 1}{ext}'
                     if download(u, f, src):
                         got += 1
+
+        files = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
+        p['imagePaths'] = [str(x.relative_to(ROOT)).replace('\\', '/') for x in files[:8]]
+        log(f'  LOCAL FALLBACK: {len(p["imagePaths"])} real photos')
+        summary.append((pid, len(p['imagePaths'])))
+        time.sleep(0.2)
 
         # Never publish source-page screenshots as catalogue product imagery.
         # If no genuine gallery image was obtained, leave the product without a
