@@ -82,7 +82,12 @@ def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
     return None
 
 def discover_category_pages(group_terms, pages=15):
-    """Discover practical MakerWorld models from public category pages."""
+    """Discover practical MakerWorld models from public category pages.
+
+    MakerWorld category pages are effectively infinite-scroll pages in the
+    anonymous browser, so do not depend on a fragile ?p= pagination parameter.
+    Model-card text can also be empty; derive a useful title from the model URL.
+    """
     out={}
     category_urls={
         "hobby_diy":"https://makerworld.com/en/3d-models/300-hobby-and-diy",
@@ -91,6 +96,14 @@ def discover_category_pages(group_terms, pages=15):
         "tools":"https://makerworld.com/en/3d-models/700-tools",
         "3d_printer":"https://makerworld.com/en/3d-models/900-3d-printer",
     }
+
+    def slug_title(href, fallback=""):
+        m=re.search(r"/en/models/\d+-([^?#]+)",href)
+        if not m:
+            return fallback.strip()
+        slug=m.group(1).replace("-"," ").replace("_"," ")
+        return re.sub(r"\s+"," ",slug).strip()
+
     def classify(title):
         text_value=norm(title)
         if BLOCK.search(text_value) or not PRACTICAL.search(text_value):
@@ -103,24 +116,28 @@ def discover_category_pages(group_terms, pages=15):
                 best=group
                 best_score=score_value
         return best
+
     with sync_playwright() as pw:
         browser=pw.chromium.launch(headless=True)
-        context=browser.new_context(user_agent=UA, locale="en-US", viewport={"width":1440,"height":900})
+        context=browser.new_context(
+            user_agent=UA, locale="en-US",
+            viewport={"width":1440,"height":1200}
+        )
         page=context.new_page()
+
         for source_key,root in category_urls.items():
-            for page_no in range(1,pages+1):
-                url=root + ("?p=%d" % page_no)
-                try:
-                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                    try:
-                        page.wait_for_selector('a[href*="/en/models/"]', timeout=12000)
-                    except Exception:
-                        pass
-                    page.wait_for_timeout(1800)
+            try:
+                page.goto(root, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(2500)
+                before=0
+                stable=0
+
+                for scroll_no in range(1,13):
                     links=page.locator('a[href*="/en/models/"]').evaluate_all("""els=>els.map(a=>({
                         href:a.href,
-                        title:(a.innerText||a.getAttribute('title')||a.textContent||'').trim()
+                        title:(a.innerText||a.getAttribute('title')||a.getAttribute('aria-label')||a.textContent||'').trim()
                     }))""")
+
                     unique={}
                     for link in links:
                         href=link.get("href","")
@@ -128,28 +145,44 @@ def discover_category_pages(group_terms, pages=15):
                         if not m:
                             continue
                         mid=m.group(1)
-                        title=link.get("title","")
-                        unique[mid]=(href,title)
-                    if not unique:
-                        print(f"Category {source_key} page {page_no}: no model links",flush=True)
-                        break
+                        title=link.get("title","") or slug_title(href)
+                        if title:
+                            unique[mid]=(href.split("?")[0],title)
+
                     added=0
                     for mid,(href,title) in unique.items():
                         group=classify(title)
                         if not group:
                             continue
                         if mid not in out:
-                            out[mid]=(href.split("?")[0],group,"category:"+source_key,{"id":mid,"title":title})
+                            out[mid]=(href,group,"category:"+source_key,{"id":mid,"title":title})
                             added+=1
-                    print(f"  category {source_key} page {page_no}: {len(unique)} model links, {added} practical new",flush=True)
-                except Exception as exc:
-                    print(f"Category page error {source_key} p{page_no}: {exc}",flush=True)
-                    break
-                time.sleep(0.7)
+
+                    print(
+                        f"  category {source_key} scroll {scroll_no}: "
+                        f"{len(unique)} links, {added} practical new",
+                        flush=True
+                    )
+
+                    current=len(out)
+                    if current==before:
+                        stable+=1
+                    else:
+                        stable=0
+                        before=current
+                    if stable>=2:
+                        break
+
+                    page.mouse.wheel(0,9000)
+                    page.wait_for_timeout(1800)
+
+            except Exception as exc:
+                print(f"Category page error {source_key}: {exc}",flush=True)
+
         context.close()
         browser.close()
-    return out
 
+    return out
 
 def discover_api(group, terms, pages=5, page_size=30):
     """Discover models through the public keyword search endpoint.
