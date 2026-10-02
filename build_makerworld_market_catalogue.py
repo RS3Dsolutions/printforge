@@ -81,31 +81,24 @@ def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
             time.sleep(wait)
     return None
 
-def discover_category_pages(group_terms, pages=15):
-    """Discover practical MakerWorld models from public category pages.
+def discover_category_pages(group_terms, pages=60, page_size=20):
+    """Discover MakerWorld models through the public category JSON feed.
 
-    MakerWorld category pages are effectively infinite-scroll pages in the
-    anonymous browser, so do not depend on a fragile ?p= pagination parameter.
-    Model-card text can also be empty; derive a useful title from the model URL.
+    This avoids MakerWorld HTML/SSR rendering entirely. The category feed is
+    the same public feed pattern used by independent MakerWorld scrapers.
     """
     out={}
-    category_urls={
-        "hobby_diy":"https://makerworld.com/en/3d-models/300-hobby-and-diy",
-        "household":"https://makerworld.com/en/3d-models/400-household",
-        "education":"https://makerworld.com/en/3d-models/500-education",
-        "tools":"https://makerworld.com/en/3d-models/700-tools",
-        "3d_printer":"https://makerworld.com/en/3d-models/900-3d-printer",
+    category_keys={
+        "hobby_diy":"category_300",
+        "household":"category_400",
+        "education":"category_500",
+        "tools":"category_700",
+        "3d_printer":"category_900",
+        "toys_games":"category_800",
     }
 
-    def slug_title(href, fallback=""):
-        m=re.search(r"/en/models/\d+-([^?#]+)",href)
-        if not m:
-            return fallback.strip()
-        slug=m.group(1).replace("-"," ").replace("_"," ")
-        return re.sub(r"\s+"," ",slug).strip()
-
-    def classify(title):
-        text_value=norm(title)
+    def classify(title, tags=""):
+        text_value=norm(f"{title} {tags}")
         if BLOCK.search(text_value) or not PRACTICAL.search(text_value):
             return None
         best=None
@@ -117,70 +110,57 @@ def discover_category_pages(group_terms, pages=15):
                 best_score=score_value
         return best
 
-    with sync_playwright() as pw:
-        browser=pw.chromium.launch(headless=True)
-        context=browser.new_context(
-            user_agent=UA, locale="en-US",
-            viewport={"width":1440,"height":1200}
-        )
-        page=context.new_page()
+    for source_key,nav_key in category_keys.items():
+        empty_pages=0
+        for page_no in range(1,pages+1):
+            offset=(page_no-1)*page_size
+            url=f"{API_BASE}/search-service/select/design/nav"
+            payload=get_json(
+                url,
+                params={"navKey":nav_key,"offset":offset,"limit":page_size},
+                timeout=30,
+                label=f"Category {source_key} page {page_no}",
+                min_delay=0.8,
+            )
+            if payload is None:
+                empty_pages += 1
+                if empty_pages>=2:
+                    break
+                continue
 
-        for source_key,root in category_urls.items():
-            try:
-                page.goto(root, wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(2500)
-                before=0
-                stable=0
+            hits=payload.get("hits",[]) if isinstance(payload,dict) else []
+            models=[]
+            for item in hits:
+                model=item.get("design") if isinstance(item,dict) and isinstance(item.get("design"),dict) else item
+                if not isinstance(model,dict) or not model.get("id"):
+                    continue
+                if model.get("designType",0)!=0:
+                    continue
+                models.append(model)
 
-                for scroll_no in range(1,13):
-                    links=page.locator('a[href*="/en/models/"]').evaluate_all("""els=>els.map(a=>({
-                        href:a.href,
-                        title:(a.innerText||a.getAttribute('title')||a.getAttribute('aria-label')||a.textContent||'').trim()
-                    }))""")
+            if not models:
+                print(f"Category {source_key} page {page_no}: no models returned",flush=True)
+                break
 
-                    unique={}
-                    for link in links:
-                        href=link.get("href","")
-                        m=re.search(r"/en/models/(\d+)(?:-([^?#]+))?",href)
-                        if not m:
-                            continue
-                        mid=m.group(1)
-                        title=link.get("title","") or slug_title(href)
-                        if title:
-                            unique[mid]=(href.split("?")[0],title)
+            added=0
+            for model in models:
+                mid=str(model.get("id")).strip()
+                title=str(model.get("title") or model.get("name") or "").strip()
+                tags=" ".join(map(str,model.get("tags") or []))
+                group=classify(title,tags)
+                if not group:
+                    continue
+                src=f"https://makerworld.com/en/models/{mid}"
+                if mid not in out:
+                    out[mid]=(src,group,"category:"+source_key,model)
+                    added+=1
 
-                    added=0
-                    for mid,(href,title) in unique.items():
-                        group=classify(title)
-                        if not group:
-                            continue
-                        if mid not in out:
-                            out[mid]=(href,group,"category:"+source_key,{"id":mid,"title":title})
-                            added+=1
-
-                    print(
-                        f"  category {source_key} scroll {scroll_no}: "
-                        f"{len(unique)} links, {added} practical new",
-                        flush=True
-                    )
-
-                    current=len(out)
-                    if current==before:
-                        stable+=1
-                    else:
-                        stable=0
-                        before=current
-                    if stable>=2:
-                        break
-
-                    page.mouse.wheel(0,9000)
-                    page.wait_for_timeout(1800)
-
-            except Exception as exc:
-                print(f"Category page error {source_key}: {exc}",flush=True)
-
-        context.close()
-        browser.close()
+            print(
+                f"  category {source_key} page {page_no}: "
+                f"{len(models)} models, {added} practical new",
+                flush=True
+            )
+            empty_pages=0
 
     return out
 
