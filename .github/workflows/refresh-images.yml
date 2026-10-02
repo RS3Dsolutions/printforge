@@ -14,10 +14,12 @@ on:
 permissions:
   contents: write
 
-# Never allow two image-refresh jobs to race each other on main.
+# Keep one refresh active at a time, but NEVER cancel an active catalogue build.
+# A long MakerWorld discovery run must be allowed to finish even if another
+# source commit lands on main while it is running.
 concurrency:
   group: printforge-refresh-product-photos
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh-images:
