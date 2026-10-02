@@ -81,7 +81,7 @@ def get_json(url, params=None, timeout=30, label="request", min_delay=1.5):
             time.sleep(wait)
     return None
 
-def discover_category_pages(group_terms, pages=60, page_size=20):
+def discover_category_pages(group_terms, pages=80, page_size=20):
     """Discover MakerWorld models through the public category JSON feed.
 
     This avoids MakerWorld HTML/SSR rendering entirely. The category feed is
@@ -320,7 +320,7 @@ def main():
     existing_sources={p.get("source") for p in products}
 
     print("Discovering MakerWorld from public category pages.",flush=True)
-    candidates=discover_category_pages(list(GROUPS.items()),pages=15)
+    candidates=discover_category_pages(list(GROUPS.items()),pages=80)
     print("Unique category-page candidates:",len(candidates),flush=True)
     if len(candidates)<700:
         raise SystemExit(f"Only {len(candidates)} practical MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
