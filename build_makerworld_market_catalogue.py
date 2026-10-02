@@ -40,7 +40,7 @@ GROUPS={
 }
 ALLOW={"CC0","BY","BY-SA","BY-ND","PUBLIC DOMAIN","CC BY","CC BY-SA","CC BY-ND"}
 BLOCK=re.compile(r"\b(weapon|gun|firearm|ammo|grenade|knife|sword|cosplay|figurine|fanart|pokemon|marvel|disney|star wars|harry potter|nintendo logo|medical|prosthetic|baby|food safe|food-contact)\b",re.I)
-PRACTICAL=re.compile(r"\b(holder|mount|stand|organizer|clip|bracket|adapter|case|box|rack|hook|replacement|repair|storage|jig|fixture|caddy|tray|dock|charger|cover)\b",re.I)
+PRACTICAL=re.compile(r"\b(holder|mount|stand|organizer|clip|bracket|adapter|case|box|rack|hook|replacement|repair|storage|jig|fixture|caddy|tray|dock|charger|cover|part|component|insert|cap|lid|bin|basket|drawer|shelf|hanger|bottle|container|coaster|keychain|tag|label|sign|display|phone|tablet|laptop|keyboard|mouse|headset|controller|cable|cord|wire|battery|ssd|hard.?drive|raspberry|arduino|camera|microphone|speaker|remote|tool|wrench|socket|drill|screwdriver|clamp|pegboard|gridfinity|car|vehicle|bike|scooter|dash|console|visor|cup|seat|mirror|license.?plate|fuse|knob|hinge|wheel|wheel.?cap|panel|gasket|seal|bracket|fixture|template|gauge|spacer|shim|mounting|fastener|enclosure|housing|casework)\b",re.I)
 
 def norm(s):
     return re.sub(r"[^a-z0-9]+"," ",(s or "").lower()).strip()
@@ -101,7 +101,7 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
         "props":"category_1000",
     }
 
-    def classify(title, tags=""):
+    def classify(title, tags="", source_key=""):
         text_value=norm(f"{title} {tags}")
         if BLOCK.search(text_value) or not PRACTICAL.search(text_value):
             return None
@@ -112,7 +112,24 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
             if score_value>best_score:
                 best=group
                 best_score=score_value
-        return best
+        if best:
+            return best
+
+        # Category-aware fallback: the public MakerWorld category is a useful
+        # second signal when the title uses an unexpected product name.
+        fallback={
+            "tools":"Tools & Workshop",
+            "3d_printer":"Tools & Workshop",
+            "household":"Home & Living",
+            "hobby_diy":"Home & Living",
+            "education":"Office & Desk",
+            "toys_games":"Creator & Gaming",
+            "art":"Business & Retail",
+            "fashion":"Home & Living",
+            "props":"Creator & Gaming",
+            "miniatures":"Creator & Gaming",
+        }
+        return fallback.get(source_key)
 
     for source_key,nav_key in category_keys.items():
         empty_pages=0
@@ -151,7 +168,7 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
                 mid=str(model.get("id")).strip()
                 title=str(model.get("title") or model.get("name") or "").strip()
                 tags=" ".join(map(str,model.get("tags") or []))
-                group=classify(title,tags)
+                group=classify(title,tags,source_key)
                 if not group:
                     continue
                 src=f"https://makerworld.com/en/models/{mid}"
@@ -326,7 +343,7 @@ def main():
     print("Discovering MakerWorld from public category pages.",flush=True)
     candidates=discover_category_pages(list(GROUPS.items()),pages=80)
     print("Unique category-page candidates:",len(candidates),flush=True)
-    if len(candidates)<500:
+    if len(candidates)<700:
         raise SystemExit(f"Only {len(candidates)} practical MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
 
     ranked=[]
