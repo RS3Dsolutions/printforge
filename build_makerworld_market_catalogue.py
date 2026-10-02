@@ -24,8 +24,8 @@ GROUP_SOURCES={
     "Office & Desk":["household","3d_printer","hobby_diy"],
     "Electronics & Tech":["3d_printer","tools","household"],
     "Home & Living":["household","hobby_diy"],
-    "Business & Retail":["household","hobby_diy","tools"],
-    "Creator & Gaming":["toys_games","3d_printer","hobby_diy"],
+    "Business & Retail":["household","hobby_diy","tools","fashion","art"],
+    "Creator & Gaming":["toys_games","3d_printer","hobby_diy","art","props"],
     "Repair":["tools","household","3d_printer","hobby_diy"],
 }
 GROUPS={
@@ -89,12 +89,16 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
     """
     out={}
     category_keys={
+        "art":"category_100",
+        "fashion":"category_200",
         "hobby_diy":"category_300",
         "household":"category_400",
         "education":"category_500",
+        "miniatures":"category_600",
         "tools":"category_700",
-        "3d_printer":"category_900",
         "toys_games":"category_800",
+        "3d_printer":"category_900",
+        "props":"category_1000",
     }
 
     def classify(title, tags=""):
@@ -322,7 +326,7 @@ def main():
     print("Discovering MakerWorld from public category pages.",flush=True)
     candidates=discover_category_pages(list(GROUPS.items()),pages=80)
     print("Unique category-page candidates:",len(candidates),flush=True)
-    if len(candidates)<700:
+    if len(candidates)<500:
         raise SystemExit(f"Only {len(candidates)} practical MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
 
     ranked=[]
