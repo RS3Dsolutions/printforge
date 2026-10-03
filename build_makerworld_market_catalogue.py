@@ -330,6 +330,15 @@ def make_product(d,group,source,rank):
 def main():
     data=json.loads(DATA.read_text(encoding="utf-8"))
     products=data.get("products",[])
+    # Make the build idempotent: replace a previous MakerWorld expansion instead of
+    # appending another 446 products on every retry.
+    previous_mw=[p for p in products if p.get("catalogBatch")=="makerworld-market-446"]
+    if previous_mw:
+        products=[p for p in products if p.get("catalogBatch")!="makerworld-market-446"]
+        data["products"]=products
+        print(f"Removed {len(previous_mw)} previous MakerWorld products before rebuilding.",flush=True)
+    if len(products)!=554:
+        raise SystemExit(f"Base catalogue must contain exactly 554 non-MakerWorld products; found {len(products)}.")
     existing_names={norm(p.get("name")) for p in products}
     existing_sources={p.get("source") for p in products}
 
