@@ -185,7 +185,7 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
 
     return out
 
-def discover_api(group, terms, pages=10, page_size=30):
+def discover_api(group, terms, pages=30, page_size=30):
     """Discover MakerWorld candidates through the public keyword-search endpoint."""
     out={}
     for term in terms:
@@ -335,7 +335,7 @@ def main():
 
     candidates={}
     for group,terms in GROUPS.items():
-        found=discover_api(group,terms,pages=10,page_size=30)
+        found=discover_api(group,terms,pages=30,page_size=30)
         candidates.update(found)
         print(f"{group}: {len(found)} licensed practical candidates",flush=True)
 
