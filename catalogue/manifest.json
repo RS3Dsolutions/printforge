@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "products.json",
-  "totalProducts": 554,
+  "totalProducts": 1000,
   "shardSize": 75,
   "shards": [
     {
@@ -49,8 +49,44 @@
     {
       "file": "catalogue/products-08.json",
       "start": 526,
-      "end": 554,
-      "count": 29
+      "end": 600,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-09.json",
+      "start": 601,
+      "end": 675,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-10.json",
+      "start": 676,
+      "end": 750,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-11.json",
+      "start": 751,
+      "end": 825,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-12.json",
+      "start": 826,
+      "end": 900,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-13.json",
+      "start": 901,
+      "end": 975,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-14.json",
+      "start": 976,
+      "end": 1000,
+      "count": 25
     }
   ]
 }

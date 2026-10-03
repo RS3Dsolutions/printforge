@@ -1,0 +1,1941 @@
+{
+  "schemaVersion": 1,
+  "shard": 10,
+  "products": [
+    {
+      "id": "PF-MW-122",
+      "name": "Lasko Box Fan Foot",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Lasko Box Fan Foot is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US103c10a04d1d11/design/2023-12-11_e0d27413a0f0b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US103c10a04d1d11/design/2023-12-11_f99ceb4e05a4a.png",
+        "https://makerworld.bblmw.com/makerworld/model/US103c10a04d1d11/113823376/instance/2024-08-21_85e537558954d.png",
+        "https://makerworld.bblmw.com/makerworld/model/US103c10a04d1d11/113823376/instance/2024-08-21_9948400fc9f7b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US103c10a04d1d11/528847786/instance/2025-12-20_c6ea169f8cb928.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Ocular Dynamic",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/90342",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-123",
+      "name": "Road bike stand (28-40mm)",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Road bike stand (28-40mm) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9cab4916f3f4ce/design/2024-03-18_fe04308a86e2b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9cab4916f3f4ce/1029618666/instance/2025-01-15_63c82052a90e5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9cab4916f3f4ce/1029618666/instance/2025-01-15_af5e8a4d40d24.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9cab4916f3f4ce/262909453/instance/2025-03-29_d2bbd05890aa4.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "davevo",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/380762",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-124",
+      "name": "Gridfinity Simple Base, half grid - all sizes",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Simple Base, half grid - all sizes is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf9cbe51e65a485/design/2024-12-06_9b3da5c54ce8d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf9cbe51e65a485/171063116/instance/2024-12-06_9b3da5c54ce8d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf9cbe51e65a485/171069943/instance/2024-12-06_5b08dbbadc04f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf9cbe51e65a485/171069943/instance/2024-12-06_e3eec682aca5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf9cbe51e65a485/171069943/instance/2024-12-06_e197337b4989.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Schmidsfeld",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/854988",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-125",
+      "name": "Display Stand for Miniature Collectibles",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Display Stand for Miniature Collectibles is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US572ecd52996e22/design/2025-03-25_eb89f488865dc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US572ecd52996e22/259652954/instance/2025-03-25_eb89f488865dc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US572ecd52996e22/259652954/instance/2025-03-25_30099a8581609.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MiniPrints",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/1248032",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-126",
+      "name": "Modular wire management tray",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Modular wire management tray is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/design/2024-02-22_cbwalv2mchwp.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/66403381/instance/2024-04-09_c8412bac911db8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/96058344/instance/2024-07-07_101821d610eb8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/96058344/instance/2024-07-07_7206332213195.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/96058344/instance/2024-07-07_d4d4616d94852.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a2d377ed81495/297685778/instance/2025-05-09_947c3b2c67c958.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Salacious_sloth",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/196682",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-127",
+      "name": "Replacement Battery Cover Door for Gameboy Color",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Replacement Battery Cover Door for Gameboy Color is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US98274a39c08cdc/design/2024-11-23_2803cc1175b6e.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US98274a39c08cdc/161396189/instance/2024-11-23_536313481b65.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US98274a39c08cdc/161396189/instance/2024-11-23_033673687627e8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US98274a39c08cdc/161397214/instance/2024-11-23_4f9f3e76dbaa1.webp"
+      ],
+      "platform": "MakerWorld",
+      "creator": "E3D6C5",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/813740",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-128",
+      "name": "Display shelf",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Display shelf is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USa784d3cda7f852/design/2023-12-01_30e49730b244a8.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "knobby",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/80524",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-129",
+      "name": "Modular Pot Lid Organizer",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Modular Pot Lid Organizer is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US35fc7e66707470/design/2025-11-12_a1b9fff4240438.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35fc7e66707470/643297178/instance/2025-11-12_a1b9fff4240438.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35fc7e66707470/972861005/instance/3b320b7efa9a9aba.png",
+        "https://makerworld.bblmw.com/makerworld/model/US35fc7e66707470/995322499/instance/59ae5b9fedb3a994.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "BrownBum",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/1990694",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-130",
+      "name": "Gridfinity Bins for Clamshell Parts Boxes",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Bins for Clamshell Parts Boxes is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US12268196296f14/design/2024-11-14_9850b11b87273.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US12268196296f14/158498006/instance/2024-11-14_9850b11b87273.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US12268196296f14/207026256/instance/2025-01-14_cc0212dd2bcf4.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US12268196296f14/207026256/instance/2025-01-14_c61a625f8a7ca.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Nick Johnson",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/786462",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-131",
+      "name": "Laptop and iPad Vertical Stand",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Laptop and iPad Vertical Stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US686c0a0eb9b433/design/2024-12-27_61abad7fd8007.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US686c0a0eb9b433/187807841/instance/2024-12-27_61abad7fd8007.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "tylerwince",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/920488",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-132",
+      "name": "Strong bike bottle cage",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Strong bike bottle cage is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/design/2024-03-15_588cf1ee3acab8.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/58997241/instance/2024-03-15_588cf1ee3acab8.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/85389028/instance/2024-06-08_dc18e3d96ce45.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/85389028/instance/2024-06-08_74b3d874980d7.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/386464479/instance/2025-08-21_ee652b8100692.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb8cfb6e54bf1db/386464479/instance/2025-08-21_ded462895a8b98.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Alex",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/372825",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-133",
+      "name": "Cup Holder Coaster",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cup Holder Coaster is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US842f3b2bac4dda/design/2024-04-18_23f96c0c140bd.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US842f3b2bac4dda/69329192/instance/2024-04-18_23f96c0c140bd.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US842f3b2bac4dda/69329192/instance/2024-04-18_9f01fafca48cf.png",
+        "https://makerworld.bblmw.com/makerworld/model/US842f3b2bac4dda/94439836/instance/2024-07-02_658844c3cdbe2.png",
+        "https://makerworld.bblmw.com/makerworld/model/US842f3b2bac4dda/94439836/instance/2024-07-02_95fd3a0b08a5d.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Nick",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/434291",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-134",
+      "name": "Anti spill cup holder",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Anti spill cup holder is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/design/2024-04-16_e2f6103325578.gif",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/74567068/instance/2024-05-05_c79f21b274c35.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/74567068/instance/2024-05-05_cd26563c25036.png",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/77384225/instance/2024-05-14_636ab73942ee7.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/69158707/instance/2024-04-18_1ec1cc3a15ba7.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/69158707/instance/2024-04-18_c0054c29a1a53.png",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/69158707/instance/2024-04-18_4796ccd6e328c.png",
+        "https://makerworld.bblmw.com/makerworld/model/USa2b4d3a6153f87/69158707/instance/2024-04-18_71730b147be65.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "christofer.jh",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/429498",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-135",
+      "name": "Gridfinity SD / MicroSD Card Holder 1x2",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity SD / MicroSD Card Holder 1x2 is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USbc4ea10a460daa/design/2024-11-26_c7f4b371de7a5.png",
+        "https://makerworld.bblmw.com/makerworld/model/USbc4ea10a460daa/164068740/instance/2024-11-26_c7f4b371de7a5.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "jim_philly",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/826405",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-136",
+      "name": "Key Hook and Tray, Keychain",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Key Hook and Tray, Keychain is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/design/2024-06-28_1e1c0fbdc97b4.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/92778544/instance/2024-06-28_1e1c0fbdc97b4.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/204676254/instance/2025-01-17_13f68de501423.png",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/204676254/instance/2025-01-17_a7e1a4d69a068.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/204676254/instance/2025-01-17_d239463e3a2ea.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/204676254/instance/2025-01-17_d914d927e9712.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US3eed8509313465/204676254/instance/2025-01-17_6fdcbc9f439bc.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "xMaS",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/515384",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-137",
+      "name": "Skateboard / Longboard wall hanger bracket",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Skateboard / Longboard wall hanger bracket is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe6f1f2fffcc22f/design/2025-01-13_1dd3d55b45f0f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe6f1f2fffcc22f/201522131/instance/2025-01-13_1dd3d55b45f0f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe6f1f2fffcc22f/793323242/instance/9a9557923eb61a99.png",
+        "https://makerworld.bblmw.com/makerworld/model/USe6f1f2fffcc22f/793323242/instance/72396de9ba6fe37b.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "aranscope",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/990132",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-138",
+      "name": "90-Degree Bracket with Reinforcing Rib 40mm M4",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "90-Degree Bracket with Reinforcing Rib 40mm M4 is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US343184be88d6e3/design/2024-07-30_7e52af2e9d386.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US343184be88d6e3/134274783/instance/2024-07-30_7e52af2e9d386.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US343184be88d6e3/134274783/instance/2024-07-30_e50d676bd54de.png",
+        "https://makerworld.bblmw.com/makerworld/model/US343184be88d6e3/105161902/instance/2024-07-30_9bf21219cd797.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MMC3D",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/564838",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-139",
+      "name": "A1 Mini AMS Lite PTFE Bowden Tube Clip with distancer for power cable",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "A1 Mini AMS Lite PTFE Bowden Tube Clip with distancer for power cable is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USaf25697ed27524/design/2023-12-02_ab135319ebe5e8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf25697ed27524/134894650/instance/2023-12-07_2dd05b78e349.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf25697ed27524/134894650/instance/2023-12-07_572578cded131.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "OLLESTORE",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/80947",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-140",
+      "name": "Zoom Phone Tripod (Improved)",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Zoom Phone Tripod (Improved) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/design/2023-12-16_ryygbx4xcgn0.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/69814099/instance/2024-04-20_2ffaaffafc93a.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/69814099/instance/2024-04-20_6e995b8db5017.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/design/2023-12-28_8690eba8310cb.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/49921262/instance/2024-02-12_e5c96a624b1f7.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/49921262/instance/2024-02-12_a3db90db240f1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/49921262/instance/2024-02-12_74de411bf6df3.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5951a4c9eb6319/49921262/instance/2024-02-12_9b93605acacae.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "LoboCNC",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/95193",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-141",
+      "name": "Customizable Drawer Divider System for IKEA BROR",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Customizable Drawer Divider System for IKEA BROR is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USdf61a5df2a0de5/design/f452f55c2215112c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdf61a5df2a0de5/585785201/instance/f452f55c2215112c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdf61a5df2a0de5/585791739/instance/0e0fd74a3aa12b7e.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "kot1199",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/2310770",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-142",
+      "name": "Bookmark display stand. V1 Updated in text.",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bookmark display stand. V1 Updated in text. is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd86dc94e32be85/design/2024-09-06_21cf93c50888b.png",
+        "https://makerworld.bblmw.com/makerworld/model/USd86dc94e32be85/120357130/instance/2024-09-06_21cf93c50888b.png",
+        "https://makerworld.bblmw.com/makerworld/model/USd86dc94e32be85/120358403/instance/2024-09-06_b330edf56f58a.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Wickieprints",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/625548",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-143",
+      "name": "parametric vertical Laptop / Notebook Stand",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "parametric vertical Laptop / Notebook Stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/design/2025-12-26_4631aa73b39f68.png",
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/562300565/instance/2026-01-12_5a115387f50868.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/137450056/instance/2024-10-12_321d4c15f4d02.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/137450056/instance/2024-10-12_c5c5d9d972eee.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/137450056/instance/2024-10-12_3697d5ed12904.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US23cbcefdb9ef56/224536082/instance/2025-02-10_c50823c48781.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "The Kit Card Guy",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/684920",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-144",
+      "name": "Gopro DJI Action Hat Clip Mount (Head Mount)",
+      "category": "Creator & Gaming",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gopro DJI Action Hat Clip Mount (Head Mount) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USc41586168666e5/design/2024-10-29_584bdaa0852f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USc41586168666e5/146474162/instance/2024-10-29_584bdaa0852f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USc41586168666e5/443660700/instance/2025-10-17_c62f5aac663bb.png",
+        "https://makerworld.bblmw.com/makerworld/model/USc41586168666e5/672745517/instance/08f704f3e13ad54e.webp",
+        "https://makerworld.bblmw.com/makerworld/model/USc41586168666e5/717023008/instance/35f92ccb7f8d4779.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Mateo",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/741666",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-145",
+      "name": "Adjustable power strip clamp mount",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Adjustable power strip clamp mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/design/2024-02-25_oarsksf7po2f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/275122989/instance/2025-01-08_c6e189dba069.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/275122989/instance/2024-03-19_eb90c2fabddf8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/275130936/instance/2025-04-13_0ee47a0d577fc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/349931145/instance/2025-01-08_11d25d66307bd.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/349931145/instance/2024-09-27_0e1b430ff27b6.png",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/275130627/instance/2025-04-13_06ba785cd78f48.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US461751f305d858/105360839/instance/2024-07-31_72ecf4652fde.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Jaguor",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/203371",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-146",
+      "name": "Name Tag Fully Customizable",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Name Tag Fully Customizable is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe453eb35f87191/design/2025-01-14_73bc0911ce798.png",
+        "https://makerworld.bblmw.com/makerworld/model/USe453eb35f87191/202158142/instance/2025-01-14_73bc0911ce798.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Fritz",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/993154",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-147",
+      "name": "Garmin Mount",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Garmin Mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USc5067150e2ce6d/design/2024-02-13_e903ccfc0d2d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USc5067150e2ce6d/53221229/instance/2024-02-17_98147f2c21bbe.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USc5067150e2ce6d/50070097/instance/2024-02-13_e903ccfc0d2d.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "manicman",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/185327",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-148",
+      "name": "Volkswagen Keychain",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Volkswagen Keychain is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/design/2025-03-07_1f96d4b4f53ad.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/244794023/instance/2025-03-07_1f96d4b4f53ad.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/244794023/instance/2025-03-07_cdc84398adbf2.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/314145772/instance/2025-05-29_45137cd976fa68.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/314145772/instance/2025-05-29_96b65cfa6bd968.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/244794917/instance/2025-03-07_62dc243bb8f55.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/244794917/instance/2025-03-07_2bc9515e3b311.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US735a5490714be3/270311369/instance/2025-04-07_aa70373b276208.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "VISMOND GROUP",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/1184479",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-149",
+      "name": "ZR1 Business Card Holder - With name plate",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "ZR1 Business Card Holder - With name plate is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5f344079b08c26/design/2024-05-01_7cd2cca8bf8fb.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f344079b08c26/73368691/instance/2024-05-01_7cd2cca8bf8fb.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f344079b08c26/73368691/instance/2024-05-01_88d68ce5d9afa.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5f344079b08c26/387798826/instance/2025-08-22_da6e463a552008.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f344079b08c26/141098670/instance/2024-10-19_560a616e8c867.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "TJSlayer",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/450510",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-150",
+      "name": "Gridfinity Battery Trays (AA & AAA) - perfect fit",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Battery Trays (AA & AAA) - perfect fit is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US74709969090ec8/design/2024-12-14_e5069c67ba35b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US74709969090ec8/192718853/instance/2024-12-14_e5069c67ba35b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US74709969090ec8/386361094/instance/2025-08-21_c1195e92196ff.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US74709969090ec8/386361094/instance/2025-08-21_e4f1cb0cd9053.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "feyach",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/878885",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-151",
+      "name": "Magsafe charger clamp",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Magsafe charger clamp is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2023-12-07_dwt4lkdsh7oq.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2024-01-20_76339c00de103.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2024-01-20_385b2d5131454.png",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2024-01-20_304030edc88fc.png",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2024-01-20_b2c3dccb83ba4.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/design/2024-01-20_c49f73cbde791.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/132919595/instance/2024-10-03_e57bf9111508a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1ee6af35e8be47/132919595/instance/2024-10-03_ce10e3939bb4c.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "thmsdrz",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/85551",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-152",
+      "name": "Cable Clip (Twist In) for 4040 Aluminium Extrusion",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cable Clip (Twist In) for 4040 Aluminium Extrusion is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US844ea70fc75859/design/2025-01-22_220445626f319.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US844ea70fc75859/862320239/instance/30e8b0eda6a5ffba.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US844ea70fc75859/254020260/instance/2025-03-18_6d0af9e053f5d.png",
+        "https://makerworld.bblmw.com/makerworld/model/US844ea70fc75859/254020260/instance/2025-03-18_535bf39f1d131.png",
+        "https://makerworld.bblmw.com/makerworld/model/US844ea70fc75859/148021446/instance/2024-11-01_9fa69406f8c218.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "sjdawson",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/748883",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-153",
+      "name": "Gridfinity Desktop Baseplates",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Desktop Baseplates is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/design/2024-12-27_d9dc92cfe5301.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/187687248/instance/2024-12-28_da41b227f3865.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/187687248/instance/2024-12-28_c8a5055c563b48.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/188774049/instance/2024-12-27_53d0156fa3ecc.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/248108918/instance/2025-03-11_f7d1410ad35168.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/248108918/instance/2025-03-11_8deab586efb7c8.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/505811881/instance/2025-12-05_369673799a322.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb1e30446462572/505811881/instance/2025-12-05_d385ee42fbfeb8.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "KYZ Design",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/919964",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-154",
+      "name": "Personalized Name Plate / Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Personalized Name Plate / Business Card Holder is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4f9aa2fa660110/design/2024-06-06_a02b829f7d41.png",
+        "https://makerworld.bblmw.com/makerworld/model/US4f9aa2fa660110/84987486/instance/2024-06-06_f9aeb6e9b8581.png",
+        "https://makerworld.bblmw.com/makerworld/model/US4f9aa2fa660110/84987486/instance/2024-06-06_dec4b3dffea14.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4f9aa2fa660110/84987486/instance/2024-06-06_80238efddf686.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "IanCantDraw",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/486879",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-155",
+      "name": "Modular Small Parts Drawer System",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Modular Small Parts Drawer System is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/UScc3b0a8e25c9ca/design/2024-01-30_503ec34ec47f6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScc3b0a8e25c9ca/47863581/instance/2024-02-06_e5d9f35c5751f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScc3b0a8e25c9ca/47863581/instance/2024-02-06_d28908f843f1e.png",
+        "https://makerworld.bblmw.com/makerworld/model/UScc3b0a8e25c9ca/321624889/instance/2025-06-07_b89614c3fd499.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScc3b0a8e25c9ca/321624889/instance/2025-06-07_0eeecfb6557318.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "colezajicek",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/164305",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-156",
+      "name": "Jewelry Holder Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Jewelry Holder Display Stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/design/2024-08-17_2bae412c04e93.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/112037764/instance/2024-08-17_2bae412c04e93.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/112037764/instance/2024-08-17_425f890a225fa.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/116205199/instance/2024-08-27_1a16010db2e48.png",
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/116205199/instance/2024-08-27_9c1d6dfe945b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf3f357095a4ae0/212603467/instance/2025-01-26_3293b9f3a1f45.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Murphy345",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/592539",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-157",
+      "name": "Snake-Headphone-Stand",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Snake-Headphone-Stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb2f9713e5ef165/design/2024-11-11_6858158b45065.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb2f9713e5ef165/153979359/instance/2024-11-11_924696c59e9fb.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2f9713e5ef165/254898110/instance/2025-03-19_b6531d3c63e0c.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2f9713e5ef165/670611441/instance/32cabfd4c10f90c0.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2f9713e5ef165/670611441/instance/adaa13b29f5791a6.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Shadowed Souls [Manu Hu]",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/778998",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-158",
+      "name": "Dog Tags with name, phone and adress",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Dog Tags with name, phone and adress is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000483079/design/2024-06-03_e477e89edb21d8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaae71886e19c7e/83823817/instance/2024-06-03_7de985b82ff0d.png",
+        "https://makerworld.bblmw.com/makerworld/model/USaae71886e19c7e/83823817/instance/2024-06-03_43e9a85b6eaf2.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Starmate",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/483079",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-159",
+      "name": "Ford Keychain",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ford Keychain is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US236de01f8aa981/design/2025-06-17_b8b54a061f4c7.png",
+        "https://makerworld.bblmw.com/makerworld/model/US236de01f8aa981/329736279/instance/2025-06-17_b8b54a061f4c7.png",
+        "https://makerworld.bblmw.com/makerworld/model/US236de01f8aa981/329736279/instance/2025-06-17_71453244f5f0d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US236de01f8aa981/329737923/instance/2025-06-17_bb7a5f04809d.png",
+        "https://makerworld.bblmw.com/makerworld/model/US236de01f8aa981/329737923/instance/2025-06-17_24b566954e6ef.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "VISMOND GROUP",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/1527517",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-160",
+      "name": "SD Card holder (slim)",
+      "category": "Electronics & Tech",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "SD Card holder (slim) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000825038/design/2024-11-26_72a1e2485e4298.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3e886d20dfcb94/163809898/instance/2024-11-26_6f5d32d49d0af8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3e886d20dfcb94/163814125/instance/2024-11-26_618475f28f4068.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3e886d20dfcb94/163812294/instance/2024-11-26_39f33c777b924.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3e886d20dfcb94/475339627/instance/2025-11-14_3ae70d8dc47038.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Widur",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/825038",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-161",
+      "name": "Raspberry Pi Zero 2W Case w/ Ventilation (no gpio)",
+      "category": "Electronics & Tech",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Raspberry Pi Zero 2W Case w/ Ventilation (no gpio) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/design/2025-01-05_81f4b1998a30f.png",
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/195109051/instance/2025-01-05_81f4b1998a30f.png",
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/195109051/instance/2025-01-05_ae66aa5705289.png",
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/195109051/instance/2025-01-05_5eb3c419fb7f3.png",
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/195109051/instance/2025-01-05_ba164d30b1c1f.png",
+        "https://makerworld.bblmw.com/makerworld/model/US326281521c2c69/195109051/instance/2025-01-05_dfe6dc92ea03b.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "TheGreengo",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/957909",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-162",
+      "name": "NISSAN Keychain",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "NISSAN Keychain is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/design/2025-03-08_716faf17ddb1d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/245422938/instance/2025-03-08_716faf17ddb1d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/245422938/instance/2025-03-08_4338bfc46bf0b.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/314148282/instance/2025-05-29_59ead052c8eec.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/314148282/instance/2025-05-29_c7749d0453153.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/245423546/instance/2025-03-08_3c6190330c34e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9f3bc78ded752d/245423546/instance/2025-03-08_457de217c3d9c.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "VISMOND GROUP",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/1187231",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-163",
+      "name": "90 Degree Bracket 30x30x30",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "90 Degree Bracket 30x30x30 is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USdcee774281acf4/design/2023-12-29_7e67cd49783d9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdcee774281acf4/design/2023-12-29_7ed4ad5ce321d.png",
+        "https://makerworld.bblmw.com/makerworld/model/USdcee774281acf4/design/2023-12-29_7254558ab6395.png",
+        "https://makerworld.bblmw.com/makerworld/model/USdcee774281acf4/45772134/instance/2024-01-29_dd85f2e557456.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "ASdesign",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/112723",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-164",
+      "name": "Car Trash can",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Car Trash can is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US6d4b64ce2885a7/design/2024-01-13_df514f702ec04.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6d4b64ce2885a7/41190847/instance/2024-01-13_df514f702ec04.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6d4b64ce2885a7/41190847/instance/2024-01-13_f6def11e81bbc.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6d4b64ce2885a7/41190847/instance/2024-01-13_81d5fa9dd1a94.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Augustas",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/136916",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-165",
+      "name": "Porta telefono Recaro Seat",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Porta telefono Recaro Seat is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US3adfb5e0e70bf/design/2025-01-06_429caac7a7918.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3adfb5e0e70bf/195465077/instance/2025-01-06_429caac7a7918.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Simo_bagg3d",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/959720",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-166",
+      "name": "Stacking Bottle Holder - Fastest Print!",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Stacking Bottle Holder - Fastest Print! is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/design/2023-12-11_965cb5ab4625e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/design/2023-12-11_7714b53dcce86.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/87898494/instance/2024-06-15_b9675e35808fa.png",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/196391904/instance/2025-01-07_952661e425ce3.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/design/2023-12-18_cdcfed65d2131.png",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/design/2023-12-18_f2b4cac3fe38f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/328805113/instance/2025-06-16_fd812dfed893e.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US64b0c829ad3fc4/328805113/instance/2025-06-16_ab3183931bb03.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Ryzwick",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/90179",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-167",
+      "name": "Spiderman Headphone stand",
+      "category": "Office & Desk",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Spiderman Headphone stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/design/2024-11-12_37d86e15a2d7b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_37d86e15a2d7b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_efc88453ec045.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_b252ca5dd30ba8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_5128c6dec05148.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_efa9ef1ef536e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_edab32147e04e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe46b9e934b6887/160705403/instance/2024-11-12_6cf179af9d4cb.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "DIYDopamine",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/780143",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-168",
+      "name": "PS5 Controller Stand",
+      "category": "Creator & Gaming",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "PS5 Controller Stand is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US474acae061912/design/2024-12-10_db713eaa15642.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US474acae061912/174033352/instance/2024-12-10_db713eaa15642.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "OctaNik",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/867623",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-169",
+      "name": "Cable chain Multiboard",
+      "category": "Creator & Gaming",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cable chain Multiboard is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US931ae05f443283/design/2024-11-20_60eb0f8f44415.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US931ae05f443283/159738996/instance/2024-11-20_60eb0f8f44415.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US931ae05f443283/240925577/instance/2025-03-02_5cc9a318d1874.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US931ae05f443283/673146099/instance/f1783c448235cf7b.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Rober7Crow",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/806588",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-170",
+      "name": "V2 Bike Phone Holder / Mount",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "V2 Bike Phone Holder / Mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USda81126a878605/design/2025-04-04_4f0b4b278e9fa.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USda81126a878605/570776427/instance/2026-01-18_db5757604fde38.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USda81126a878605/270685697/instance/2025-04-07_924a8fdbc9ffb.webp",
+        "https://makerworld.bblmw.com/makerworld/model/USda81126a878605/308594321/instance/2025-05-23_9e59255222be78.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Dice",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1284609",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-171",
+      "name": "Gridfinity Bin by Finn, with Magnet inserts",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Bin by Finn, with Magnet inserts is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USddfa7c8596c999/design/2025-01-15_215db8765772c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USddfa7c8596c999/225057646/instance/2025-01-15_215db8765772c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USddfa7c8596c999/225057646/instance/2025-01-15_c01ba069c1f1b8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USddfa7c8596c999/225057646/instance/2025-01-15_24da500ee15e98.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "linebyline",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/997390",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-172",
+      "name": "Sturdy Dashboard Phone Holder Clip",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Sturdy Dashboard Phone Holder Clip is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/design/2024-04-13_67051f6b0db8a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_32287b85b1e23.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_e4e5b6e0e6f17.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_1415443d64b08.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_1c124dd5362fc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_05c679f1349be.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_8a24d927e1c3d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USad6e12ab3bbb95/67610061/instance/2024-04-13_8083c02d6a3fc.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "SimpleMaker",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/426270",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-173",
+      "name": "25mm pegboard hooks and boxes",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "25mm pegboard hooks and boxes is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9e18c66eaae751/design/2024-10-17_484fe9b86335d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9e18c66eaae751/139902988/instance/2024-10-17_484fe9b86335d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9e18c66eaae751/139902988/instance/2024-10-17_33495cfa95b5e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9e18c66eaae751/139902988/instance/2024-10-17_9e95bdf45322f.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "ImaRH 3D",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/710070",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-174",
+      "name": "Rice Bag Clip",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Rice Bag Clip is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd9553d2b7f011/design/2024-10-14_ba8a885c3987f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd9553d2b7f011/139247623/instance/2024-10-14_ba8a885c3987f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd9553d2b7f011/385041106/instance/2025-08-19_a1cd74df42fac.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Piet",
+      "license": "BY-NC-ND",
+      "source": "https://makerworld.com/en/models/703758",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-175",
+      "name": "Half Gallon Cup Holder car adapter",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Half Gallon Cup Holder car adapter is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/design/1fa9b6f91ea83984.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/807012878/instance/c7d550ba0c3f18d8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/807012878/instance/15cb69576a4db0c8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/700962818/instance/7dd979e0c793d20a.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/700962818/instance/b54c91438c5798fe.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/782784261/instance/d70a3043eb70a13b.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/807020624/instance/6d521807dad7d492.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5f0dda8c806a66/807016521/instance/478be68943d07379.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "arod21090",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/2364498",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-176",
+      "name": "Lid Organizer for the Harbor Freight Mini Toolbox",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Lid Organizer for the Harbor Freight Mini Toolbox is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf077eb4472fc1f/design/2025-01-04_27d860c308c18.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf077eb4472fc1f/194003683/instance/2025-01-04_27d860c308c18.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "robrmg",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/951727",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-177",
+      "name": "Double Keyring Stand with Price Tag",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Double Keyring Stand with Price Tag is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/design/2024-05-31_ecafdbe04b67d8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/82920434/instance/2024-05-31_196d013b45a1c.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/82920434/instance/2024-05-31_5f103845e73598.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/82920434/instance/2024-05-31_70ddc8ed5ac31.png",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/82920434/instance/2024-05-31_3c3c0c451592e.png",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/123406268/instance/2024-09-12_343250fc793c7.png",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/555944812/instance/2026-01-08_67b9f97dec02d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US274303d2ce817f/82921511/instance/2024-05-31_b3a3025eb886d.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "ManxSteve",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/480439",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-178",
+      "name": "Mini Hearts Stanley Name Plate Lid Topper 40oz",
+      "category": "Business & Retail",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Mini Hearts Stanley Name Plate Lid Topper 40oz is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USffd7df3955ccf4/design/2024-03-04_66a61593287fe8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USffd7df3955ccf4/55837593/instance/2024-03-04_b0e412998b4798.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USffd7df3955ccf4/55837593/instance/2024-03-04_f95ce8dccb2f.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Beagle Bros 🐶",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/226984",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-179",
+      "name": "Power strip mount",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Power strip mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US25131293d169b7/design/2025-12-20_e6ca96c695dcc.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US25131293d169b7/527825527/instance/2025-12-20_e6ca96c695dcc.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US25131293d169b7/596747917/instance/918dc57bc1e19b44.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US25131293d169b7/596747917/instance/96d24ba119d66154.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Klercke",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/2136941",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-180",
+      "name": "Ryobi Impact/Drill Bit Holder Mount",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ryobi Impact/Drill Bit Holder Mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US1088b10e2679bd/design/2024-12-26_4b89278cbe1a7.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US1088b10e2679bd/186833052/instance/2024-12-26_4b89278cbe1a7.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US1088b10e2679bd/559487928/instance/2026-01-10_c277d592a4b1d.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Terrain 6",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/916064",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-181",
+      "name": "8mm Car fender clip",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "8mm Car fender clip is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US2ad31c5704ae94/design/2025-05-15_506a2634c6a288.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US2ad31c5704ae94/302479910/instance/2025-05-15_506a2634c6a288.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Booyashaka",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/1421037",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-182",
+      "name": "Saw Horse Folding Bracket",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Saw Horse Folding Bracket is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd0db683701219e/design/2025-06-07_dc16a6654cf498.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd0db683701219e/323207885/instance/2025-06-09_2b822d012b81c8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd0db683701219e/323207885/instance/2025-06-09_60f2677f23147.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd0db683701219e/323207885/instance/2025-06-09_199aa2da115598.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd0db683701219e/325120256/instance/2025-06-11_795e5c45f9375.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Sanford Prime",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1496122",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-183",
+      "name": "Modular Filament Spool Rack",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Modular Filament Spool Rack is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/design/2023-12-19_e5a215e938f0c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/2023-12-17_103d4df32c591.png",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/2023-12-17_f3c6b50361754.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/2023-12-17_b2f974ea4891.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/2023-12-17_c95d7f4c92925.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/plate_1.png",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/plate_2.png",
+        "https://makerworld.bblmw.com/makerworld/model/USeea6cdcbcca5f1/86464625/instance/plate_3.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "mker17",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/97332",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-184",
+      "name": "3x5 Gridfinity Drill storage box Metric 1-10mm",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "3x5 Gridfinity Drill storage box Metric 1-10mm is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/design/b7a10bf3b7548134.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/165724553/instance/2024-11-29_0b88c7bf0c19b8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/165724553/instance/2024-11-29_3d065bf091c0a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/165724553/instance/2024-11-28_e8166a0f796e38.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/637405014/instance/c25aac5e1a0cba35.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USfc9600265bf5ce/637405014/instance/f430a58d1ca67fd9.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Hunter Rodrigez",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/718122",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-185",
+      "name": "Car door trashbag holder",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Car door trashbag holder is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US35eb218730ea31/design/2025-02-10_962fb36da7994.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35eb218730ea31/224531392/instance/2025-02-10_962fb36da7994.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35eb218730ea31/224531392/instance/2025-02-10_ed9b7fb030a94.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35eb218730ea31/224534150/instance/2025-02-10_e7eb88453a5c5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US35eb218730ea31/224535431/instance/2025-02-10_75335ee5b70fa.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Poesse",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/1094827",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-186",
+      "name": "Cabinet Hinge Repair Plates",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cabinet Hinge Repair Plates is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USeacf2d6f147489/design/2025-12-19_2730b700119ae.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USeacf2d6f147489/526150885/instance/2025-12-19_2730b700119ae.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "user_4069524941",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/2133035",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-187",
+      "name": "Malkus Sunlu S2 filament dryer mounting X1C",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Malkus Sunlu S2 filament dryer mounting X1C is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_a91ac6688a63c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_5d5806a81e4b3.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_d360c9b0f2fe3.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_ca4ec8736b676.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_ca5c32411289d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_bc9f09791be6e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_c0be8b6cfb163.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6526f1ecaaea95/design/2023-10-24_4721587601c88.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Malkus",
+      "license": "BY-NC-ND",
+      "source": "https://makerworld.com/en/models/49135",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-188",
+      "name": "IKEA Kallax Drawer Insert Gridfinity Base",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "IKEA Kallax Drawer Insert Gridfinity Base is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/design/2024-11-05_c0f3dedd2ecc9.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/150187450/instance/2024-11-05_ad88721d056de8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/150191028/instance/2024-11-05_ca89fc9e2e19b.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/367368284/instance/2025-07-31_da256c235929f.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/988860326/instance/b718b283005015ac.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/988860326/instance/e5fc82171ef6056c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/988860326/instance/4cac16eba895fac1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US430dd9d2897d76/988860326/instance/381d56cba9a79b5b.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Feli0x",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/760262",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-189",
+      "name": "Kitchen or Bathroom Drawer Tray / Bin",
+      "category": "Home & Living",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Kitchen or Bathroom Drawer Tray / Bin is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9905d0e2b039b1/design/2023-12-18_vq6qsdpmfwuz.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9905d0e2b039b1/design/2023-12-21_f1de85c916cb8.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US9905d0e2b039b1/design/2023-12-21_da593e88faaa7.webp"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Desmodromic",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/97306",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-190",
+      "name": "Shelf Bracket Peg / Pin - 5mm hole (3/16\") Strong",
+      "category": "Repair",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Shelf Bracket Peg / Pin - 5mm hole (3/16\") Strong is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4edde268308f67/design/2024-08-19_cdc341eb4a6bc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4edde268308f67/113022027/instance/2024-08-19_cdc341eb4a6bc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4edde268308f67/113022027/instance/2024-08-19_90d8e834cf09a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4edde268308f67/219049251/instance/2025-02-03_49b83bfc0b7cc.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "stig",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/596515",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-191",
+      "name": "Gridfinity USB-A & USB-C Holder",
+      "category": "Electronics & Tech",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity USB-A & USB-C Holder is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/design/2023-11-26_1dbe1fa75f5fa.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/design/2023-11-26_ee93a81a16c67.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/112858638/instance/2024-08-19_eb0644b40df9a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/112858638/instance/2024-08-19_5f7ff9dff435b.png",
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/181436459/instance/2024-12-19_f3a99115bb804.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdac268ef2901bf/181436459/instance/2024-12-19_183f0b9c863838.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Jakokln",
+      "license": "BY-NC",
+      "source": "https://makerworld.com/en/models/75457",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-192",
+      "name": "Cup Holder Adapter (Owala and Nalgene)",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cup Holder Adapter (Owala and Nalgene) is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/design/2026-01-02_344853d6f7e2f.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/546827964/instance/2026-01-02_75a2d2834614e.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/546827964/instance/2026-01-02_754b0b4fa165c.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/546827964/instance/2026-01-02_0729ecefff51e.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/546827964/instance/2026-01-02_fca3c755b31338.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USb2051e97992f80/687330155/instance/543c5202e6efad77.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Rogue Goose",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/2189498",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-193",
+      "name": "Milwaukee M18 Battery Holder Without Lock",
+      "category": "Tools & Workshop",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Milwaukee M18 Battery Holder Without Lock is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US85b303c1fd197/design/2024-11-25_6915d17adb28c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US85b303c1fd197/168490398/instance/2024-11-25_6915d17adb28c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US85b303c1fd197/271805973/instance/2025-04-09_261b534a14dd.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Lars Espen",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/822427",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-194",
+      "name": "Car Bag Holder Hook for Seat Headrest",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Car Bag Holder Hook for Seat Headrest is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USa18512a282904b/design/2025-04-26_f86cb44463579.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USa18512a282904b/286371616/instance/2025-04-26_f86cb44463579.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "user_1072042931",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/1359180",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-195",
+      "name": "1/64 Scale Die Cast Car Skadis Mount",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "1/64 Scale Die Cast Car Skadis Mount is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USfa2ea3a7dbf732/design/2025-03-06_59a8eff8a32df.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfa2ea3a7dbf732/244287577/instance/2025-03-06_59a8eff8a32df.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USfa2ea3a7dbf732/244287577/instance/2025-03-06_fb5368ed29922.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "3D Accessory",
+      "license": "BY-NC-SA",
+      "source": "https://makerworld.com/en/models/1182626",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    },
+    {
+      "id": "PF-MW-196",
+      "name": "Air Filter Keychain",
+      "category": "Automotive",
+      "subcategory": "MakerWorld Market Picks",
+      "type": "Made-to-order 3D printed product",
+      "description": "Air Filter Keychain is a made-to-order 3D printed product selected for PrintForge based on practical local-use demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/design/2024-10-26_d8b9318911e918.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257151/instance/2024-06-29_21872bf4be3aa.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257151/instance/2024-06-29_9afb111d134bb8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257151/instance/2024-06-29_448a3d382a6d9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257368/instance/2024-06-29_de63caa178334.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257368/instance/2024-06-29_198b0405857988.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7a034ebcbc3a0e/93257368/instance/2024-06-29_488e089fdf87c.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "OrangeSs",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/517250",
+      "licenseGate": true,
+      "catalogBatch": "makerworld-market-446"
+    }
+  ]
+}
