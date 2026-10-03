@@ -274,7 +274,9 @@ def detail_browser(context, src, mid):
 
 def license_ok(v):
     x=norm(v).upper().replace("CREATIVE COMMONS ","")
-    return any(a in x for a in ALLOW)
+    if "NON-COMMERCIAL" in x or "BY-NC" in x or x.endswith("-NC") or " NC" in x:
+        return False
+    return x in ALLOW
 
 def score(d,group):
     title=d.get("title") or ""
