@@ -18,7 +18,7 @@ permissions:
 # A long MakerWorld discovery run must be allowed to finish even if another
 # source commit lands on main while it is running.
 concurrency:
-  group: printforge-refresh-product-photos
+  group: printforge-refresh-product-photos-v2
   cancel-in-progress: true
 
 jobs:
