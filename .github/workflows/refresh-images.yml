@@ -19,7 +19,7 @@ permissions:
 # source commit lands on main while it is running.
 concurrency:
   group: printforge-refresh-product-photos
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh-images:
