@@ -185,56 +185,47 @@ def discover_category_pages(group_terms, pages=80, page_size=20):
 
     return out
 
-def discover_api(group, terms, pages=5, page_size=30):
-    """Discover models through the public keyword search endpoint.
-
-    We intentionally avoid the authenticated category-navigation endpoint.
-    Keyword search gives us market-relevant candidates without requiring a
-    Bambu account/token in GitHub Actions.
-    """
+def discover_api(group, terms, pages=10, page_size=30):
+    """Discover MakerWorld candidates through the public keyword-search endpoint."""
     out={}
     for term in terms:
         keyword=norm(term)
         for page in range(pages):
-            params=urlencode({
-                "keyword":keyword,
-                "offset":page*page_size,
-                "limit":page_size
-            })
-            url=f"{API_BASE}/search-service/select/design2?{params}"
             payload=get_json(
-                url,
+                f"{API_BASE}/search-service/select/design2",
+                params={"keyword":keyword,"offset":page*page_size,"limit":page_size},
                 timeout=30,
                 label=f"Search '{term}' page {page+1}",
-                min_delay=1.5
+                min_delay=0.35
             )
             if payload is None:
                 break
             hits=list(_walk_designs(payload))
             if not hits:
+                print(f"  {term} page {page+1}: no hits",flush=True)
                 break
-                added=0
-                for item in hits:
-                    mid=str(item.get("id") or "").strip()
-                    if not mid:
-                        continue
-                    title=str(item.get("title") or item.get("name") or "")
-                    tags=" ".join(map(str,item.get("tags") or []))
-                    text_value=norm(f"{title} {tags}")
-                    if BLOCK.search(text_value):
-                        continue
-                    # Keep the exact requested keyword represented in title/tags
-                    # so a broad API response does not pollute another category.
-                    if keyword not in text_value and not PRACTICAL.search(text_value):
-                        continue
-                    src=f"https://makerworld.com/en/models/{mid}"
-                    if mid not in out:
-                        out[mid]=(src,group,term,item)
-                        added+=1
-                print(f"  {term} page {page+1}: {len(hits)} hits, {added} new",flush=True)
-                if len(hits)<page_size:
-                    break
-
+            added=0
+            for item in hits:
+                mid=str(item.get("id") or item.get("designId") or "").strip()
+                if not mid:
+                    continue
+                title=str(item.get("title") or item.get("name") or "").strip()
+                tags=" ".join(map(str,item.get("tags") or item.get("categories") or []))
+                text_value=norm(f"{title} {tags}")
+                if BLOCK.search(text_value) or not PRACTICAL.search(text_value):
+                    continue
+                if keyword not in text_value and not any(norm(t) in text_value for t in term.split()):
+                    continue
+                lic=str(item.get("license") or "").strip()
+                if not license_ok(lic):
+                    continue
+                src=str(item.get("url") or item.get("source") or f"https://makerworld.com/en/models/{mid}")
+                if mid not in out:
+                    out[mid]=(src,group,term,item)
+                    added+=1
+            print(f"  {term} page {page+1}: {len(hits)} hits, {added} new",flush=True)
+            if len(hits)<page_size:
+                break
     return out
 
 def detail(mid):
@@ -340,51 +331,50 @@ def main():
     existing_names={norm(p.get("name")) for p in products}
     existing_sources={p.get("source") for p in products}
 
-    print("Discovering MakerWorld from public category pages.",flush=True)
-    candidates=discover_category_pages(list(GROUPS.items()),pages=80)
-    print("Unique category-page candidates:",len(candidates),flush=True)
-    if len(candidates)<700:
-        raise SystemExit(f"Only {len(candidates)} practical MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
+    candidates={}
+    for group,terms in GROUPS.items():
+        found=discover_api(group,terms,pages=10,page_size=30)
+        candidates.update(found)
+        print(f"{group}: {len(found)} licensed practical candidates",flush=True)
+
+    print("Unique licensed practical MakerWorld candidates:",len(candidates),flush=True)
+    if len(candidates)<TARGET:
+        raise SystemExit(f"Only {len(candidates)} qualifying MakerWorld candidates discovered; refusing to fabricate {TARGET} products.")
 
     ranked=[]
     for mid,(src,group,term,item) in candidates.items():
-        title=str(item.get("title") or "")
+        title=str(item.get("title") or item.get("name") or "")
         rough=8 if PRACTICAL.search(title) else 0
         rough+=3 if any(k in norm(title) for k in ["custom","parametric","modular"]) else 0
-        if group in ("Automotive","Repair","Business & Retail"):
-            rough+=3
+        rough+=3 if group in ("Automotive","Repair","Business & Retail") else 0
+        downloads=int(item.get("downloadCount") or 0)
+        likes=int(item.get("likeCount") or 0)
+        prints=int(item.get("printCount") or 0)
+        rough += min(20, math.log1p(downloads)*2 + math.log1p(likes) + math.log1p(prints)*2)
         ranked.append((rough,mid,src,group,item))
     ranked.sort(reverse=True)
 
     scored=[]
-    with sync_playwright() as pw:
-        browser=pw.chromium.launch(headless=True)
-        context=browser.new_context(user_agent=UA, locale="en-US", viewport={"width":1440,"height":900})
-        for n,(_,mid,src,group,item) in enumerate(ranked[:1400],1):
-            d=detail_browser(context,src,mid)
-            if not d:
-                continue
-            lic=d.get("license") or ""
-            if not license_ok(lic):
-                continue
-            title=d.get("title") or item.get("title") or ""
-            if norm(title) in existing_names or src in existing_sources:
-                continue
-            d["downloadCount"]=0
-            d["printCount"]=0
-            d["likeCount"]=0
-            sc=score(d,group)
-            if sc<8:
-                continue
-            scored.append((sc,group,src,d))
-            if n%50==0:
-                print("Verified",n,"accepted",len(scored),flush=True)
-            if len(scored)>=650:
-                break
-        context.close()
-        browser.close()
+    for rough,mid,src,group,item in ranked:
+        title=str(item.get("title") or item.get("name") or "").strip()
+        if norm(title) in existing_names or src in existing_sources:
+            continue
+        d=dict(item)
+        d["title"]=title
+        d["license"]=str(item.get("license") or "").strip()
+        if not license_ok(d["license"]):
+            continue
+        sc=score(d,group)
+        if sc<8:
+            continue
+        scored.append((sc,group,src,d))
+        if len(scored)>=TARGET*3:
+            break
 
-    print("Qualifying licensed MakerWorld products:",len(scored),flush=True)
+    print("Qualifying MakerWorld products after scoring:",len(scored),flush=True)
+    if len(scored)<TARGET:
+        raise SystemExit(f"Only {len(scored)} qualifying MakerWorld products found after scoring; refusing to create a fake {TARGET}.")
+
     scored.sort(key=lambda x:x[0],reverse=True)
     selected=[]
     seen=set()
@@ -413,19 +403,22 @@ def main():
             if len(selected)>=TARGET:
                 break
 
-    if len(selected)<TARGET:
-        raise SystemExit(f"Only {len(selected)} qualifying MakerWorld products found; refusing to create a fake {TARGET}.")
+    if len(selected)!=TARGET:
+        raise SystemExit(f"Selection produced {len(selected)} products instead of exactly {TARGET}.")
 
     base=max([int(re.search(r"(\d+)$",p.get("id","0")).group(1)) for p in products if p.get("id","").startswith("PF-MW-")]+[0])
     for i,(sc,g,src,d) in enumerate(selected,1):
         products.append(make_product(d,g,src,base+i))
+
+    if len(products)!=554+TARGET:
+        raise SystemExit(f"Unexpected catalogue total {len(products)}; expected {554+TARGET}.")
 
     data["products"]=products
     data["total"]=len(products)
     data["withImages"]=sum(bool(p.get("imagePaths")) for p in products)
     data["newProducts"]=TARGET
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"Added {TARGET} MakerWorld products. Catalogue total: {len(products)}",flush=True)
+    print(f"Added exactly {TARGET} MakerWorld products. Catalogue total: {len(products)}",flush=True)
     print("Category counts:",counts,flush=True)
 
 if __name__=="__main__":
