@@ -22,7 +22,7 @@ concurrency:
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # 5000-product expansion
+    timeout-minutes: 360 # 5000-product expansion retry 2
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
