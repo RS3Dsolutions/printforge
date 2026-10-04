@@ -327,3 +327,149 @@ def thingiverse():
     print(f"Thingiverse licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
+
+def make_product(d, source_key, rank):
+    group=d["group"]
+    sub_map={
+        "Automotive":"Accessories & Replacement Parts",
+        "Tools & Workshop":"Workshop Storage & Tools",
+        "Office & Desk":"Desk Organization",
+        "Electronics & Tech":"Device Holders & Enclosures",
+        "Home & Living":"Home Organization",
+        "Business & Retail":"Displays & Signage",
+        "Creator & Gaming":"Gaming & Creator Accessories",
+        "Repair & Replacement":"Replacement Parts",
+        "Garden & Outdoor":"Garden & Outdoor",
+        "Education & Maker":"Maker Tools & Education",
+    }
+    desc=d.get("description") or f"{d['name']} — a practical made-to-order 3D printed product selected for PrintForge based on market demand."
+    img=d.get("image") or ""
+    images=[img] if img.startswith("http") else []
+    return {
+        "id":f"PF-{source_key}-{rank:04d}",
+        "name":d["name"][:180],
+        "category":group,
+        "subcategory":sub_map[group],
+        "type":"Made-to-order 3D printed product",
+        "description":clean_text(desc)[:900],
+        "images":[],
+        "customerTags":["Made to order","Commercial-use source verified"],
+        "imagePaths":images,
+        "platform":{"MW":"MakerWorld","PT":"Printables","TV":"Thingiverse"}[source_key],
+        "creator":d.get("creator") or "Original creator",
+        "license":d.get("license",""),
+        "source":d["source"],
+        "licenseGate":True,
+        "catalogBatch":BATCH
+    }
+
+def dedupe_select(candidates, quota, existing_names, existing_sources):
+    pool=[]
+    seen=set()
+    for d in candidates:
+        namekey=norm(d.get("name"))
+        src=d.get("source")
+        if not namekey or namekey in existing_names or src in existing_sources or namekey in seen:
+            continue
+        seen.add(namekey)
+        sc=score(d,d["group"])
+        if sc>=8: pool.append((sc,d))
+    pool.sort(key=lambda x:x[0],reverse=True)
+    selected=[]
+    counts={g:0 for g in GROUPS}
+    # First satisfy category distribution, then fill by score.
+    for sc,d in pool:
+        g=d["group"]
+        if counts[g] < quota.get(g,0):
+            selected.append(d); counts[g]+=1
+        if sum(counts.values())>=sum(quota.values()): break
+    return selected, counts, len(pool)
+
+def main():
+    data=json.loads(DATA.read_text(encoding="utf-8"))
+    products=data.get("products",[])
+    prior=[p for p in products if p.get("catalogBatch")==BATCH]
+    if prior:
+        products=[p for p in products if p.get("catalogBatch")!=BATCH]
+        print(f"Removed {len(prior)} prior expansion products for an idempotent rebuild.",flush=True)
+    if len(products)!=BASE_TOTAL:
+        raise SystemExit(f"Expected exactly {BASE_TOTAL} base products, found {len(products)}.")
+    existing_names={norm(p.get("name")) for p in products}
+    existing_sources={p.get("source") for p in products}
+
+    # Pull more than needed so one weak source can be compensated without
+    # compromising the three-source requirement.
+    mw=makerworld()
+    pt=printables()
+    tv=thingiverse()
+    print(f"RAW CANDIDATES: MakerWorld={len(mw)} Printables={len(pt)} Thingiverse={len(tv)}",flush=True)
+
+    # Balanced target: all three sources must contribute materially.
+    source_targets={"MW":1400,"PT":1400,"TV":1200}
+    selected_all=[]
+    source_counts={}
+    category_weights={
+        "Automotive":0.15,"Tools & Workshop":0.15,"Office & Desk":0.12,
+        "Electronics & Tech":0.12,"Home & Living":0.12,"Business & Retail":0.10,
+        "Creator & Gaming":0.07,"Repair & Replacement":0.10,"Garden & Outdoor":0.04,
+        "Education & Maker":0.03
+    }
+    quotas={g:round(TARGET_NEW*w) for g,w in category_weights.items()}
+    # Correct rounding drift.
+    while sum(quotas.values())<TARGET_NEW: quotas["Tools & Workshop"]+=1
+    while sum(quotas.values())>TARGET_NEW: quotas["Home & Living"]-=1
+
+    pools={"MW":mw,"PT":pt,"TV":tv}
+    for sk in ("MW","PT","TV"):
+        cand=pools[sk]
+        # source-level target; category quota is soft and total target is hard.
+        pool=[]
+        seen=set()
+        for d in cand:
+            k=norm(d.get("name"))
+            if not k or k in existing_names or d.get("source") in existing_sources or k in seen: continue
+            seen.add(k)
+            s=score(d,d["group"])
+            if s>=8: pool.append((s,d))
+        pool.sort(key=lambda x:x[0],reverse=True)
+        source_selected=[]
+        local_counts={g:0 for g in GROUPS}
+        for s,d in pool:
+            # Prefer categories that are still below global quotas.
+            g=d["group"]
+            if local_counts[g] >= quotas.get(g,0): continue
+            source_selected.append(d); local_counts[g]+=1
+            if len(source_selected)>=source_targets[sk]: break
+        # If category caps prevent target, fill from remaining pool.
+        if len(source_selected)<source_targets[sk]:
+            used={norm(d["name"]) for d in source_selected}
+            for s,d in pool:
+                if norm(d["name"]) in used: continue
+                source_selected.append(d); used.add(norm(d["name"]))
+                if len(source_selected)>=source_targets[sk]: break
+        if len(source_selected)<source_targets[sk]:
+            raise SystemExit(f"{sk} only has {len(source_selected)} qualifying market products; need {source_targets[sk]}.")
+        selected_all.extend((sk,d) for d in source_selected)
+        source_counts[sk]=len(source_selected)
+
+    if len(selected_all)!=TARGET_NEW:
+        raise SystemExit(f"Selected {len(selected_all)} new products; expected exactly {TARGET_NEW}.")
+
+    new=[]
+    ranks={"MW":0,"PT":0,"TV":0}
+    for sk,d in selected_all:
+        ranks[sk]+=1
+        new.append(make_product(d,sk,ranks[sk]))
+
+    final=products+new
+    if len(final)!=5000:
+        raise SystemExit(f"Final catalogue would contain {len(final)} products, not 5000.")
+    data["products"]=final
+    DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
+
+    print("SUCCESS: generated exactly 4,000 new products.",flush=True)
+    print("SOURCE COUNTS:",source_counts,flush=True)
+    print("FINAL TOTAL:",len(final),flush=True)
+
+if __name__=="__main__":
+    main()
