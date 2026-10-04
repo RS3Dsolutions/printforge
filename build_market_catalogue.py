@@ -229,8 +229,8 @@ def makerworld():
                 "downloads":d.get("downloadCount",0),"likes":d.get("likeCount",0),"makes":d.get("printCount",0),
                 "description":clean_text(d.get("summary") or d.get("description") or "")})
         return rows
-    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,900,30)]
-    with ThreadPoolExecutor(max_workers=16) as ex:
+    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,1500,30)]
+    with ThreadPoolExecutor(max_workers=10) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
             for d in fut.result(): out[d["id"]]=d
@@ -308,8 +308,8 @@ def thingiverse():
               "source":src,"creator":clean_text(d.get("creator")),"image":d.get("url") or d.get("thumbnail") or "",
               "downloads":0,"likes":0,"makes":0,"description":""})
         return result
-    tasks=[(term,page) for term in terms for page in (1,2)]
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    tasks=[(term,page) for term in terms for page in (1,2,3,4,5)]
+    with ThreadPoolExecutor(max_workers=10) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
             for d in fut.result(): out[d["id"]]=d
@@ -392,8 +392,8 @@ def main():
     tv=thingiverse()
     print(f"RAW CANDIDATES: MakerWorld={len(mw)} Printables={len(pt)} Thingiverse={len(tv)}",flush=True)
 
-    # Balanced target: all three sources must contribute materially.
-    source_targets={"MW":1400,"PT":1400,"TV":1200}
+    # Source targets reflect verified public-source supply: MakerWorld is kept at the proven 446 level, while Printables and Thingiverse provide the balance.
+    source_targets={"MW":446,"PT":2200,"TV":1354}
     selected_all=[]
     source_counts={}
     category_weights={
