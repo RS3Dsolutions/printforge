@@ -119,7 +119,17 @@ QUERY_TERMS = [
     "controller stand","headset holder","microphone holder","camera mount",
     "replacement part","replacement clip","repair bracket","hinge repair",
     "garden tool holder","plant support","seed tray","outdoor hook",
-    "arduino holder","maker jig","caliper gauge","classroom organizer"
+    "arduino holder","maker jig","caliper gauge","classroom organizer",
+    "car dashboard mount","car visor clip","motorcycle phone mount","scooter mount","bike bottle holder",
+    "tool wall mount","pegboard hook","battery organizer","screw organizer","small parts tray",
+    "monitor riser","laptop riser","tablet holder","phone dock","charging dock","desk shelf",
+    "cable management","power strip holder","router shelf","wifi router mount","ssd enclosure",
+    "drawer divider","closet hook","under desk hook","broom holder","toothbrush holder","soap holder",
+    "plant pot stand","seed starter","retail sign holder","countertop display","business card stand","menu holder",
+    "price label holder","barcode scanner stand","pos stand","receipt printer stand","cash drawer organizer",
+    "webcam stand","camera desk mount","microphone arm mount","controller wall mount","headphone hook",
+    "vacuum cleaner holder","appliance knob","furniture bracket","replacement hinge","replacement wheel",
+    "3d printer enclosure","filament holder","filament spool holder","nozzle holder","caliper holder"
 ]
 
 def norm(s):
@@ -265,8 +275,8 @@ def printables():
               "creator":clean_text((d.get("user") or {}).get("publicUsername") or (d.get("user") or {}).get("handle")),
               "image":image,"downloads":d.get("downloadCount",0),"likes":d.get("likesCount",0),"makes":0,"description":""})
         return rows
-    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,500,100)]
-    with ThreadPoolExecutor(max_workers=12) as ex:
+    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,1000,100)]
+    with ThreadPoolExecutor(max_workers=16) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
             for d in fut.result(): out[d["id"]]=d
@@ -274,190 +284,80 @@ def printables():
     return list(out.values())
 
 def thingiverse():
-    """Use Openverse's public Thingiverse index for licensed model metadata.
-    Openverse exposes original Thingiverse landing URLs and per-item CC license.
+    """Discover Thingiverse models through its public search pages, then verify
+    commercial-use licensing from the individual public model pages. No API
+    credentials or authentication bypass is used.
     """
     out={}
     terms=[
-        "car phone holder","car mount","car organizer","bike mount",
-        "tool holder","tool organizer","pegboard","workshop organizer",
-        "phone stand","laptop stand","desk organizer","cable organizer",
-        "electronics enclosure","raspberry pi case","arduino case","ssd holder",
-        "drawer organizer","storage box","wall hook","plant holder",
-        "business card holder","display stand","sign holder","qr stand",
-        "controller stand","headset holder","camera mount","microphone holder",
-        "replacement part","replacement clip","repair bracket","appliance replacement",
-        "garden tool holder","plant support","maker jig","measurement tool"
+        "car phone holder","car mount","car organizer","bike mount","motorcycle mount","scooter holder",
+        "tool holder","tool organizer","pegboard","workshop organizer","battery holder","screw organizer",
+        "phone stand","laptop stand","desk organizer","cable organizer","monitor stand","tablet holder",
+        "electronics enclosure","raspberry pi case","arduino case","ssd holder","router mount","sd card holder",
+        "drawer organizer","storage box","wall hook","plant holder","bottle holder","bathroom organizer",
+        "business card holder","display stand","sign holder","qr stand","price tag holder","menu stand",
+        "controller stand","headset holder","camera mount","microphone holder","webcam mount",
+        "replacement part","replacement clip","repair bracket","appliance replacement","furniture bracket",
+        "garden tool holder","plant support","seed tray","maker jig","measurement tool","3d printer tool holder"
     ]
-    def one(term,page):
-        r=get("https://api.openverse.org/v1/images/",
-              params={"q":term,"source":"thingiverse","license":"cc0,by,by-sa,by-nd",
-                      "page":page,"page_size":100,"mature":"false","filter_dead":"true"},timeout=12)
+    def search(term,page):
+        url="https://www.thingiverse.com/search"
+        r=get(url,params={"q":term,"type":"things","sort":"popular","page":page},timeout=20)
         if not r: return []
-        try: rows=r.json().get("results") or []
-        except Exception: return []
-        result=[]
-        for d in rows:
-            title=clean_text(d.get("title"))
-            lic=str(d.get("license") or "").strip()
-            src=d.get("foreign_landing_url") or ""
-            if "thingiverse.com/thing:" not in src: continue
-            g=classify(title, " ".join(d.get("tags") or []) if isinstance(d.get("tags"),list) else "", None)
-            if not g or not license_ok(lic): continue
-            result.append({"id":src.rsplit("thing:",1)[-1],"name":title,"group":g,"license":lic,
-              "source":src,"creator":clean_text(d.get("creator")),"image":d.get("url") or d.get("thumbnail") or "",
-              "downloads":0,"likes":0,"makes":0,"description":""})
-        return result
-    tasks=[(term,page) for term in terms for page in (1,2,3,4,5)]
-    with ThreadPoolExecutor(max_workers=10) as ex:
-        futs=[ex.submit(one,*x) for x in tasks]
+        soup=BeautifulSoup(r.text,"html.parser")
+        found={}
+        for a in soup.find_all("a",href=True):
+            href=a.get("href","")
+            m=re.search(r"/thing:(\\d+)",href)
+            if not m: continue
+            tid=m.group(1)
+            title=clean_text(a.get_text(" ",strip=True))
+            if not title or len(title)<3: continue
+            found[tid]={"id":tid,"name":title,"source":"https://www.thingiverse.com/thing:"+tid}
+        return list(found.values())
+    tasks=[(term,page) for term in terms for page in range(1,6)]
+    candidates={}
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs=[ex.submit(search,*x) for x in tasks]
         for fut in as_completed(futs):
-            for d in fut.result(): out[d["id"]]=d
+            for d in fut.result(): candidates[d["id"]]=d
+    print(f"Thingiverse public search candidates: {len(candidates)}",flush=True)
+
+    def detail(d):
+        r=get(d["source"],timeout=20)
+        if not r: return None
+        soup=BeautifulSoup(r.text,"html.parser")
+        title=clean_text(soup.title.get_text() if soup.title else d["name"])
+        title=re.sub(r"\\s*[-|]\\s*Thingiverse.*$","",title,flags=re.I).strip()
+        text=clean_text(soup.get_text(" ",strip=True))
+        # Thingiverse displays the model's license in the public page. Accept only
+        # explicit commercial-compatible Creative Commons classes.
+        lm=re.search(r"(?i)\\b(CC0|CC BY(?:-SA|-ND)?|Creative Commons[^.]{0,100}(?:Attribution|BY))\\b",text)
+        lic=lm.group(1).strip() if lm else ""
+        if not license_ok(lic): return None
+        g=classify(title,text,None)
+        if not g: return None
+        creator=""
+        # JSON-LD author is preferable when available.
+        for sc in soup.find_all("script",type="application/ld+json"):
+            raw=sc.get_text(" ",strip=True)
+            mm=re.search(r'"author"\\s*:\\s*\\{[^}]*"name"\\s*:\\s*"([^"]+)',raw)
+            if mm: creator=clean_text(mm.group(1)); break
+        image=""
+        og=soup.find("meta",property="og:image")
+        if og: image=og.get("content") or ""
+        return {"id":d["id"],"name":title,"group":g,"license":lic,"source":d["source"],"creator":creator,"image":image,"downloads":0,"likes":0,"makes":0,"description":""}
+
+    # Verify in parallel, but cap the candidate set to keep the GitHub runner bounded.
+    cand=list(candidates.values())[:2200]
+    with ThreadPoolExecutor(max_workers=20) as ex:
+        futs=[ex.submit(detail,d) for d in cand]
+        for fut in as_completed(futs):
+            try:
+                d=fut.result()
+                if d: out[d["id"]]=d
+            except Exception:
+                pass
     print(f"Thingiverse licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
-def make_product(d, source_key, rank):
-    group=d["group"]
-    sub_map={
-        "Automotive":"Accessories & Replacement Parts",
-        "Tools & Workshop":"Workshop Storage & Tools",
-        "Office & Desk":"Desk Organization",
-        "Electronics & Tech":"Device Holders & Enclosures",
-        "Home & Living":"Home Organization",
-        "Business & Retail":"Displays & Signage",
-        "Creator & Gaming":"Gaming & Creator Accessories",
-        "Repair & Replacement":"Replacement Parts",
-        "Garden & Outdoor":"Garden & Outdoor",
-        "Education & Maker":"Maker Tools & Education",
-    }
-    desc=d.get("description") or f"{d['name']} — a practical made-to-order 3D printed product selected for PrintForge based on market demand."
-    img=d.get("image") or ""
-    images=[img] if img.startswith("http") else []
-    return {
-        "id":f"PF-{source_key}-{rank:04d}",
-        "name":d["name"][:180],
-        "category":group,
-        "subcategory":sub_map[group],
-        "type":"Made-to-order 3D printed product",
-        "description":clean_text(desc)[:900],
-        "images":[],
-        "customerTags":["Made to order","Commercial-use source verified"],
-        "imagePaths":images,
-        "platform":{"MW":"MakerWorld","PT":"Printables","TV":"Thingiverse"}[source_key],
-        "creator":d.get("creator") or "Original creator",
-        "license":d.get("license",""),
-        "source":d["source"],
-        "licenseGate":True,
-        "catalogBatch":BATCH
-    }
-
-def dedupe_select(candidates, quota, existing_names, existing_sources):
-    pool=[]
-    seen=set()
-    for d in candidates:
-        namekey=norm(d.get("name"))
-        src=d.get("source")
-        if not namekey or namekey in existing_names or src in existing_sources or namekey in seen:
-            continue
-        seen.add(namekey)
-        sc=score(d,d["group"])
-        if sc>=8: pool.append((sc,d))
-    pool.sort(key=lambda x:x[0],reverse=True)
-    selected=[]
-    counts={g:0 for g in GROUPS}
-    # First satisfy category distribution, then fill by score.
-    for sc,d in pool:
-        g=d["group"]
-        if counts[g] < quota.get(g,0):
-            selected.append(d); counts[g]+=1
-        if sum(counts.values())>=sum(quota.values()): break
-    return selected, counts, len(pool)
-
-def main():
-    data=json.loads(DATA.read_text(encoding="utf-8"))
-    products=data.get("products",[])
-    prior=[p for p in products if p.get("catalogBatch")==BATCH]
-    if prior:
-        products=[p for p in products if p.get("catalogBatch")!=BATCH]
-        print(f"Removed {len(prior)} prior expansion products for an idempotent rebuild.",flush=True)
-    if len(products)!=BASE_TOTAL:
-        raise SystemExit(f"Expected exactly {BASE_TOTAL} base products, found {len(products)}.")
-    existing_names={norm(p.get("name")) for p in products}
-    existing_sources={p.get("source") for p in products}
-
-    # Pull more than needed so one weak source can be compensated without
-    # compromising the three-source requirement.
-    mw=makerworld()
-    pt=printables()
-    tv=thingiverse()
-    print(f"RAW CANDIDATES: MakerWorld={len(mw)} Printables={len(pt)} Thingiverse={len(tv)}",flush=True)
-
-    # Source targets reflect verified public-source supply: MakerWorld is kept at the proven 446 level, while Printables and Thingiverse provide the balance.
-    source_targets={"MW":446,"PT":2200,"TV":1354}
-    selected_all=[]
-    source_counts={}
-    category_weights={
-        "Automotive":0.15,"Tools & Workshop":0.15,"Office & Desk":0.12,
-        "Electronics & Tech":0.12,"Home & Living":0.12,"Business & Retail":0.10,
-        "Creator & Gaming":0.07,"Repair & Replacement":0.10,"Garden & Outdoor":0.04,
-        "Education & Maker":0.03
-    }
-    quotas={g:round(TARGET_NEW*w) for g,w in category_weights.items()}
-    # Correct rounding drift.
-    while sum(quotas.values())<TARGET_NEW: quotas["Tools & Workshop"]+=1
-    while sum(quotas.values())>TARGET_NEW: quotas["Home & Living"]-=1
-
-    pools={"MW":mw,"PT":pt,"TV":tv}
-    for sk in ("MW","PT","TV"):
-        cand=pools[sk]
-        # source-level target; category quota is soft and total target is hard.
-        pool=[]
-        seen=set()
-        for d in cand:
-            k=norm(d.get("name"))
-            if not k or k in existing_names or d.get("source") in existing_sources or k in seen: continue
-            seen.add(k)
-            s=score(d,d["group"])
-            if s>=8: pool.append((s,d))
-        pool.sort(key=lambda x:x[0],reverse=True)
-        source_selected=[]
-        local_counts={g:0 for g in GROUPS}
-        for s,d in pool:
-            # Prefer categories that are still below global quotas.
-            g=d["group"]
-            if local_counts[g] >= quotas.get(g,0): continue
-            source_selected.append(d); local_counts[g]+=1
-            if len(source_selected)>=source_targets[sk]: break
-        # If category caps prevent target, fill from remaining pool.
-        if len(source_selected)<source_targets[sk]:
-            used={norm(d["name"]) for d in source_selected}
-            for s,d in pool:
-                if norm(d["name"]) in used: continue
-                source_selected.append(d); used.add(norm(d["name"]))
-                if len(source_selected)>=source_targets[sk]: break
-        if len(source_selected)<source_targets[sk]:
-            raise SystemExit(f"{sk} only has {len(source_selected)} qualifying market products; need {source_targets[sk]}.")
-        selected_all.extend((sk,d) for d in source_selected)
-        source_counts[sk]=len(source_selected)
-
-    if len(selected_all)!=TARGET_NEW:
-        raise SystemExit(f"Selected {len(selected_all)} new products; expected exactly {TARGET_NEW}.")
-
-    new=[]
-    ranks={"MW":0,"PT":0,"TV":0}
-    for sk,d in selected_all:
-        ranks[sk]+=1
-        new.append(make_product(d,sk,ranks[sk]))
-
-    final=products+new
-    if len(final)!=5000:
-        raise SystemExit(f"Final catalogue would contain {len(final)} products, not 5000.")
-    data["products"]=final
-    DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
-
-    print("SUCCESS: generated exactly 4,000 new products.",flush=True)
-    print("SOURCE COUNTS:",source_counts,flush=True)
-    print("FINAL TOTAL:",len(final),flush=True)
-
-if __name__=="__main__":
-    main()
