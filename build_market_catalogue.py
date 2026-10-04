@@ -9,7 +9,8 @@ Sources:
 Only explicit commercial-use licenses are accepted. This script never fabricates
 products and is idempotent: it replaces only catalogBatch=market-expansion-4000.
 """
-import json, math, re, time\nfrom concurrent.futures import ThreadPoolExecutor, as_completed
+import json, math, re, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import quote, urljoin
 
