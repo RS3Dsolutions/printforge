@@ -202,171 +202,128 @@ def score(item, group):
     return s
 
 def makerworld():
-    out = {}
-    base = "https://api.bambulab.com/v1/search-service/select/design2"
-    for n, term in enumerate(QUERY_TERMS, 1):
-        group = classify(term, preferred=next((g for g,ts in GROUPS.items() if term in ts), None))
-        for page in range(1, 13):
-            r = get(base, params={"keyword":term, "page":page, "limit":30}, timeout=30)
-            if not r: break
-            try: payload = r.json()
-            except Exception: break
-            raw = payload.get("hits") or payload.get("results") or payload.get("items") or []
-            if isinstance(raw, dict): raw = raw.get("items") or raw.get("hits") or []
-            if not raw: break
-            for hit in raw:
-                d = hit.get("design") if isinstance(hit,dict) and isinstance(hit.get("design"),dict) else hit
-                if not isinstance(d,dict): continue
-                mid = str(d.get("id") or d.get("designId") or "").strip()
-                title = clean_text(d.get("title") or d.get("name"))
-                if not mid or not title: continue
-                lic = str(d.get("license") or "").strip()
-                g = classify(title, d.get("tags") or "", group)
-                if not g or not license_ok(lic): continue
-                src = d.get("url") or d.get("source") or f"https://makerworld.com/en/models/{mid}"
-                out[mid] = {"id":mid,"name":title,"group":g,"license":lic,"source":src,
-                            "creator":clean_text((d.get("designCreator") or {}).get("name") if isinstance(d.get("designCreator"),dict) else d.get("creator")),
-                            "image":d.get("coverUrl") or d.get("primaryImage") or "",
-                            "downloads":d.get("downloadCount",0),"likes":d.get("likeCount",0),
-                            "makes":d.get("printCount",0),"description":clean_text(d.get("summary") or d.get("description") or "")}
-            if len(raw) < 30: break
-            time.sleep(.15)
-        print(f"MakerWorld {n}/{len(QUERY_TERMS)} {term}: {len(out)} candidates", flush=True)
-        if len(out) >= 2200: break
+    out={}
+    base="https://api.bambulab.com/v1/search-service/select/design2"
+    def one(term,page):
+        r=get(base,params={"keyword":term,"page":page,"limit":30},timeout=20)
+        if not r: return []
+        try: payload=r.json()
+        except Exception: return []
+        raw=payload.get("hits") or payload.get("results") or payload.get("items") or []
+        if isinstance(raw,dict): raw=raw.get("items") or raw.get("hits") or []
+        group=next((g for g,ts in GROUPS.items() if term in ts),None)
+        rows=[]
+        for hit in raw or []:
+            d=hit.get("design") if isinstance(hit,dict) and isinstance(hit.get("design"),dict) else hit
+            if not isinstance(d,dict): continue
+            mid=str(d.get("id") or d.get("designId") or "").strip()
+            title=clean_text(d.get("title") or d.get("name"))
+            lic=str(d.get("license") or "").strip()
+            if not mid or not title or not license_ok(lic): continue
+            g=classify(title,d.get("tags") or "",group)
+            if not g: continue
+            rows.append({"id":mid,"name":title,"group":g,"license":lic,
+                "source":d.get("url") or d.get("source") or f"https://makerworld.com/en/models/{mid}",
+                "creator":clean_text((d.get("designCreator") or {}).get("name") if isinstance(d.get("designCreator"),dict) else d.get("creator")),
+                "image":d.get("coverUrl") or d.get("primaryImage") or "",
+                "downloads":d.get("downloadCount",0),"likes":d.get("likeCount",0),"makes":d.get("printCount",0),
+                "description":clean_text(d.get("summary") or d.get("description") or "")})
+        return rows
+    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,9)]
+    with ThreadPoolExecutor(max_workers=16) as ex:
+        futs=[ex.submit(one,*x) for x in tasks]
+        for fut in as_completed(futs):
+            for d in fut.result(): out[d["id"]]=d
+    print(f"MakerWorld licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
 def printables():
-    out = {}
-    query = """
+    out={}
+    query="""
     query SearchModels($query:String!,$limit:Int,$offset:Int,$ordering:SearchChoicesEnum) {
       searchPrints2(query:$query, printType:print, limit:$limit, offset:$offset, ordering:$ordering) {
-        items {
-          id name slug ratingAvg likesCount downloadCount datePublished
-          user { publicUsername handle }
-          image { filePath }
-          license { id name disallowRemixing }
-        }
-        totalCount
+        items { id name slug likesCount downloadCount user { publicUsername handle } image { filePath } license { id name disallowRemixing } }
       }
     }"""
-    for n, term in enumerate(QUERY_TERMS, 1):
-        group = next((g for g,ts in GROUPS.items() if term in ts), None)
-        for offset in range(0, 1000, 100):
-            r = post("https://api.printables.com/graphql/",
-                     json={"operationName":"SearchModels","query":query,
-                           "variables":{"query":term,"limit":100,"offset":offset,"ordering":"popular"}})
-            if not r: break
-            try: obj = r.json().get("data",{}).get("searchPrints2",{})
-            except Exception: break
-            items = obj.get("items") or []
-            if not items: break
-            for d in items:
-                title=clean_text(d.get("name"))
-                lic=clean_text((d.get("license") or {}).get("name"))
-                g=classify(title, "", group)
-                if not g or not license_ok(lic): continue
-                mid=str(d.get("id"))
-                src=f"https://www.printables.com/model/{mid}-{d.get('slug') or norm(title).replace(' ','-')}"
-                image=((d.get("image") or {}).get("filePath") or "")
-                if image and not image.startswith("http"): image="https://media.printables.com/"+image.lstrip("/")
-                out[mid]={"id":mid,"name":title,"group":g,"license":lic,"source":src,
-                          "creator":clean_text((d.get("user") or {}).get("publicUsername") or (d.get("user") or {}).get("handle")),
-                          "image":image,"downloads":d.get("downloadCount",0),"likes":d.get("likesCount",0),
-                          "makes":0,"description":""}
-            if len(items)<100: break
-            time.sleep(.15)
-        print(f"Printables {n}/{len(QUERY_TERMS)} {term}: {len(out)} candidates", flush=True)
-        if len(out) >= 2200: break
+    def one(term,offset):
+        group=next((g for g,ts in GROUPS.items() if term in ts),None)
+        r=post("https://api.printables.com/graphql/",json={"operationName":"SearchModels","query":query,
+          "variables":{"query":term,"limit":100,"offset":offset,"ordering":"popular"}},timeout=25)
+        if not r: return []
+        try: items=(r.json().get("data",{}).get("searchPrints2",{}) or {}).get("items") or []
+        except Exception: return []
+        rows=[]
+        for d in items:
+            title=clean_text(d.get("name")); lic=clean_text((d.get("license") or {}).get("name"))
+            g=classify(title,"",group)
+            if not g or not license_ok(lic): continue
+            mid=str(d.get("id")); slug=d.get("slug") or norm(title).replace(" ","-")
+            image=((d.get("image") or {}).get("filePath") or "")
+            if image and not image.startswith("http"): image="https://media.printables.com/"+image.lstrip("/")
+            rows.append({"id":mid,"name":title,"group":g,"license":lic,
+              "source":f"https://www.printables.com/model/{mid}-{slug}",
+              "creator":clean_text((d.get("user") or {}).get("publicUsername") or (d.get("user") or {}).get("handle")),
+              "image":image,"downloads":d.get("downloadCount",0),"likes":d.get("likesCount",0),"makes":0,"description":""})
+        return rows
+    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,800,100)]
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs=[ex.submit(one,*x) for x in tasks]
+        for fut in as_completed(futs):
+            for d in fut.result(): out[d["id"]]=d
+    print(f"Printables licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
-def thingiverse_search(term, page):
-    url="https://www.thingiverse.com/search"
-    r=get(url,params={"q":term,"type":"things","sort":"popular","page":page},timeout=30)
+def thingiverse_search(term,page):
+    r=get("https://www.thingiverse.com/search",params={"q":term,"type":"things","sort":"popular","page":page},timeout=20)
     if not r: return []
-    soup=BeautifulSoup(r.text,"html.parser")
-    found={}
+    soup=BeautifulSoup(r.text,"html.parser"); found={}
     for a in soup.select('a[href*="/thing:"]'):
-        href=a.get("href","")
-        m=re.search(r"/thing:(\d+)",href)
-        if not m: continue
-        tid=m.group(1)
-        name=clean_text(a.get_text(" ",strip=True))
-        if not name or len(name)<3: continue
-        found[tid]={"id":tid,"name":name,"source":urljoin("https://www.thingiverse.com",href)}
+        href=a.get("href",""); mm=re.search(r"/thing:(\\d+)",href)
+        if not mm: continue
+        tid=mm.group(1); name=clean_text(a.get_text(" ",strip=True))
+        if name and len(name)>2: found[tid]={"id":tid,"name":name,"source":urljoin("https://www.thingiverse.com",href)}
     return list(found.values())
 
 def thingiverse_detail(c):
-    r=get(c["source"],timeout=25)
+    r=get(c["source"],timeout=20)
     if not r: return None
-    soup=BeautifulSoup(r.text,"html.parser")
+    soup=BeautifulSoup(r.text,"html.parser"); html=r.text
     text=soup.get_text(" ",strip=True)
-    # License is normally exposed in the model details / structured data.
-    vals=[]
-    for pat in [
-        r"Creative Commons\s*[-–]\s*(?:Attribution(?:\s*[-–]\s*(?:Share Alike|No Derivatives))?)",
-        r"Creative Commons\s*[-–]\s*Public Domain",
-        r"Public Domain",
-        r"GNU\s+(?:General Public License|Lesser General Public License)",
-        r"BSD License",
-    ]:
-        vals += re.findall(pat,text,re.I)
-    lic=vals[0].strip() if vals else ""
-    # Prefer JSON-LD image/name when present.
+    lic=""
+    pats=[r"Creative Commons\\s*[-–]\\s*(?:Attribution(?:\\s*[-–]\\s*(?:Share Alike|No Derivatives))?)",
+          r"Creative Commons\\s*[-–]\\s*Public Domain",r"Public Domain",
+          r"GNU\\s+(?:General Public License|Lesser General Public License)",r"BSD License"]
+    for pat in pats:
+        mm=re.search(pat,text,re.I)
+        if mm: lic=mm.group(0); break
     image=""
-    for tag in soup.select('meta[property="og:image"],meta[property="og:image:url"],meta[name="twitter:image"]'):
-        if tag.get("content"): image=tag["content"]; break
-    if not lic:
-        html=r.text
-        m=re.search(r'(?i)(?:license(?:Name)?)[^A-Za-z]{0,40}([A-Za-z][A-Za-z -]{3,80})',html)
-        if m: lic=clean_text(m.group(1))
-    c["license"]=lic
-    c["image"]=image
-    c["creator"]=""
-    m=re.search(r'(?i)(?:creator|author)[^A-Za-z]{0,30}["\']([^"\']+)["\']',r.text)
-    if m: c["creator"]=clean_text(m.group(1))
-    return c
+    tag=soup.select_one('meta[property="og:image"],meta[property="og:image:url"],meta[name="twitter:image"]')
+    if tag: image=tag.get("content") or ""
+    c["license"]=lic; c["image"]=image; c["creator"]=""
+    return c if license_ok(lic) else None
 
 def thingiverse():
-    out={}
-    # Search pages are cheap; model-page license verification is the expensive
-    # operation, so verify candidates concurrently while preserving strict gates.
-    raw={}
-    for n,term in enumerate(QUERY_TERMS,1):
-        group=next((g for g,ts in GROUPS.items() if term in ts),None)
-        for page in range(1,16):
-            for cand in thingiverse_search(term,page):
-                tid=cand["id"]
-                if tid not in raw:
-                    cand["group"]=group
-                    raw[tid]=cand
-            if len(raw)>=5000: break
-            time.sleep(.1)
-        print(f"Thingiverse discovery {n}/{len(QUERY_TERMS)} {term}: {len(raw)} unique candidates",flush=True)
-        if len(raw)>=3500: break
-
-    candidates=list(raw.values())
-    def verify(c):
-        try:
-            d=thingiverse_detail(c)
-            if not d or not license_ok(d.get("license")): return None
-            g=classify(d.get("name"),"",c.get("group"))
-            if not g: return None
-            d["group"]=g
-            d["downloads"]=0; d["likes"]=0; d["makes"]=0; d["description"]=""
-            return d
-        except Exception:
-            return None
-
+    found={}
+    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,9)]
     with ThreadPoolExecutor(max_workers=12) as ex:
-        futures=[ex.submit(verify,c) for c in candidates]
-        for i,f in enumerate(as_completed(futures),1):
-            d=f.result()
+        futs=[ex.submit(thingiverse_search,*x) for x in tasks]
+        for fut in as_completed(futs):
+            for d in fut.result(): found[d["id"]]=d
+    print(f"Thingiverse market page candidates: {len(found)}",flush=True)
+    candidates=list(found.values())
+    out={}
+    def detail(d):
+        if not classify(d["name"],""): return None
+        return thingiverse_detail(d)
+    with ThreadPoolExecutor(max_workers=16) as ex:
+        futs=[ex.submit(detail,d) for d in candidates]
+        for fut in as_completed(futs):
+            d=fut.result()
             if d:
+                d["group"]=classify(d["name"],"")
+                d["downloads"]=d["likes"]=d["makes"]=0; d["description"]=""
                 out[d["id"]]=d
-            if i % 100 == 0:
-                print(f"Thingiverse license verification: {i}/{len(candidates)} checked, {len(out)} licensed",flush=True)
-            if len(out)>=1500:
-                break
-    print(f"Thingiverse final licensed candidates: {len(out)}",flush=True)
+                if len(out)>=1400: break
+    print(f"Thingiverse licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
