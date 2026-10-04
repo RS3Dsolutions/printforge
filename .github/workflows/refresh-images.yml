@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'fetch_product_images.py'
+      - 'build_market_catalogue.py'
       - 'build_makerworld_market_catalogue.py'
       - 'build_catalogue_shards.py'
       - 'products.json'
@@ -14,16 +15,14 @@ on:
 permissions:
   contents: write
 
-# Keep one refresh active at a time, but NEVER cancel an active catalogue build.
-# A long MakerWorld discovery run must be allowed to finish even if another
-# source commit lands on main while it is running.
 concurrency:
-  group: printforge-refresh-product-photos-v2
+  group: printforge-refresh-product-photos-v3
   cancel-in-progress: true
 
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -41,11 +40,36 @@ jobs:
           pip install requests beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
 
-      - name: Validate catalogue script syntax
-        run: python -m py_compile build_makerworld_market_catalogue.py
+      - name: Validate catalogue scripts
+        run: |
+          python -m py_compile build_market_catalogue.py
+          python -m py_compile fetch_product_images.py
+          python -m py_compile build_catalogue_shards.py
 
-      - name: Source and curate MakerWorld market catalogue
-        run: python build_makerworld_market_catalogue.py
+      - name: Build 4,000-product market expansion
+        run: python build_market_catalogue.py
+
+      - name: Verify exact catalogue size
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('products.json',encoding='utf-8'))
+          products=d.get('products',[])
+          print('Catalogue total:',len(products))
+          if len(products)!=5000:
+              raise SystemExit('::error::Catalogue must contain exactly 5000 products.')
+          batch=[p for p in products if p.get('catalogBatch')=='market-expansion-4000']
+          print('Expansion products:',len(batch))
+          if len(batch)!=4000:
+              raise SystemExit('::error::Expansion must contain exactly 4000 products.')
+          sources={}
+          for p in batch:
+              sources[p.get('platform','unknown')]=sources.get(p.get('platform','unknown'),0)+1
+          print('Expansion source counts:',sources)
+          if not {'MakerWorld','Printables','Thingiverse'}.issubset(sources):
+              raise SystemExit('::error::All three requested sources must contribute products.')
+          PY
 
       - name: Fetch real product photos
         run: python fetch_product_images.py
@@ -53,7 +77,7 @@ jobs:
       - name: Build catalogue shards
         run: python build_catalogue_shards.py
 
-      - name: Verify photo coverage
+      - name: Verify catalogue and photo coverage
         shell: bash
         run: |
           python - <<'PY'
@@ -72,16 +96,21 @@ jobs:
               1 for p in products for u in (p.get('imagePaths') or [])
               if urlparse(u).scheme not in ('http','https')
           )
+          manifest=json.load(open('catalogue/manifest.json',encoding='utf-8'))
 
+          print(f'Products: {total}')
           print(f'Products with image assets: {with_images}/{total}')
           print(f'Remote image URLs: {remote_urls}')
           print(f'Local image references: {local_refs}')
+          print(f'Manifest total: {manifest.get("totalProducts")}')
 
-          if total == 0:
-              raise SystemExit('::error::Catalogue contains no products.')
+          if total != 5000:
+              raise SystemExit('::error::Final catalogue is not exactly 5000 products.')
+          if manifest.get('totalProducts') != 5000:
+              raise SystemExit('::error::Manifest does not report 5000 products.')
           if with_images != total:
               missing=[p.get('id') for p in products if not p.get('imagePaths')]
-              print('Missing image products:', ', '.join(missing[:50]))
+              print('Missing image products:', ', '.join(missing[:100]))
               raise SystemExit('::error::One or more products have no image assets.')
           PY
 
@@ -91,33 +120,20 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-
           git add products.json assets/products catalogue/manifest.json catalogue/products-*.json
-
           if git diff --cached --quiet; then
-            echo 'No photo changes to commit.'
+            echo 'No generated catalogue changes to commit.'
             exit 0
           fi
-
-          git commit -m 'Refresh local product photos [skip ci]'
-
-          # The image job can run for several minutes. During that time main may
-          # receive another commit. Rebase our generated-image commit onto the
-          # current remote main before pushing instead of failing with
-          # "fetch first".
+          git commit -m 'Build 5000-product PrintForge catalogue [skip ci]'
           for attempt in 1 2 3; do
-            echo "Synchronizing with origin/main (attempt $attempt/3)..."
             git fetch origin main
             git rebase origin/main
-
             if git push origin HEAD:main; then
-              echo 'Photos and manifest pushed successfully.'
+              echo '5000-product catalogue pushed successfully.'
               exit 0
             fi
-
-            echo 'Push raced with another main update; retrying...'
             sleep 3
           done
-
-          echo '::error::Could not push generated image assets after 3 synchronization attempts.'
+          echo '::error::Could not push generated catalogue after synchronization retries.'
           exit 1
