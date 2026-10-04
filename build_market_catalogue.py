@@ -204,8 +204,8 @@ def score(item, group):
 def makerworld():
     out={}
     base="https://api.bambulab.com/v1/search-service/select/design2"
-    def one(term,page):
-        r=get(base,params={"keyword":term,"page":page,"limit":30},timeout=10)
+    def one(term,offset):
+        r=get(base,params={"keyword":norm(term),"offset":offset,"limit":30},timeout=10)
         if not r: return []
         try: payload=r.json()
         except Exception: return []
@@ -229,7 +229,7 @@ def makerworld():
                 "downloads":d.get("downloadCount",0),"likes":d.get("likeCount",0),"makes":d.get("printCount",0),
                 "description":clean_text(d.get("summary") or d.get("description") or "")})
         return rows
-    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,4)]
+    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,900,30)]
     with ThreadPoolExecutor(max_workers=16) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
@@ -273,60 +273,48 @@ def printables():
     print(f"Printables licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
 
-def thingiverse_search(term,page):
-    r=get("https://www.thingiverse.com/search",params={"q":term,"type":"things","sort":"popular","page":page},timeout=20)
-    if not r: return []
-    soup=BeautifulSoup(r.text,"html.parser"); found={}
-    for a in soup.select('a[href*="/thing:"]'):
-        href=a.get("href",""); mm=re.search(r"/thing:(\\d+)",href)
-        if not mm: continue
-        tid=mm.group(1); name=clean_text(a.get_text(" ",strip=True))
-        if name and len(name)>2: found[tid]={"id":tid,"name":name,"source":urljoin("https://www.thingiverse.com",href)}
-    return list(found.values())
-
-def thingiverse_detail(c):
-    r=get(c["source"],timeout=20)
-    if not r: return None
-    soup=BeautifulSoup(r.text,"html.parser"); html=r.text
-    text=soup.get_text(" ",strip=True)
-    lic=""
-    pats=[r"Creative Commons\\s*[-–]\\s*(?:Attribution(?:\\s*[-–]\\s*(?:Share Alike|No Derivatives))?)",
-          r"Creative Commons\\s*[-–]\\s*Public Domain",r"Public Domain",
-          r"GNU\\s+(?:General Public License|Lesser General Public License)",r"BSD License"]
-    for pat in pats:
-        mm=re.search(pat,text,re.I)
-        if mm: lic=mm.group(0); break
-    image=""
-    tag=soup.select_one('meta[property="og:image"],meta[property="og:image:url"],meta[name="twitter:image"]')
-    if tag: image=tag.get("content") or ""
-    c["license"]=lic; c["image"]=image; c["creator"]=""
-    return c if license_ok(lic) else None
-
 def thingiverse():
-    found={}
-    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,9)]
-    with ThreadPoolExecutor(max_workers=12) as ex:
-        futs=[ex.submit(thingiverse_search,*x) for x in tasks]
-        for fut in as_completed(futs):
-            for d in fut.result(): found[d["id"]]=d
-    print(f"Thingiverse market page candidates: {len(found)}",flush=True)
-    candidates=list(found.values())[:2800]
+    """Use Openverse's public Thingiverse index for licensed model metadata.
+    Openverse exposes original Thingiverse landing URLs and per-item CC license.
+    """
     out={}
-    def detail(d):
-        if not classify(d["name"],""): return None
-        return thingiverse_detail(d)
-    with ThreadPoolExecutor(max_workers=16) as ex:
-        futs=[ex.submit(detail,d) for d in candidates]
+    terms=[
+        "car phone holder","car mount","car organizer","bike mount",
+        "tool holder","tool organizer","pegboard","workshop organizer",
+        "phone stand","laptop stand","desk organizer","cable organizer",
+        "electronics enclosure","raspberry pi case","arduino case","ssd holder",
+        "drawer organizer","storage box","wall hook","plant holder",
+        "business card holder","display stand","sign holder","qr stand",
+        "controller stand","headset holder","camera mount","microphone holder",
+        "replacement part","replacement clip","repair bracket","appliance replacement",
+        "garden tool holder","plant support","maker jig","measurement tool"
+    ]
+    def one(term,page):
+        r=get("https://api.openverse.org/v1/images/",
+              params={"q":term,"source":"thingiverse","license":"cc0,by,by-sa,by-nd",
+                      "page":page,"page_size":100,"mature":"false","filter_dead":"true"},timeout=12)
+        if not r: return []
+        try: rows=r.json().get("results") or []
+        except Exception: return []
+        result=[]
+        for d in rows:
+            title=clean_text(d.get("title"))
+            lic=str(d.get("license") or "").strip()
+            src=d.get("foreign_landing_url") or ""
+            if "thingiverse.com/thing:" not in src: continue
+            g=classify(title, " ".join(d.get("tags") or []) if isinstance(d.get("tags"),list) else "", None)
+            if not g or not license_ok(lic): continue
+            result.append({"id":src.rsplit("thing:",1)[-1],"name":title,"group":g,"license":lic,
+              "source":src,"creator":clean_text(d.get("creator")),"image":d.get("url") or d.get("thumbnail") or "",
+              "downloads":0,"likes":0,"makes":0,"description":""})
+        return result
+    tasks=[(term,page) for term in terms for page in (1,2)]
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
-            d=fut.result()
-            if d:
-                d["group"]=classify(d["name"],"")
-                d["downloads"]=d["likes"]=d["makes"]=0; d["description"]=""
-                out[d["id"]]=d
-                if len(out)>=1400: break
+            for d in fut.result(): out[d["id"]]=d
     print(f"Thingiverse licensed market candidates: {len(out)}",flush=True)
     return list(out.values())
-
 
 def make_product(d, source_key, rank):
     group=d["group"]
