@@ -142,18 +142,18 @@ def clean_text(s):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", str(s or ""))).strip()
 
 def get(url, **kwargs):
-    for attempt in range(5):
+    for attempt in range(3):
         try:
             r = S.get(url, timeout=kwargs.pop("timeout", 30), **kwargs)
             if r.status_code == 429:
-                time.sleep([3,8,20,45,90][attempt])
+                time.sleep([2,5,12][attempt])
                 continue
             if r.ok:
                 return r
         except Exception:
             if attempt == 4:
                 return None
-            time.sleep([2,5,10,20][attempt])
+            time.sleep([1,3,7][attempt])
     return None
 
 def post(url, **kwargs):
@@ -205,7 +205,7 @@ def makerworld():
     out={}
     base="https://api.bambulab.com/v1/search-service/select/design2"
     def one(term,page):
-        r=get(base,params={"keyword":term,"page":page,"limit":30},timeout=20)
+        r=get(base,params={"keyword":term,"page":page,"limit":30},timeout=10)
         if not r: return []
         try: payload=r.json()
         except Exception: return []
@@ -229,7 +229,7 @@ def makerworld():
                 "downloads":d.get("downloadCount",0),"likes":d.get("likeCount",0),"makes":d.get("printCount",0),
                 "description":clean_text(d.get("summary") or d.get("description") or "")})
         return rows
-    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,9)]
+    tasks=[(term,page) for term in QUERY_TERMS for page in range(1,4)]
     with ThreadPoolExecutor(max_workers=16) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
@@ -248,7 +248,7 @@ def printables():
     def one(term,offset):
         group=next((g for g,ts in GROUPS.items() if term in ts),None)
         r=post("https://api.printables.com/graphql/",json={"operationName":"SearchModels","query":query,
-          "variables":{"query":term,"limit":100,"offset":offset,"ordering":"popular"}},timeout=25)
+          "variables":{"query":term,"limit":100,"offset":offset,"ordering":"popular"}},timeout=10)
         if not r: return []
         try: items=(r.json().get("data",{}).get("searchPrints2",{}) or {}).get("items") or []
         except Exception: return []
@@ -265,7 +265,7 @@ def printables():
               "creator":clean_text((d.get("user") or {}).get("publicUsername") or (d.get("user") or {}).get("handle")),
               "image":image,"downloads":d.get("downloadCount",0),"likes":d.get("likesCount",0),"makes":0,"description":""})
         return rows
-    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,800,100)]
+    tasks=[(term,offset) for term in QUERY_TERMS for offset in range(0,500,100)]
     with ThreadPoolExecutor(max_workers=12) as ex:
         futs=[ex.submit(one,*x) for x in tasks]
         for fut in as_completed(futs):
@@ -310,7 +310,7 @@ def thingiverse():
         for fut in as_completed(futs):
             for d in fut.result(): found[d["id"]]=d
     print(f"Thingiverse market page candidates: {len(found)}",flush=True)
-    candidates=list(found.values())
+    candidates=list(found.values())[:2800]
     out={}
     def detail(d):
         if not classify(d["name"],""): return None
