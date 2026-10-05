@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "products.json",
-  "totalProducts": 1000,
+  "totalProducts": 5000,
   "shardSize": 75,
   "shards": [
     {
@@ -85,8 +85,326 @@
     {
       "file": "catalogue/products-14.json",
       "start": 976,
-      "end": 1000,
-      "count": 25
+      "end": 1050,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-15.json",
+      "start": 1051,
+      "end": 1125,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-16.json",
+      "start": 1126,
+      "end": 1200,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-17.json",
+      "start": 1201,
+      "end": 1275,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-18.json",
+      "start": 1276,
+      "end": 1350,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-19.json",
+      "start": 1351,
+      "end": 1425,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-20.json",
+      "start": 1426,
+      "end": 1500,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-21.json",
+      "start": 1501,
+      "end": 1575,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-22.json",
+      "start": 1576,
+      "end": 1650,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-23.json",
+      "start": 1651,
+      "end": 1725,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-24.json",
+      "start": 1726,
+      "end": 1800,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-25.json",
+      "start": 1801,
+      "end": 1875,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-26.json",
+      "start": 1876,
+      "end": 1950,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-27.json",
+      "start": 1951,
+      "end": 2025,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-28.json",
+      "start": 2026,
+      "end": 2100,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-29.json",
+      "start": 2101,
+      "end": 2175,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-30.json",
+      "start": 2176,
+      "end": 2250,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-31.json",
+      "start": 2251,
+      "end": 2325,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-32.json",
+      "start": 2326,
+      "end": 2400,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-33.json",
+      "start": 2401,
+      "end": 2475,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-34.json",
+      "start": 2476,
+      "end": 2550,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-35.json",
+      "start": 2551,
+      "end": 2625,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-36.json",
+      "start": 2626,
+      "end": 2700,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-37.json",
+      "start": 2701,
+      "end": 2775,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-38.json",
+      "start": 2776,
+      "end": 2850,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-39.json",
+      "start": 2851,
+      "end": 2925,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-40.json",
+      "start": 2926,
+      "end": 3000,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-41.json",
+      "start": 3001,
+      "end": 3075,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-42.json",
+      "start": 3076,
+      "end": 3150,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-43.json",
+      "start": 3151,
+      "end": 3225,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-44.json",
+      "start": 3226,
+      "end": 3300,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-45.json",
+      "start": 3301,
+      "end": 3375,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-46.json",
+      "start": 3376,
+      "end": 3450,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-47.json",
+      "start": 3451,
+      "end": 3525,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-48.json",
+      "start": 3526,
+      "end": 3600,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-49.json",
+      "start": 3601,
+      "end": 3675,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-50.json",
+      "start": 3676,
+      "end": 3750,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-51.json",
+      "start": 3751,
+      "end": 3825,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-52.json",
+      "start": 3826,
+      "end": 3900,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-53.json",
+      "start": 3901,
+      "end": 3975,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-54.json",
+      "start": 3976,
+      "end": 4050,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-55.json",
+      "start": 4051,
+      "end": 4125,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-56.json",
+      "start": 4126,
+      "end": 4200,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-57.json",
+      "start": 4201,
+      "end": 4275,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-58.json",
+      "start": 4276,
+      "end": 4350,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-59.json",
+      "start": 4351,
+      "end": 4425,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-60.json",
+      "start": 4426,
+      "end": 4500,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-61.json",
+      "start": 4501,
+      "end": 4575,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-62.json",
+      "start": 4576,
+      "end": 4650,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-63.json",
+      "start": 4651,
+      "end": 4725,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-64.json",
+      "start": 4726,
+      "end": 4800,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-65.json",
+      "start": 4801,
+      "end": 4875,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-66.json",
+      "start": 4876,
+      "end": 4950,
+      "count": 75
+    },
+    {
+      "file": "catalogue/products-67.json",
+      "start": 4951,
+      "end": 5000,
+      "count": 50
     }
   ]
 }

@@ -1,0 +1,1873 @@
+{
+  "schemaVersion": 1,
+  "shard": 15,
+  "products": [
+    {
+      "id": "PF-MW-0051",
+      "name": "Gridfinity MDS Remix for Multiboard",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity MDS Remix for Multiboard — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USa0e3de3fd0048b/design/2024-01-11_9ab0fd7defaab8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0e3de3fd0048b/40711238/instance/2024-01-11_9ab0fd7defaab8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0e3de3fd0048b/40711238/instance/2024-01-11_c0a7aa6d07f96.png",
+        "https://makerworld.bblmw.com/makerworld/model/USa0e3de3fd0048b/40711238/instance/2024-01-11_2ff9bcd31e694.png",
+        "https://makerworld.bblmw.com/makerworld/model/USa0e3de3fd0048b/40711238/instance/2024-01-11_46ddc56ce55e1.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Chris3DPrints",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/134389",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0052",
+      "name": "Parametric Plant Clip",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "Parametric Plant Clip — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4ce130f695f267/design/2024-06-19_e1c701a58f48.png",
+        "https://makerworld.bblmw.com/makerworld/model/US4ce130f695f267/89385781/instance/2024-06-19_bd48d4636c64b.webp"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Schnitzl",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/501777",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0053",
+      "name": "Parametric Stand for Tablet or Plaque Award",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Parametric Stand for Tablet or Plaque Award — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000151510/design/2024-01-22_9qn5cg2242h9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US980c40d68452bd/87797260/instance/2024-06-14_6e06410ed81db.png",
+        "https://makerworld.bblmw.com/makerworld/model/US980c40d68452bd/87797260/instance/2024-06-14_4e4fa996899e9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US980c40d68452bd/87797260/instance/2024-06-14_d5ba95374ccb6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US980c40d68452bd/87797260/instance/2024-06-14_c2c4d2b26347b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US980c40d68452bd/87797260/instance/2024-06-14_5ab4d29b953d2.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "matt thibs",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/151510",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0054",
+      "name": "Gridfinity parts tray 3x3 4.5u",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity parts tray 3x3 4.5u — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US773386a8781bed/design/2024-12-15_2ae7168db4414.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US773386a8781bed/177643048/instance/2024-12-15_2ae7168db4414.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Marcel",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/881937",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0055",
+      "name": "Open bin vertical display",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Open bin vertical display — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US1a4b4ab2ed587d/design/2026-01-02_c63ab4e06d0068.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1a4b4ab2ed587d/547538917/instance/2026-01-02_5a9736e378566.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1a4b4ab2ed587d/547536731/instance/2026-01-02_c63ab4e06d0068.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Tinker Link",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/2191633",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0056",
+      "name": "Gridfinity 5U Tall Bins - 1x1 to 5x5",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity 5U Tall Bins - 1x1 to 5x5 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/design/2024-07-23_s5xpxezf8zjz.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/151538909/instance/2024-11-03_42a76417cc3d9.png",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/151538909/instance/2024-07-23_s5xpxezf8zjz.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/151538909/instance/2024-07-22_98157ba32e8b08.png",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/785823065/instance/2024-11-03_d021ff0bad458.png",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/785823065/instance/2024-08-07_a2033a6094d45.png",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/785823653/instance/2024-11-03_6114cdc7e2d3f.png",
+        "https://makerworld.bblmw.com/makerworld/model/USda52b86d7b6fbc/785823653/instance/2024-08-07_66d83f661000e.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Andre P",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/553031",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0057",
+      "name": "iPhone Car Mount for Nanami Magsafe Charger",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "iPhone Car Mount for Nanami Magsafe Charger — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/design/2024-05-02_c119a265aca26.png",
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/73617600/instance/2024-05-02_34b6bafa1bc9a8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/73617600/instance/2024-05-02_70aad92b7b0a38.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/73617600/instance/2024-05-02_c07891d9838f8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/73617600/instance/2024-05-02_6a8ff149d15d88.png",
+        "https://makerworld.bblmw.com/makerworld/model/US69df08cc5b4e02/73617600/instance/2024-05-02_ce6f905dba67a.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "0Krypt",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/451387",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0058",
+      "name": "Paw Print B&BW Soap Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Paw Print B&BW Soap Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/design/2025-11-23_f0dbda467bd48.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/488811912/instance/2025-11-23_f0dbda467bd48.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_a3409c7c6ca37.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_86ba03a95dad6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_01725037991b58.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_9c04d348d5ce18.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_bed42bfa03c16.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9bdbc44d73b6cc/573379500/instance/2025-12-22_ecc0d7c53c6b88.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Once Upon a Model",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/2034626",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0059",
+      "name": "QR Code Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "QR Code Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4b24fb32ffdca5/design/2025-05-11_b008caf95bd9d8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4b24fb32ffdca5/298695387/instance/2025-05-11_b008caf95bd9d8.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "RickardP",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1406461",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0060",
+      "name": "Gridfinity M2, 3, 4, 5, 6 Screw & Heated Inserts",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity M2, 3, 4, 5, 6 Screw & Heated Inserts — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/design/2024-02-03_ebf3e6f1319cc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_ebf3e6f1319cc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_ebceaeaad645a.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_9b8fa8c1aac02.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_0b0e12f69e593.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_6285e1e408272.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_eff1370cf5e18.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6b153fb7981997/47014504/instance/2024-02-03_a3b669d82afb2.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "teh_chaosjester",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/168831",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0061",
+      "name": "PLAYSTATION 5 AKATSUKI (NARUTO ANIME) CONTROLLER VERTICAL SUPPORT",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "PLAYSTATION 5 AKATSUKI (NARUTO ANIME) CONTROLLER VERTICAL SUPPORT — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/design/2024-03-05_60cd3fcce3525.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/55933855/instance/2024-03-05_60cd3fcce3525.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/55933855/instance/2024-03-05_7a1a90cb63932.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/55933855/instance/2024-03-05_7d7180af1ec3d.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/86063565/instance/2024-06-10_43701c020413f.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US5426f54e03d444/86063565/instance/2024-06-10_cecaea1688bb6.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Jaycethehuman",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/227984",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0062",
+      "name": "Remix Gridfinity Tray for Small Parts Storage Box",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Remix Gridfinity Tray for Small Parts Storage Box — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd30e49660d7f4b/design/2024-12-26_1e6bc9494d577.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd30e49660d7f4b/186430608/instance/2024-12-26_2b0fa18040eac.png",
+        "https://makerworld.bblmw.com/makerworld/model/USd30e49660d7f4b/186430608/instance/2024-12-26_29cebb00368a8.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Shurizir",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/914080",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0063",
+      "name": "16'' Laptop Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "16'' Laptop Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US85d5f8d67f958d/design/2024-08-03_30ba5b8f5217f.png",
+        "https://makerworld.bblmw.com/makerworld/model/US85d5f8d67f958d/106770197/instance/2024-08-03_2c7d467128ccf.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "YB Concept",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/571376",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0064",
+      "name": "Bike Watter Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bike Watter Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US7a18953ef24f30/design/2024-03-03_8d3c3b2f83f61.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a18953ef24f30/72210778/instance/2024-04-28_a34d56d39030e8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7a18953ef24f30/72210778/instance/2024-04-28_deb6c2661e08a.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Jaki",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/223236",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0065",
+      "name": "Controller/ (Heaphone) Holder under Desk",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Controller/ (Heaphone) Holder under Desk — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5181f9a95fc405/design/2024-11-05_4ada4792d9fa1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5181f9a95fc405/150350496/instance/2024-11-05_4ada4792d9fa1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5181f9a95fc405/150350496/instance/2024-11-05_6eb20117f7218.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5181f9a95fc405/192934928/instance/2025-01-03_fc678e59780f8.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Hennik Prints",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/761130",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0066",
+      "name": "Gridfinity Flat Surfaces - Magnets",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Flat Surfaces - Magnets — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/design/2024-12-04_8d220fc977e778.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329220/instance/2024-12-04_8d220fc977e778.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329220/instance/2024-12-04_6d1f90139a37f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329220/instance/2024-12-04_d06acbf307ac5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329220/instance/2024-12-04_73887e640bb2d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329236/instance/2024-12-04_d00223d26485c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329236/instance/2024-12-04_6242fc9b66fcd.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USdb3f155a0b8ced/440329236/instance/2024-12-04_6dfadf53bf7428.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Blind Badger",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/849295",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0067",
+      "name": "Teacher's Gift | Pencil Holder (NO AMS Required)",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Teacher's Gift | Pencil Holder (NO AMS Required) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb16be92be2cf86/design/2025-12-18_53b07b3607ae08.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb16be92be2cf86/745309617/instance/2025-12-18_53b07b3607ae08.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Dogfinity",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/2132438",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0068",
+      "name": "Stand for Xbox Controller (One, Series S/X)",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Stand for Xbox Controller (One, Series S/X) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US66b42a602a96d7/design/2025-01-19_4db15eb9d2785.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US66b42a602a96d7/205988870/instance/2025-01-19_8df0a2c9fa1af.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "3DMaker",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1011834",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0069",
+      "name": "Business Card Holder with Please Take One sign",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Business Card Holder with Please Take One sign — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/design/2025-06-07_a57f00364a73d.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/321672413/instance/2025-06-07_a57f00364a73d.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/321672413/instance/2025-06-07_e57178b66eb608.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/321672413/instance/2025-06-07_0c90e7983799c.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/321672413/instance/2025-06-07_643ac4a92ee858.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc6b0b048276c82/321672413/instance/2025-06-07_6aafe3e6d3e5b8.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Takeo Creations",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1496723",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0070",
+      "name": "Garmin Mount Phone Holder for Zwift Indoor Cycling",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Garmin Mount Phone Holder for Zwift Indoor Cycling — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5da5757ef5f8d7/design/1552774f83970b23.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5da5757ef5f8d7/465150898/instance/2025-11-05_c03fd154362f68.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MS Designs",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1963068",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0071",
+      "name": "TriSecure Bracket",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "TriSecure Bracket — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US1853bf89433d0e/design/2025-01-01_8387dafacaaee.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1853bf89433d0e/191101407/instance/2025-01-01_8387dafacaaee.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MMC3D",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/936238",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0072",
+      "name": "Gridfinity for Woodworking Setup Blocks (Metric)",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity for Woodworking Setup Blocks (Metric) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US70dc0d5d02b68b/design/2025-05-17_2dc107c81e656.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US70dc0d5d02b68b/320580265/instance/2025-06-06_259a0f21a9b188.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US70dc0d5d02b68b/320580265/instance/2025-05-17_ad0541ca18019.png",
+        "https://makerworld.bblmw.com/makerworld/model/US70dc0d5d02b68b/762876042/instance/a9829eda59733ee2.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "ndom91",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1425749",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0073",
+      "name": "\"Printer Is Busy\" Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "\"Printer Is Busy\" Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/design/2024-05-05_0bd3ee8b2d282.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/74598986/instance/2024-05-05_6e8cbe0ab17de.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/74598986/instance/2024-05-05_6114a5e9c3b66.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/74598986/instance/2024-05-05_4a2f5ec033ab.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/74598986/instance/2024-05-05_7bb7a170e5e18.png",
+        "https://makerworld.bblmw.com/makerworld/model/US116f7cd04cb1da/74598986/instance/2024-05-05_137b06a7a9892.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "This & That",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/454735",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0074",
+      "name": "10inch Tablet stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "10inch Tablet stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb696cecfd92687/design/2024-06-10_d61d48a3972c1.png",
+        "https://makerworld.bblmw.com/makerworld/model/USb696cecfd92687/86120006/instance/2024-06-10_6a2303ca9a68a.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "sezgin0",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/490719",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0075",
+      "name": "Ikea LIVBOJ wireless charger phone stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ikea LIVBOJ wireless charger phone stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-11-27_8d7098cd94e85.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-12-01_b27e7bd049bf4.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-10-14_ae54afb42165c.png",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-10-14_2723919bc7f1a.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/75796958/instance/2024-05-06_8fd2417242c0d8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/75796958/instance/2024-05-09_6833e26b78b5d8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-10-24_8e5d561c5b2fe8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US22e8ec417068a2/design/2023-10-24_6b2768413f31f8.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "geeklabs",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/41402",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0076",
+      "name": "Business Card Wallet | Lightweight Holder/Carrier",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Business Card Wallet | Lightweight Holder/Carrier — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US811ebd91b52a57/design/2024-03-12_4f48711932509.gif",
+        "https://makerworld.bblmw.com/makerworld/model/US811ebd91b52a57/57902702/instance/2024-03-11_e8e9075f28bb8.gif",
+        "https://makerworld.bblmw.com/makerworld/model/US811ebd91b52a57/57902702/instance/2024-03-11_be19bb4ca177.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "BRE3DLOVE Designs",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/247846",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0077",
+      "name": "Bambu Lab P1S Gridfinity Base",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bambu Lab P1S Gridfinity Base — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd5cbb792765273/design/2023-09-26_3a3eb9906350c.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd5cbb792765273/235146978/instance/2025-02-23_f54b9bb12be7d.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USd5cbb792765273/67492275/instance/2024-04-12_1bda39af2a21d.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USd5cbb792765273/67492275/instance/2024-04-12_563851a4ed13a.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "luukluuk12",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/23718",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0078",
+      "name": "Simple QR code / Art stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Simple QR code / Art stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US8ca710ac62a6b3/design/2025-02-12_17c25a69549c1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US8ca710ac62a6b3/225802178/instance/2025-02-12_17c25a69549c1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US8ca710ac62a6b3/225802178/instance/2025-02-12_abdfc9e0001a8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US8ca710ac62a6b3/225802178/instance/2025-02-12_76f1511ae8d6f.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Printworkz Design",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1100141",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0079",
+      "name": "Laptop Stand V2",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Laptop Stand V2 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4a174614bbcc18/design/2025-02-23_82e77e5dc80fa.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4a174614bbcc18/235466924/instance/2025-02-23_82e77e5dc80fa.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4a174614bbcc18/235466924/instance/2025-02-23_fa0cc2add3712.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "WolfikFoto",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/1143578",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0080",
+      "name": "Honeycomb Screwdriver Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Honeycomb Screwdriver Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US40e0bda8f934ca/design/95e340de3cb58e56.png",
+        "https://makerworld.bblmw.com/makerworld/model/US40e0bda8f934ca/876735579/instance/95e340de3cb58e56.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Phoenix 3D Lab Design&Decor",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/3053943",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0081",
+      "name": "iPhone Monitor Mount - Continuity Camera",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "iPhone Monitor Mount - Continuity Camera — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US91f7505d4a7136/design/2024-03-02_lbu30112xb2y.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US91f7505d4a7136/59931783/instance/2024-03-18_fa55bac747057.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Backspin7325",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/216403",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0082",
+      "name": "QR Code Stand / Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "QR Code Stand / Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/design/64f3e65bcd2a062f.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/617377515/instance/563d737e9fd98822.png",
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/617377515/instance/e7f74a37fd03b775.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/617377515/instance/f5522d902208916c.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/617377515/instance/bcac601265d99d4b.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USf841ab0aa1f381/617377515/instance/be496ac6434b0acd.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Lobsta",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/2403922",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0083",
+      "name": "Xbox Elite Series 2 Controller Stand",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Xbox Elite Series 2 Controller Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USae6e75934d1c60/design/2024-06-23_e2525f3d6fef8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USae6e75934d1c60/91055897/instance/2024-06-23_b2c1421fb3f24.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USae6e75934d1c60/91055897/instance/2024-06-23_22478124a4a4f.png",
+        "https://makerworld.bblmw.com/makerworld/model/USae6e75934d1c60/91055897/instance/2024-06-23_1ea562f2d033a.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "agent0530",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/508433",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0084",
+      "name": "Birdie Business Card Holder: Office Desk Organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Birdie Business Card Holder: Office Desk Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000452312/design/2024-05-03_df9c5a6bcce738.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US7c0cdea1299200/73920630/instance/2024-05-03_330e26167ffb5.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7c0cdea1299200/73920630/instance/2024-05-03_5be792b7c53ab.png",
+        "https://makerworld.bblmw.com/makerworld/model/US7c0cdea1299200/391034209/instance/2025-08-26_33b74f6cdd276.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US7c0cdea1299200/624912771/instance/288d884e7b08d4c1.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "ZioFester",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/452312",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0085",
+      "name": "Label Sign for 4x6 Labels (Thin and Thick Version)",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Label Sign for 4x6 Labels (Thin and Thick Version) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf642c2d97a1881/design/2025-02-05_8da8616a68ff9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf642c2d97a1881/231920118/instance/2025-02-19_40836598bac5b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf642c2d97a1881/231919402/instance/2025-02-05_8da8616a68ff9.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "lisa marie",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/1076647",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0086",
+      "name": "Wall mounted screwdriver holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wall mounted screwdriver holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US474d6b4321670/design/2024-03-14_nunuaxdot6gq.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US474d6b4321670/108998582/instance/2024-06-15_dda52edf1d48d.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "flummer",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/252411",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0087",
+      "name": "Garden hose holder",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "Garden hose holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000502600/design/2024-06-19_509708c986cae.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScc50f0f1c14b3f/98603601/instance/2024-07-13_de5a974f9abc3.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "bb.3D",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/502600",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0088",
+      "name": "Wall Mounted Headphone Holder",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wall Mounted Headphone Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US793a97cf9729cf/design/2025-09-05_57ee7267975a08.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US793a97cf9729cf/401438963/instance/2025-09-05_57ee7267975a08.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "zachary.d.lance",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/1768357",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0089",
+      "name": "Brembo Brake Caliper Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Brembo Brake Caliper Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US91d39ce9a2561e/design/2025-09-27_16254ad7573db8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US91d39ce9a2561e/422382622/instance/2025-09-27_16254ad7573db8.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "𝙎𝙕𝘿 ⌖",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/1831853",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0090",
+      "name": "Heavy-duty universal mount",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Heavy-duty universal mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5ab3182858cefb/design/2025-02-16_a423bc682d0b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US5ab3182858cefb/229275604/instance/2025-02-16_a423bc682d0b.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MMC3D",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1115108",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0091",
+      "name": "Gridfinity Holder for 8 Bambu Lab X1/P1 Hotends/Nozzles",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Holder for 8 Bambu Lab X1/P1 Hotends/Nozzles — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/UScddf6b41d39a5b/design/2023-09-20_ffqdfeuwlqgt.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScddf6b41d39a5b/169967376/instance/2024-12-05_1cf709260f085.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/UScddf6b41d39a5b/169967376/instance/2023-09-27_a654df9ad6bf5.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "schiko",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/26074",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0092",
+      "name": "Business card and Sum Up card reader holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Business card and Sum Up card reader holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US2e41da471a892d/design/2024-11-15_ce28fcf8e85ae.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US2e41da471a892d/264379826/instance/2025-03-31_f42fa0a6c4b1b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US2e41da471a892d/241791886/instance/2024-11-15_ce28fcf8e85ae.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US2e41da471a892d/241791886/instance/2025-03-03_9ba929d2ac514.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US2e41da471a892d/241791886/instance/2025-03-03_fa7a74310a3c7.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "kaz7152",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/1172084",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0093",
+      "name": "Universal Menu, sign or brochure holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Universal Menu, sign or brochure holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US8c16bbbd5aa818/design/2023-12-19_f45e84745f213.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US8c16bbbd5aa818/design/2023-12-19_cf146d0732464.webp",
+        "https://makerworld.bblmw.com/makerworld/model/US8c16bbbd5aa818/design/2023-11-24_243cf925bf0ab.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "3DJupp",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/72874",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0094",
+      "name": "Small Xmas Tree Snack Cake B&BW Soap Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Small Xmas Tree Snack Cake B&BW Soap Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US94ea0cb3e64c4b/design/2025-11-26_1a068884d0ff08.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US94ea0cb3e64c4b/573381269/instance/2025-11-26_1a068884d0ff08.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Once Upon a Model",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/2047043",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0095",
+      "name": "Gridfinity parts tray 3x3 1.5u",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity parts tray 3x3 1.5u — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USc2030f5c9b2075/design/2024-12-15_b94f37b4ef2018.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USc2030f5c9b2075/177640614/instance/2024-12-15_b94f37b4ef2018.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Marcel",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/881929",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0096",
+      "name": "Broom wall hook",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Broom wall hook — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US278a2e536cf875/design/2025-05-20_opist4rlsy3n.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US278a2e536cf875/306575225/instance/2025-05-20_opist4rlsy3n.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "batteria_",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/1437925",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0097",
+      "name": "Tool Holder (Square Hole)",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Tool Holder (Square Hole) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/design/2024-01-28_177d8b07885d9.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45419029/instance/2024-01-28_ebbe11c34a4f7.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45419029/instance/2024-01-28_2026d56b61d48.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45419029/instance/2024-01-28_faa2ed5c54488.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45419029/instance/2024-01-28_deeb1408de828.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45413163/instance/2024-01-28_d811ab946d113.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45947519/instance/2024-01-28_1e6ddfb068083.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf985ccaf2de8b/45947519/instance/2024-01-28_51e861c8a10d6.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "一百",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/160158",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0098",
+      "name": "Ribbed Toothbrush And Toothpaste Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ribbed Toothbrush And Toothpaste Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USaa52ad8d5d3602/design/2024-11-05_97aefbf059c78.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USaa52ad8d5d3602/150278532/instance/2024-11-05_97aefbf059c78.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "3d printing",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/760785",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0099",
+      "name": "Wire Cube Grid Wall Hook #2 (cross bar)",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wire Cube Grid Wall Hook #2 (cross bar) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US5b20f8d385b42d/design/2024-12-31_35a98f107b27f.png",
+        "https://makerworld.bblmw.com/makerworld/model/US5b20f8d385b42d/190783787/instance/2024-12-31_35a98f107b27f.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Shayla Anthony",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/934889",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0100",
+      "name": "Simple, elegant phone holder with speaker amplifier - multiple sizes - doesn't block the screen",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Simple, elegant phone holder with speaker amplifier - multiple sizes - doesn't block the screen — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US3837eb0d612097/design/2023-10-01_c805c68b6a2f6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3837eb0d612097/design/2023-10-01_04867947321d2.png",
+        "https://makerworld.bblmw.com/makerworld/model/US3837eb0d612097/design/2023-10-01_34cda74506707.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US3837eb0d612097/design/2023-10-01_8873e121360c6.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Giskard Reventlov",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/30546",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0101",
+      "name": "Small Parts Storage",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Small Parts Storage — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-28_6bcdc12cc90bd.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_59b55860a8aa.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_3fa5f50d9e725.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_450a564635905.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_3f25268b1571.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_049aecfd6b425.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-10-29_e150f9b5de5c3.png",
+        "https://makerworld.bblmw.com/makerworld/model/US8dbb36c45dc1cd/design/2023-11-07_82a100f59f5768.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Zach B",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/51656",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0102",
+      "name": "Monitor Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Monitor Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000001219522/design/2025-03-17_962521e778612.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0d0795fec499f/457168241/instance/2025-10-29_c58f599c612848.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0d0795fec499f/457168241/instance/2025-10-29_38b3e785fb4a1.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0d0795fec499f/457168241/instance/2025-10-29_0823048bacc478.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USa0d0795fec499f/457168241/instance/2025-10-29_17828ebff1b4e.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Petr",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1219522",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0103",
+      "name": "Gridfinity Bin for Digital Caliper",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Bin for Digital Caliper — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/design/2025-01-28_1bc05cc671fb6.png",
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/212865740/instance/2025-01-27_c4fdaa69610c8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/212882372/instance/2025-01-27_c6a07794a5004.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/299372073/instance/2025-01-27_89d4f7c451667.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/786601023/instance/c4a7c974a9f4f398.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US100b1297f4dfbf/786601023/instance/1d356c461000d0b0.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Turbopstros",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/1044763",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0104",
+      "name": "Cabinet Form Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cabinet Form Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe78ad255bea8f0/design/2024-06-24_3ec8b77a49449.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe78ad255bea8f0/91420045/instance/2024-06-24_176be4f2c7cba.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe78ad255bea8f0/91420045/instance/2024-06-24_e6d7798b5f1af.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "r.cheeks",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/509921",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0105",
+      "name": "Gravity Broom Holder Large",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gravity Broom Holder Large — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9c447f784211bc/design/2024-04-21_56033153e80a6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9c447f784211bc/70127621/instance/2024-04-21_56033153e80a6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9c447f784211bc/70127621/instance/2024-04-21_0e7f7c71d1d1.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "jroberts072",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/437944",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0106",
+      "name": "AppleBerry G5 - Raspberry 3B Case",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "AppleBerry G5 - Raspberry 3B Case — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US941b7db2a65d9c/design/2024-05-24_c4b1d650c74898.png",
+        "https://makerworld.bblmw.com/makerworld/model/US941b7db2a65d9c/80748323/instance/2024-05-24_123fec9c87cac.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US941b7db2a65d9c/576076409/instance/d4d0bf80e2b85f07.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US941b7db2a65d9c/576076409/instance/e01a279d8fef51de.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Brad",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/473913",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0107",
+      "name": "Gridfinity Messschieber Halter",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Messschieber Halter — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US95aa27800f9e40/design/2024-12-15_f47de7faee594.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US95aa27800f9e40/177832163/instance/2024-12-15_f47de7faee594.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Venti",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/882835",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0108",
+      "name": "[REMIX] Self-adjusting height DJ laptop stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "[REMIX] Self-adjusting height DJ laptop stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/design/2025-09-03_b7137df3225438.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/398960694/instance/2025-09-03_8d5cf96bfbcdc8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/398964745/instance/2025-09-03_2c00e92cfdebe.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/398964120/instance/2025-09-03_087e256ff138e8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/398966892/instance/2025-09-03_0350983f037a58.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/398967446/instance/2025-09-03_22689d01452958.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/578998193/instance/4c6f37a016e9bd58.png",
+        "https://makerworld.bblmw.com/makerworld/model/US11f986b2a8b802/578998193/instance/2f628d1ae281519b.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Jirkovic",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1760971",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0109",
+      "name": "Shop Sign - We are opened / closed with holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Shop Sign - We are opened / closed with holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US6bf44f82fe7efd/design/2023-12-07_b9d2c02e4cd07.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6bf44f82fe7efd/design/2023-12-07_a64c6207435a6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6bf44f82fe7efd/design/2023-12-07_e65880f9614d8.png",
+        "https://makerworld.bblmw.com/makerworld/model/US6bf44f82fe7efd/design/2023-12-07_6a63c7cc022be.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "3DPrintCraft",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/85943",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0110",
+      "name": "phone stand customizable",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "phone stand customizable — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/design/2024-09-19_1f1442a88f1bd.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/126478907/instance/2024-09-19_1f1442a88f1bd.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/126478907/instance/2024-09-19_8daa8284f22b1.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/126478907/instance/2024-09-19_81265b35728c7.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/126478907/instance/2024-09-19_58523558f89e7.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US68020635220d9c/126478907/instance/2024-09-19_2aa10b9d3b179.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "polymasters.co",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/651827",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0111",
+      "name": "Gridfinity caliper organizer (15cm)",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity caliper organizer (15cm) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US20001aa276cbcd/design/2024-12-20_0df9359f95b6b8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/US20001aa276cbcd/182158182/instance/2024-12-20_0df9359f95b6b8.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Marcel",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/898421",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0112",
+      "name": "Logitech C920 Webcam Mount/ Universal Webcam Mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Logitech C920 Webcam Mount/ Universal Webcam Mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/design/2024-07-14_35a95783cab.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/99740201/instance/2024-07-14_35a95783cab.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/99740201/instance/2024-07-16_6549bff75e9f.png",
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/99740201/instance/2024-07-16_8f68b7063b411.png",
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/99740201/instance/2024-07-16_4fd4457c1e134.png",
+        "https://makerworld.bblmw.com/makerworld/model/USe1004d59758543/99740201/instance/2024-07-16_3b9de304a42a3.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "inorishizuka",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/541259",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0113",
+      "name": "Gridfinity 1x1 Bins – Snap Lid",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity 1x1 Bins – Snap Lid — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USaf7e698878aaed/design/2025-08-27_71e7426552d6d.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf7e698878aaed/391862742/instance/2025-08-27_11417be332eda.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf7e698878aaed/391862985/instance/2025-08-27_08f5e8e6c516b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf7e698878aaed/391862341/instance/2025-08-27_cd700acc254188.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USaf7e698878aaed/391862575/instance/2025-08-27_c41878c638b26.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "BaGooN",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/1737485",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0114",
+      "name": "Elegoo Neptune 4 (Pro/Plus/Max) WebCam Mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Elegoo Neptune 4 (Pro/Plus/Max) WebCam Mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000000619116/design/2024-09-02_gi8jzp4q2jbb.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US6f2a58b897b23e/118770404/instance/2024-09-02_18397d43c311.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "schiko",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/619116",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0115",
+      "name": "kitchen plate holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "kitchen plate holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/DSM00000001413221/design/2025-05-13_25d816edf49ba8.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US1967843e064ae/666716893/instance/e89d25e1b991633b.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Eron_Barbosa",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/1413221",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0116",
+      "name": "Wall-Mounted Headphone/Headset Holder",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wall-Mounted Headphone/Headset Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US46ed0b2666bcfb/design/2024-01-05_lz1gf4cgtaeq.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US46ed0b2666bcfb/design/2024-01-08_feda53890767e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US46ed0b2666bcfb/design/2024-01-08_108d1e56790bc.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "CorneliousJD",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/123384",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0117",
+      "name": "Racing Chair Form Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Racing Chair Form Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USd4830fd0c58ef8/design/2024-07-16_79425323c2acd.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd4830fd0c58ef8/99662870/instance/2024-07-16_79425323c2acd.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USd4830fd0c58ef8/99662870/instance/2024-07-16_2825af2ad3c6.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "r.cheeks",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/543426",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0118",
+      "name": "Bathroom Counter Corner Organizer",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bathroom Counter Corner Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USb88a6ee3e685c5/design/2025-03-16_6f2ee6f6a28af.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb88a6ee3e685c5/252416739/instance/2025-03-16_6f2ee6f6a28af.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb88a6ee3e685c5/252416739/instance/2025-03-16_1262a78676721.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USb88a6ee3e685c5/252416739/instance/2025-03-16_624d0ea18e861.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Kevinnnnnn",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/1218102",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0119",
+      "name": "Präzise Schieblehre / Messschieber – auch ohne AMS",
+      "category": "Education & Maker",
+      "subcategory": "Maker Tools & Education",
+      "type": "Made-to-order 3D printed product",
+      "description": "Präzise Schieblehre / Messschieber – auch ohne AMS — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USe68343ebe1cc9f/design/2025-08-01_55fadc527321f8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USe68343ebe1cc9f/384824095/instance/2025-08-19_7ca87171c7b5c8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USe68343ebe1cc9f/368244124/instance/2025-08-01_55fadc527321f8.jpeg",
+        "https://makerworld.bblmw.com/makerworld/model/USe68343ebe1cc9f/659085661/instance/58d55a61afb5795b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USe68343ebe1cc9f/659085661/instance/329e45706e6c950d.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "PJ",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/1659799",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0120",
+      "name": "Caliper Stand for Gridfinity",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Caliper Stand for Gridfinity — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/USf770e19b54ab03/design/2024-04-03_0149aec9e2c1.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/USf770e19b54ab03/375204578/instance/2025-08-08_76bf9b5beb0c28.jpeg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "lu_print",
+      "license": "CC0",
+      "source": "https://makerworld.com/en/models/411273",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0121",
+      "name": "3\" Sticker Display Holder Organizer for Sales",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "3\" Sticker Display Holder Organizer for Sales — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US4f088e1d98d067/design/2024-06-16_2a8d705db2a5f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4f088e1d98d067/88438277/instance/2024-06-16_5a9333de9593b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4f088e1d98d067/88438277/instance/2024-06-16_6dd297374855f.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US4f088e1d98d067/88438277/instance/2024-06-16_3bcfb84149ee.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Zoidbergererer",
+      "license": "BY-ND",
+      "source": "https://makerworld.com/en/models/498600",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0122",
+      "name": "Vintage Red Truck w Tree B&BW Soap Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Vintage Red Truck w Tree B&BW Soap Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US25ae3c482be1a6/design/2025-11-24_0971a015052948.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US25ae3c482be1a6/490210208/instance/2025-11-24_0971a015052948.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US25ae3c482be1a6/573380593/instance/2025-11-24_02e0da2f4096.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Once Upon a Model",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/2038732",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0123",
+      "name": "Barn Stormer Snoopy BBW Soap Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Barn Stormer Snoopy BBW Soap Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US9d657d9780e559/design/2026-01-19_67e32d48304f5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US9d657d9780e559/573427125/instance/2026-01-19_67e32d48304f5.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Once Upon a Model",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/2270153",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0124",
+      "name": "Domed parts tray",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Domed parts tray — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US92cf35dbcaa9f7/design/2024-08-11_41d9166b609af.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US92cf35dbcaa9f7/109633481/instance/2024-08-11_41d9166b609af.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US92cf35dbcaa9f7/109633481/instance/2024-08-11_98818a8373371.png"
+      ],
+      "platform": "MakerWorld",
+      "creator": "MMC3D",
+      "license": "BY-SA",
+      "source": "https://makerworld.com/en/models/582442",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-MW-0125",
+      "name": "Blue Alien Monster Soap Bottle Holder",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Blue Alien Monster Soap Bottle Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/design/014704827eb106b6.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602691424/instance/6f52e56391f95da3.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602691424/instance/cb6eb652375a9c6b.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602691424/instance/b8ded4814bf2cea5.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602691424/instance/77b01492538bbf33.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602693507/instance/2ec3ec0d8c4b82dc.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602693507/instance/aacd6ea01638302e.jpg",
+        "https://makerworld.bblmw.com/makerworld/model/US856544888f62ae/602693507/instance/19d80e55bb6a19aa.jpg"
+      ],
+      "platform": "MakerWorld",
+      "creator": "Once Upon a Model",
+      "license": "BY",
+      "source": "https://makerworld.com/en/models/2361416",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    }
+  ]
+}

@@ -1,0 +1,1656 @@
+{
+  "schemaVersion": 1,
+  "shard": 42,
+  "products": [
+    {
+      "id": "PF-PT-1796",
+      "name": "Basic Business Card Holder Box",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Basic Business Card Holder Box — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/143003/images/1353628_ed6efbf1-a128-4ca1-8094-86098953a8af/7a1b3a5a359c94cd54ed2ed84c9f7363_display_large_14.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "n9jcv",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/143003-basic-business-card-holder-box",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1797",
+      "name": "SKADIS Prusa CORE One Tool Holder with Brush slot",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "SKADIS Prusa CORE One Tool Holder with Brush slot — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/4789cc4c-8878-4748-b16f-e68453a46b05/images/10680386_b93f8f79-1112-4036-b04e-6ed79b1df067_d70c01dd-fd48-4792-b421-71932db682fb/img_2441.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Rodrigo",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1415345-skadis-prusa-core-one-tool-holder-with-brush-slot",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1798",
+      "name": "Ender 3 camera mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ender 3 camera mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/340137/images/2904042_620e9b73-cad4-4f19-aedd-5553b2b6dc43/20221214_191011.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "stivi768",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/340137-ender-3-camera-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1799",
+      "name": "Coat hanger / Wall hook (Strong!)",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Coat hanger / Wall hook (Strong!) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1024167/images/7777628_6984039e-c6b6-4435-9548-8436f96e8631_a38f8af3-a2ca-41bd-b9b1-3cef137ee5f5/hanger_2024-sep-27_06-27-30pm-000_customizedview20418601528.png"
+      ],
+      "platform": "Printables",
+      "creator": "Recticle",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1024167-coat-hanger-wall-hook-strong",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1800",
+      "name": "Sterilite Drawer Organizer",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Sterilite Drawer Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/520684/images/4212842_00ac2b1c-3590-4c7d-a8c7-500efb7897ae/img_3688.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Isaac Howard",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/520684-sterilite-drawer-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1801",
+      "name": "Deburring tool holder for HSW",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Deburring tool holder for HSW — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/514528/images/4168172_968a37fc-53b4-436f-984b-88a830a5181a/img_9905.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "AxField",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/514528-deburring-tool-holder-for-hsw",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1802",
+      "name": "Pen, Marker Holder, 3D printer tool organizer",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Pen, Marker Holder, 3D printer tool organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/2a417344-2955-4059-991a-43512d74ebac/images/10285979_9226d100-8bc9-4842-939c-917becda95a0_e80f7517-c50c-4090-b61d-b131b16ca20e/0.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Mi09",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1360419-pen-marker-holder-3d-printer-tool-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1803",
+      "name": "Desk Drawer Organizer (for giant desk drawer)",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Desk Drawer Organizer (for giant desk drawer) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/119743/images/1162905_063c9c0c-f743-4865-a7ab-c5bbc0bad1ce/large_display_img_7028_119743.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "ThePrinterUnderTheStairs",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/119743-desk-drawer-organizer-for-giant-desk-drawer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1804",
+      "name": "Classic desk organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Classic desk organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/27071/images/391923_c4a9f034-1237-4b28-95e5-6eda8ab2783d/img_4826.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Reini",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/27071-classic-desk-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1805",
+      "name": "French Cleat Wall Hook Set",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "French Cleat Wall Hook Set — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/632807/images/5010140_5c5ed197-97d9-4a68-9c10-653b85c440cb_3994a8e9-dbf2-4530-a069-7e11fd6efc00/2023-10-31-132928art.png"
+      ],
+      "platform": "Printables",
+      "creator": "Triple G Workshop",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/632807-french-cleat-wall-hook-set",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1806",
+      "name": "Document Shredder Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Document Shredder Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/367048/images/3098037_0a3e8ffe-59e0-4216-8e01-5dd94f580fee/img_4910.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Rob F",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/367048-document-shredder-business-card-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1807",
+      "name": "Hinge repair on Mocca Master Coffee Pot",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Hinge repair on Mocca Master Coffee Pot — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/614367/images/4876709_fcb4c8f9-343a-4e07-be22-9a6b1241cb37_7f57a141-3ade-481f-b8c7-55cad5e2a83b/fix_2.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "PrinterBoi",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/614367-hinge-repair-on-mocca-master-coffee-pot",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1808",
+      "name": "Beetle Stunt Kite Repair/Replacement Parts",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Beetle Stunt Kite Repair/Replacement Parts — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1225202/images/9187409_777f86e1-e460-4863-b780-1c43a3044c69_11ed4b3a-77be-47bf-9cbd-03c29c20233d/standoff-sail-clip-render.png"
+      ],
+      "platform": "Printables",
+      "creator": "C K",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1225202-beetle-stunt-kite-repairreplacement-parts",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1809",
+      "name": "Sliding headset holder/support. Print in place",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Sliding headset holder/support. Print in place — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/655848/images/5169713_a44cff91-2466-4568-ba4c-d83e8f9184fb_6cdb93a9-5ffd-47cb-a55d-b172ccd224bd/img_20231122_151012.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Toscoir",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/655848-sliding-headset-holdersupport-print-in-place",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1810",
+      "name": "Rugged Desk Organizer Adjusted",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Rugged Desk Organizer Adjusted — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/456880/images/3754386_dd21ef13-c34c-4e0e-84fa-7c7ec269ae46/image0.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "BlackDynamiteToo",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/456880-rugged-desk-organizer-adjusted",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1811",
+      "name": "Gridfinity Filament Clip Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Filament Clip Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/245285/images/2209414_109466ed-1de6-448c-9e70-a0d74135c075/20220721_151028.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Pittini",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/245285-gridfinity-filament-clip-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1812",
+      "name": "3030 profile quick lock bracket for Sneaks articulating Raspberry Pi camera mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "3030 profile quick lock bracket for Sneaks articulating Raspberry Pi camera mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/650216/images/5129080_ae97bfb0-b0f1-40de-9c10-70bfb140fe87_278905f1-909e-4b5e-9303-44c2803d24c2/img_0273.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "ArgiCZ",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/650216-3030-profile-quick-lock-bracket-for-sneaks-articul",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1813",
+      "name": "Dyson Heat + Cool Remote Holder",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "Dyson Heat + Cool Remote Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/199532/images/1846526_83a9446f-0b10-4956-ae43-565cec4918cf/20220509_103209.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Zkaza",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/199532-dyson-heat-cool-remote-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1814",
+      "name": "Laptop Stand for airflow",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Laptop Stand for airflow — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/314038/images/2723117_dd1972cf-c7fc-4eb0-b0f4-d713f9a18218/whatsapp-image-2022-11-08-at-111930-am.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "vskate",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/314038-laptop-stand-for-airflow",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1815",
+      "name": "Bike Mounted Light",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bike Mounted Light — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/41773/images/415817_d5a9725b-c4af-4eb4-9103-58d020fa7292/bikelightrender.png"
+      ],
+      "platform": "Printables",
+      "creator": "ShyavanS",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/41773-bike-mounted-light",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1816",
+      "name": "BE LAZY RPi Pico 2 modular electronics enclosure / case / box",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "BE LAZY RPi Pico 2 modular electronics enclosure / case / box — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/07e6bf0b-9c89-4fa7-a648-3902709435aa/images/12575112_ab12b38f-935b-412c-810f-1b3dd2050649_384927fa-5de6-4cf5-a8c2-d3a37779ea8d/cover-remix.png"
+      ],
+      "platform": "Printables",
+      "creator": "vmalat",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1665005-be-lazy-rpi-pico-2-modular-electronics-enclosure-c",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1817",
+      "name": "Tesla Model S/X/3 Cable Organizer w/logo",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Tesla Model S/X/3 Cable Organizer w/logo — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/350264/images/2978313_9757c68b-bf02-47ee-9e50-388e50166bd9/pxl_20220930_205638910.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "scenotto",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/350264-tesla-model-sx3-cable-organizer-wlogo",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1818",
+      "name": "Spices holder grid kitchen drawer - Drawer Organizer",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Spices holder grid kitchen drawer - Drawer Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/131586/images/1260463_07acb257-4617-4272-ad4a-1d030c9f682f/02.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "comartist",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/131586-spices-holder-grid-kitchen-drawer-drawer-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1819",
+      "name": "Xbox 360 floating controller stand",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Xbox 360 floating controller stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/345047/images/2938801_f210be9c-b1f4-4bf7-bf0f-62d6cc765bec/large_display_2_345047.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "Gabriel Carrera",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/345047-xbox-360-floating-controller-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1820",
+      "name": "Articulating Raspberry PI Camera Mount for Ikea Platsa",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Articulating Raspberry PI Camera Mount for Ikea Platsa — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/66588/images/731314_a36b757f-b31c-4d80-8f20-6e1d3cd1600f/tempimagetgdhwf.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "BsPL",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/66588-articulating-raspberry-pi-camera-mount-for-ikea-pl",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1821",
+      "name": "Lego Concorde Wall Hook",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Lego Concorde Wall Hook — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/741882/images/5794325_1e3fd7c3-de73-4d90-9fed-1432a872dab1_c6c25a52-20b3-45f1-b71e-635043845cd2/img_9829.png"
+      ],
+      "platform": "Printables",
+      "creator": "Santiago Lozano",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/741882-lego-concorde-wall-hook",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1822",
+      "name": "Yealink T48 phone stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Yealink T48 phone stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/297424/images/2605364_03dbb359-9442-4427-bbf6-09c81644810f/img_7665.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "c0yote",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/297424-yealink-t48-phone-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1823",
+      "name": "Wall hook with groove for double sided tape",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wall hook with groove for double sided tape — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/428310/images/3543167_7c2f0fd0-3e73-470b-8865-f8ff6ad99e98/simple-wall-hook-01.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "3D Print Fun",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/428310-wall-hook-with-groove-for-double-sided-tape",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1824",
+      "name": "Car phone holder - Seat Alhambra",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Car phone holder - Seat Alhambra — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/912720/images/6971979_b3330971-ffd4-45e8-8e2b-eba3cddda48d_60fc262b-de9a-44fd-92c4-f0400ba4914c/photo-00.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "unit",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/912720-car-phone-holder-seat-alhambra",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1825",
+      "name": "Spring Clamp Phone Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Spring Clamp Phone Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/509640/images/4132181_b5bbb867-bc21-4fa7-a1c9-d6a5a2ff1431/unnamed.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "edude5433",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/509640-spring-clamp-phone-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1826",
+      "name": "Under-the-Table Discrete Remote Holder with Honeycomb Sides",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "Under-the-Table Discrete Remote Holder with Honeycomb Sides — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/315160/images/2731001_ff6dc19e-1cfc-4445-be77-0e01fc8cf170/remote_holder_slicer_screenshot.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "alexm",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/315160-under-the-table-discrete-remote-holder-with-honeyc",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1827",
+      "name": "Multiple Vertical Wall Hook",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Multiple Vertical Wall Hook — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/562428/images/4507261_aeec721e-fa3c-411f-a0ea-c85495095797/p_20230825_001621.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Made Baruna",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/562428-multiple-vertical-wall-hook",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1828",
+      "name": "cable organizer / Kabel Organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "cable organizer / Kabel Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/124782/images/1201955_ad0c8a1c-e0fe-4285-bbda-f69c90bddf0b/img_3451.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Aeonfly",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/124782-cable-organizer-kabel-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1829",
+      "name": "Business Card Holder - 13 card ring",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Business Card Holder - 13 card ring — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/152674/images/1435609_4af376b7-5070-4fc1-8e00-75c8bec614ad/de978eb1a8bb3438660cb8e37a9d7a5c_display_large_15.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "WIFIOG",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/152674-business-card-holder-13-card-ring",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1830",
+      "name": "Minimalist Xbox controller stand (space for 8mm Nonslip pads)",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Minimalist Xbox controller stand (space for 8mm Nonslip pads) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1147765/images/8664493_7cdb69e8-5364-4ec6-bd6d-3f32002a0d8e_51d77d80-e1db-4c6a-805d-c36e633de613/17368116224191404803998751205399.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "AllSeeingApe",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1147765-minimalist-xbox-controller-stand-space-for-8mm-non",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1831",
+      "name": "Xbox Dual Controller Stand on Gridfinity plate",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Xbox Dual Controller Stand on Gridfinity plate — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1129519/images/8523008_d0b3745f-2e8d-49e8-96ba-95360b24de4b_a5cd6974-c0ab-4939-98a8-6ec6f6e2a132/pxl_20250101_113034384portrait.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "timoshchenko",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1129519-xbox-dual-controller-stand-on-gridfinity-plate",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1832",
+      "name": "Monstera Plant Clip / Holder",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "Monstera Plant Clip / Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/959963/images/7331158_efdc99f1-90dd-4036-922d-4ea1f2f5c374_f5165c70-faea-4883-ac88-60c726841fd2/img-20240731-wa0004.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "B0L1V3R",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/959963-monstera-plant-clip-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1833",
+      "name": "Gridfinity Mitutoyo Caliper Holder - w/bridging fix",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Mitutoyo Caliper Holder - w/bridging fix — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/464090/images/3809109_e552663e-f9f9-4188-9990-5e9cbdd5e616/2023-04-27-123936.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "schneems",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/464090-gridfinity-mitutoyo-caliper-holder-wbridging-fix",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1834",
+      "name": "Peltor holder / Headset holder",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Peltor holder / Headset holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/979956/images/7471657_a748a460-1b65-4e07-b256-a850c5caf254_57e64405-6348-4e20-a8c8-fc93a8c30028/peltorhalter_2.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "MaBi",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/979956-peltor-holder-headset-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1835",
+      "name": "Gridfinity Silhouette Cameo Tool Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Silhouette Cameo Tool Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/490749/images/4002963_0dda9cc0-8899-4b91-9ee8-b7a27d66cf9d/img_5274.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "Becca",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/490749-gridfinity-silhouette-cameo-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1836",
+      "name": "Dyson V11 Tool Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Dyson V11 Tool Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/393939/images/3289758_c04a6744-3e9e-40aa-b2d4-07b491547cc1/20230209_221823.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Mike2121",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/393939-dyson-v11-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1837",
+      "name": "IKEA Skadis - Clip for (Lidl) Powerfix Magnetic Tool Holder Strip",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "IKEA Skadis - Clip for (Lidl) Powerfix Magnetic Tool Holder Strip — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/214028/images/1957669_008f95d3-ea60-496f-916c-b38650f98ddd/large_display_20200101_234601_214028.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "samh",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/214028-ikea-skadis-clip-for-lidl-powerfix-magnetic-tool-h",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1838",
+      "name": "Phone Stand (Multi Material)",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Phone Stand (Multi Material) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/40856/images/404666_4d8516ba-dd2b-4d58-9719-8dcfc2bd0b95/phone_holder_petg_multi_material.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Tiffy's Lemonade Stand",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/40856-phone-stand-multi-material",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1839",
+      "name": "Bath screen phone stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bath screen phone stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/177741/images/1665515_880d3f6f-be39-47d0-960a-f2bfdb1f42bb/img_20220424_192356778.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Sciolle",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/177741-bath-screen-phone-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1840",
+      "name": "Laptop Stand (16,5mm wide) Mac Book Pro 15",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Laptop Stand (16,5mm wide) Mac Book Pro 15 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/54556/images/540771_4ed6f67e-ef05-41dd-b312-86819c13b17f/img_4840.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "flixti",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/54556-laptop-stand-165mm-wide-mac-book-pro-15",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1841",
+      "name": "Arducam IMX219 Auto Focus Camera Module cover for Articulating Raspberry Pi Camera Mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Arducam IMX219 Auto Focus Camera Module cover for Articulating Raspberry Pi Camera Mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/48752/images/648146_6a4142e1-cd50-42ee-9c0c-56afa7118f58/img_0607.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Approxit",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/48752-arducam-imx219-auto-focus-camera-module-cover-for-",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1842",
+      "name": "Gridfinity Compatable holder for Portable Cable Organizer / Winder",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Compatable holder for Portable Cable Organizer / Winder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/610776/images/4851075_bd5ec035-5782-4ff9-b35c-c7538ed5267c_1178ded4-34ca-446b-86bb-972318a4b7b6/20231011_133211.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "KiwiHuman",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/610776-gridfinity-compatable-holder-for-portable-cable-or",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1843",
+      "name": "Desk organizer and planter",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Desk organizer and planter — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/571609/images/4572296_34db7c48-a55f-4c51-a4e6-2355bdf8bf67/desk_planter1.png"
+      ],
+      "platform": "Printables",
+      "creator": "PRINTSY",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/571609-desk-organizer-and-planter",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1844",
+      "name": "Cutlery Drawer Organizer",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cutlery Drawer Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/723305/images/5666739_84c520d2-002d-4b79-8562-b78a02fc289c_56cfea0b-2b38-4bac-a042-cb2c403633b7/img_2623.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "iridium239",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/723305-cutlery-drawer-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1845",
+      "name": "Replacement part for Eclipse Tools Lunar crimping die set for Powerpole terminals",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Replacement part for Eclipse Tools Lunar crimping die set for Powerpole terminals — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1051513/images/7966075_aec0048d-e4d8-4906-9b58-f87e2c7fc92a_2292b08b-7902-41a9-9a83-fc64a72c6928/img_1949.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Tuxedo",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1051513-replacement-part-for-eclipse-tools-lunar-crimping",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1846",
+      "name": "Simple Laptop Stand for Zoom / GoToMeeting / Webinars, Perfect for Work from Home",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Simple Laptop Stand for Zoom / GoToMeeting / Webinars, Perfect for Work from Home — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/35632/images/352472_9e9d316f-cab9-4425-97be-71675c9b0bb7/large_display_img_20200401_170358_35632.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Andrew_Sink",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/35632-simple-laptop-stand-for-zoom-gotomeeting-webinars-",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1847",
+      "name": "Phone holder for car mount",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Phone holder for car mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/329240/images/2831003_3c6b44c6-963e-42be-886a-775f35a37d53/pxl_20221130_220249912.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "ahaque",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/329240-phone-holder-for-car-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1848",
+      "name": "Prusa MK4 RPi camera mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Prusa MK4 RPi camera mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/479095/images/3917409_cd807f63-0412-46e3-ac57-f674d83d243e/screenshot-2023-05-11-at-95653-pm.png"
+      ],
+      "platform": "Printables",
+      "creator": "fissi0n - K1TDG",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/479095-prusa-mk4-rpi-camera-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1849",
+      "name": "Sovol SV08 Tool Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Sovol SV08 Tool Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/931001/images/7097666_5da03d88-b3a5-4247-90c6-d5d24e3e1f24_d543d2c1-6c5b-4476-a9cd-b69dfc2ae038/img_6434.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "LucaOnefire",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/931001-sovol-sv08-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1850",
+      "name": "Easy Grab Vertical Laptop Stand PARAMETRIC",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Easy Grab Vertical Laptop Stand PARAMETRIC — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/544826/images/4382250_af22427b-295c-4b63-90b5-bded025be8bb/20230805_211137.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "capze",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/544826-easy-grab-vertical-laptop-stand-parametric",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1851",
+      "name": "Replacement Clip for Cat Transport Box",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Replacement Clip for Cat Transport Box — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/934449/images/7140234_a6833983-0fcb-4dfd-817c-893525f1972b_05b5a423-057c-4006-9d34-1b2c94d29a5a/pxl_20240706_121012267.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Simon",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/934449-replacement-clip-for-cat-transport-box",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1852",
+      "name": "Socket Wrench Screwdriver Set 7pcs Tool Holder 013 I for screws or peg board",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Socket Wrench Screwdriver Set 7pcs Tool Holder 013 I for screws or peg board — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/265493/images/2365790_77119d82-6a15-4a30-aaa6-ba2ae779dab1/large_display_013_02_gia_265493.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "WIESEMANN 1893",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/265493-socket-wrench-screwdriver-set-7pcs-tool-holder-013",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1853",
+      "name": "Backpack/Sling Strap Adjustable Action Camera Mount (remix)",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Backpack/Sling Strap Adjustable Action Camera Mount (remix) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/482477/images/3942472_999e1efc-1f95-4ea9-af9a-32102f1f94a7/5b9b5618.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "CryptoCamo",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/482477-backpacksling-strap-adjustable-action-camera-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1854",
+      "name": "15 Piece Metric Allen Key Tool Set + Desk Organizer: LeisureLuke V1",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "15 Piece Metric Allen Key Tool Set + Desk Organizer: LeisureLuke V1 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/100800/images/1014639_4b9eb72d-9c3e-48d8-990a-75195a9e255f/large_display_10_100800.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "LeisureLuke",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/100800-15-piece-metric-allen-key-tool-set-desk-organizer-",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1855",
+      "name": "Desktop Easel folding display stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Desktop Easel folding display stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/92ec17d8-f887-4285-a7bc-386ffb64b9f5/images/10732458_212f9240-f297-4523-87be-72d23bbb0f34_519ff0e2-dc45-42a1-9b44-3d5133d6a28a/20250922_143827.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Make it Reality",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1422823-desktop-easel-folding-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1856",
+      "name": "Universal Wall-Mounted Tool Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Universal Wall-Mounted Tool Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/132080/images/1264417_acccd164-66f6-428e-bd40-6ecf6f6b19f2/large_display_img_0287_132080.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "The Next Layer",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/132080-universal-wall-mounted-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1857",
+      "name": "Ender-3 V3 SE camera mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Ender-3 V3 SE camera mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/725402/images/5681221_c87b3dca-7e11-4301-b057-29e8ea08cca7_5c0da9bf-11b5-4afa-a67d-6b97e673b25c/20240116_214802.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "matthew stewart",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/725402-ender-3-v3-se-camera-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1858",
+      "name": "Creality print enclosure 3 way corner replacement part",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Creality print enclosure 3 way corner replacement part — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1426801/images/10762321_2d45348b-cc47-4f00-a588-39aad9b7a02b_2f5c9c94-6838-4e20-ad8d-ce02d0a9d766/large_display_printer_koppel_stuk_hoek_1426801.png"
+      ],
+      "platform": "Printables",
+      "creator": "Wouter AB",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1426801-creality-print-enclosure-3-way-corner-replacement",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1859",
+      "name": "Laptop Riser aka Laptop Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Laptop Riser aka Laptop Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/461315/images/3786264_b4bc6167-f7df-4eff-8368-c3ad74aa81c1/img_4167.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "rojoPrint",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/461315-laptop-riser-aka-laptop-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1860",
+      "name": "Xiaomi Mi Computer Monitor Light Bar camera mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Xiaomi Mi Computer Monitor Light Bar camera mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/377177/images/3170613_4c65bdd5-9030-4bd6-bf2a-6e67543ae874/img_8132.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "Cojoj",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/377177-xiaomi-mi-computer-monitor-light-bar-camera-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1861",
+      "name": "Unsiversal ceiling and wall hook",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Unsiversal ceiling and wall hook — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/152973/images/1437927_21b3b149-d72a-4295-ae72-079afb26868d/screenshot-2022-03-20-181715.png"
+      ],
+      "platform": "Printables",
+      "creator": "AJD",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/152973-unsiversal-ceiling-and-wall-hook",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1862",
+      "name": "Vertical laptop stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Vertical laptop stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/423703/images/3860881_70bb7cde-ebea-4590-807c-75f9f870469a/laptopverticalstand.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "4DimK",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/423703-vertical-laptop-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1863",
+      "name": "Wall hook for akustik wall",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wall hook for akustik wall — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/956485/images/7294154_38a52ef2-1822-4d60-b820-d0c46805e7e0_f5a530db-4357-4ff0-a67e-211102a9ceaa/img_20240727_164609.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Baldrik",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/956485-wall-hook-for-akustik-wall",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1864",
+      "name": "Hose holder for vacuum cleaner",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "Hose holder for vacuum cleaner — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/711936/images/5580977_3325452c-1448-49f7-a237-38f4d5c70261_aad45435-8a17-4efd-b43c-ae083da9477b/drzak_hadice.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "KS",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/711936-hose-holder-for-vacuum-cleaner",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1865",
+      "name": "Remix for: Remote holder tray for coffee table",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "Remix for: Remote holder tray for coffee table — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/313080/images/2716934_e82d4c53-6a17-46ca-908d-64f69638c0fd/img_20221108_132319.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Zap",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/313080-remix-for-remote-holder-tray-for-coffee-table",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1866",
+      "name": "V style low profile laptop stand/riser",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "V style low profile laptop stand/riser — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/326660/images/2812825_f7f2a3f7-fdb4-4712-bc70-95077856e074/img_4009.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "rikskeff",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/326660-v-style-low-profile-laptop-standriser",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1867",
+      "name": "Simple smartphone holder smartphone stand phone stand phone holder smartphone with and without cover easy printable without support tested",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Simple smartphone holder smartphone stand phone stand phone holder smartphone with and without cover easy printable without support tested — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/7bfc7912-cf22-4466-9727-163a1ac3cb99/images/13403424_7de16426-f2fd-4ae3-8b49-da07a0ebd64c_154169ae-a45c-45fd-9c2d-b35977a1f4dc/k.png"
+      ],
+      "platform": "Printables",
+      "creator": "REDZC",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1280935-simple-smartphone-holder-smartphone-stand-phone-st",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1868",
+      "name": "Sy's PegLock - Tool Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Sy's PegLock - Tool Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/457954/images/3763074_eb3548e5-799e-4cb6-ad06-1720e0291b1c/img_1804.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "BrewerSeth",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/457954-sys-peglock-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1869",
+      "name": "Gear phone stand (vase mode)",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gear phone stand (vase mode) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/192136/images/1786051_f1d96187-e3e6-4443-9ddc-8660510d73fb/photo_2022-05-03_16-26-52.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "antirez",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/192136-gear-phone-stand-vase-mode",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-1870",
+      "name": "Phone stand with screw and GoPro atachment",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Phone stand with screw and GoPro atachment — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/189555/images/1764937_d6086a63-b8c3-4a0d-9000-ef806d3a2891/large_display_img_3266-b_189555.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Vidar",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/189555-phone-stand-with-screw-and-gopro-atachment",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    }
+  ]
+}

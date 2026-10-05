@@ -1,0 +1,1656 @@
+{
+  "schemaVersion": 1,
+  "shard": 27,
+  "products": [
+    {
+      "id": "PF-PT-0671",
+      "name": "Parametric Window Sill Plant Pot Holder / Shelf - Sill Extender",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "Parametric Window Sill Plant Pot Holder / Shelf - Sill Extender — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/4f03e008-44a3-4b80-a132-df42fbe592fc/images/9624944_fda03b9d-45f0-4c03-aae0-90f595e0f803_250e2199-e2e7-49fe-8fc5-321a73946ff4/image.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "3Diocrity",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1267941-parametric-window-sill-plant-pot-holder-shelf-sill",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0672",
+      "name": "The Scroll - Business Card Holder",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "The Scroll - Business Card Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/368438/images/3106906_6191b0ea-f468-49cf-8b51-29916c1bd86b/scroll.png"
+      ],
+      "platform": "Printables",
+      "creator": "Ty10y",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/368438-the-scroll-business-card-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0673",
+      "name": "Gridfinity resistor bin",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity resistor bin — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/852616/images/6557781_4cff048a-ba86-4221-a810-c9479998ea1b_4dea3f9f-c95c-4469-985d-84ee1c13d58b/img_20240421_132124.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Ondřej Bek",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/852616-gridfinity-resistor-bin",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0674",
+      "name": "Soldering Station - Gridfinity",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Soldering Station - Gridfinity — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/440694/images/3644308_9a1b031c-6517-4489-9378-0a555dfdcbb6/k2gridfinity_solderingstation-cover.png"
+      ],
+      "platform": "Printables",
+      "creator": "K2_Kevin",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/440694-soldering-station-gridfinity",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0675",
+      "name": "Gridfinity Bambu Lab Liquid Glue",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Bambu Lab Liquid Glue — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/393078/images/3283657_3de2a4bd-973d-412d-a75f-efdbe800a29d/329971211_583757366604332_3219141214702083886_n.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Luka Rasmussen",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/393078-gridfinity-bambu-lab-liquid-glue",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0676",
+      "name": "Gridfinity imperial drill bit storage",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity imperial drill bit storage — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/329420/images/2831982_78ae3786-1ed5-4c50-ad26-5e271ea849de/drillbits.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "iamjameswoods",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/329420-gridfinity-imperial-drill-bit-storage",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0677",
+      "name": "Gridfinity cups height 2.5 (21.5mm) collection",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity cups height 2.5 (21.5mm) collection — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/355279/images/3014019_d39a615d-e38f-4984-971c-91577b20afe7/display_36.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Max",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/355279-gridfinity-cups-height-25-215mm-collection",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0678",
+      "name": "Jewelry Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Jewelry Display Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/450300/images/3709289_387d822b-bf7e-4d7f-b8cc-40c5dfeeb51d/featured_preview_jewlery_holder.png"
+      ],
+      "platform": "Printables",
+      "creator": "mike abazaba",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/450300-jewelry-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0679",
+      "name": "Display stand for tea cakes, decorative plates, picture frames, etc.",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Display stand for tea cakes, decorative plates, picture frames, etc. — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/343040/images/2924757_e1c6eeb4-a733-4269-9007-b20553a47691/pxl_20221217_171052728portrait.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "/dev/tea",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/343040-display-stand-for-tea-cakes-decorative-plates-pict",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0680",
+      "name": "Gridfinity Spool",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Spool — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/610197/images/4847174_5090f7df-6f3c-469c-bf54-f020bbb91a51_f078fe86-72ce-4f03-a055-bf178c60c56e/spool.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "DCEM",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/610197-gridfinity-spool",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0681",
+      "name": "Replacement bracket for Abus Bordo 6000K/120 SH lock bike mount.",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Replacement bracket for Abus Bordo 6000K/120 SH lock bike mount. — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/751025/images/5861915_b3b3b2c2-bc89-4979-8d58-516f41a8e13c_7ffbf420-3a4b-482b-b32e-2ddbfe598974/img_4028.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "hoeni",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/751025-replacement-bracket-for-abus-bordo-6000k120-sh-loc",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0682",
+      "name": "Hot Wheels Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Hot Wheels Display Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1178474/images/8866265_dcde394e-3fb5-4ce7-a97e-384384161576_38c390a1-e727-4895-ac21-e4a9290bbe62/stand-with-car.png"
+      ],
+      "platform": "Printables",
+      "creator": "Pr1nterRogue",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1178474-hot-wheels-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0683",
+      "name": "3D Printer Electronics Enclosure",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "3D Printer Electronics Enclosure — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/184794/images/1723183_d4a65317-d99c-4a40-a001-e00204729c4f/large_display_img_20201008_083712139-1_184794.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "JB3Designs",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/184794-3d-printer-electronics-enclosure",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0684",
+      "name": "Magnet Dispenser Gridfinity Bin",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Magnet Dispenser Gridfinity Bin — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/381889/images/3203634_e02c3e3c-b93a-4ca8-8ffc-e42edf85cb42/img_0807.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "yertle",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/381889-magnet-dispenser-gridfinity-bin",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0685",
+      "name": "Universal Socket Extension holder Gridfinity",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Universal Socket Extension holder Gridfinity — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/797818/images/6176283_c43675a0-6922-4632-965f-aabb823246a4_55ebf7f1-879b-4266-accc-02ea2910a2a1/20240308_151611.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Ian Cox",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/797818-universal-socket-extension-holder-gridfinity",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0686",
+      "name": "Gridfinity dice holder for DnD and other TTRPG",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity dice holder for DnD and other TTRPG — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/295485/images/2594899_1b268d6c-7431-41db-8602-338606c256cb/dice_holder.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "PenguinPrints",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/295485-gridfinity-dice-holder-for-dnd-and-other-ttrpg",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0687",
+      "name": "Xbox One / Series X|S Controller Stand - Double",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Xbox One / Series X|S Controller Stand - Double — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/663192/images/5222290_91ae4771-1163-4ac3-a968-1e9c2220f11d_d5808eed-2715-4465-b4d2-b002f4aa4510/pxl_20230728_123819002.webp"
+      ],
+      "platform": "Printables",
+      "creator": "ntalekt",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/663192-xbox-one-series-xs-controller-stand-double",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0688",
+      "name": "Einsy Rambo & Raspberry Pi Case",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "Einsy Rambo & Raspberry Pi Case — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/3713/images/23760_46dff29b-ee69-4b5b-ac22-fded3cb10fa0/img_20190614_222818.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "teookie",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/3713-einsy-rambo-raspberry-pi-case",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0689",
+      "name": "Wheelchair Rubix2 replacement parts (PARAMETRIC) - clip attachment of one bar to another",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Wheelchair Rubix2 replacement parts (PARAMETRIC) - clip attachment of one bar to another — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/599088/images/4856915_6967c716-0437-493a-b33f-2d69cc0f0368_0c4bd41e-b6d4-4221-adb2-98e4a13b2863/startbild.png"
+      ],
+      "platform": "Printables",
+      "creator": "triceratopsandbottoms",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/599088-wheelchair-rubix2-replacement-parts-parametric-cli",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0690",
+      "name": "Razer Nari Ultimate Cup Holder Replacement Parts",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Razer Nari Ultimate Cup Holder Replacement Parts — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/388779/images/3252395_4f9b49f8-3c8d-4d9a-8e3f-fc4bc523b89a/20230204_104113784_ios.png"
+      ],
+      "platform": "Printables",
+      "creator": "HollowVoice",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/388779-razer-nari-ultimate-cup-holder-replacement-parts",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0691",
+      "name": "Gridfinity Pinecil CNC Kitchen holder organizer",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Pinecil CNC Kitchen holder organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/683747/images/5372357_db476805-b2d1-4b6d-8422-dc8b7dbb4c34_9c45b1da-6a10-4450-9899-9fe5e7a6cf60/20231216_133217.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Sweet1227",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/683747-gridfinity-pinecil-cnc-kitchen-holder-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0692",
+      "name": "Simple Tablet Car Mount (No hardware)",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Simple Tablet Car Mount (No hardware) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/597590/images/4758201_3fcc9209-b3c4-40b5-909e-fba29df6bb5b_ca3c8dd6-3e91-4662-8cd4-b9655c347f00/img_1993.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "CryptoCamo",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/597590-simple-tablet-car-mount-no-hardware",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0693",
+      "name": "Gridfinity Bambu lab misc tools",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Bambu lab misc tools — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/297664/images/2606977_2fd5fa0b-efe3-498b-8033-5924d81b1159/img_9248.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "alvarorg",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/297664-gridfinity-bambu-lab-misc-tools",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0694",
+      "name": "Logitech C920 adapter for Articulating Camera Mount for Prusa MK3 and MK2",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Logitech C920 adapter for Articulating Camera Mount for Prusa MK3 and MK2 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/43293/images/3608086_8cb21215-4fcd-4e73-ad65-b0c36390d66b/printables-thumnail.png"
+      ],
+      "platform": "Printables",
+      "creator": "Nat",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/43293-logitech-c920-adapter-for-articulating-camera-moun",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0695",
+      "name": "Gridfinity Wera screwdriver holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Wera screwdriver holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/232947/images/2115963_55695cf9-2bf2-44c1-8f1f-c4ab8925fee2/img_20220627_221652.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "RWMH",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/232947-gridfinity-wera-screwdriver-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0696",
+      "name": "A Gridfinity Tambour Box with Drawer",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "A Gridfinity Tambour Box with Drawer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/4750ad29-1f17-4e50-940b-14e288c03e6b/images/11319946_8d04f772-cde8-47fe-b3d5-896dd41024c7_a86a1862-3e76-4c12-92d9-45ea5b9c8779/img_8352.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Martin_au",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1502520-a-gridfinity-tambour-box-with-drawer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0697",
+      "name": "Baseball Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Baseball Display Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/528248/images/4267592_23221aa6-2965-475b-a584-355d4a88ab55/screenshot-2023-07-15-at-32049-pm.png"
+      ],
+      "platform": "Printables",
+      "creator": "Blamb31",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/528248-baseball-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0698",
+      "name": "3D Benchy Magnetic Holder/Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "3D Benchy Magnetic Holder/Display Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/58232/images/610548_29778fbb-c295-46fc-bb6d-4d19ba349849/fa8e00b3747947b5f327bf2c8f970907_display_large_5.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "JH3D",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/58232-3d-benchy-magnetic-holderdisplay-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0699",
+      "name": "Portable phone stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Portable phone stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/39671/images/392104_86d8d7fa-1858-45da-bf40-4268b45984f6/img_0022.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "jerzone",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/39671-portable-phone-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0700",
+      "name": "Updated 4mm Lab cable organizer | Banana Jack | Customizable",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Updated 4mm Lab cable organizer | Banana Jack | Customizable — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/42135/images/419463_68861d67-ff2e-4a93-afb7-904193b630c3/large_display_img_20200915_121912_42135.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Chrismettal - Binary-6",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/42135-updated-4mm-lab-cable-organizer-banana-jack-custom",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0701",
+      "name": "Vinyl record display stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Vinyl record display stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/582543/images/4648981_e2cb5360-4d26-4dc3-a245-ff04efebf5cb/large_display_9ad2895b-e23b-4d71-8a45-b071befbaf99_582543.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "bazzzzzzz",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/582543-vinyl-record-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0702",
+      "name": "PS3 Controller Wall Mount",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "PS3 Controller Wall Mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/149786/images/1406917_49bc99f0-7301-4ff9-bc0a-d21d4165d3b9/large_display_img_20210729_025046_149786.png"
+      ],
+      "platform": "Printables",
+      "creator": "araymbox",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/149786-ps3-controller-wall-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0703",
+      "name": "Retro TV Raspberry Pi case",
+      "category": "Electronics & Tech",
+      "subcategory": "Device Holders & Enclosures",
+      "type": "Made-to-order 3D printed product",
+      "description": "Retro TV Raspberry Pi case — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/362585/images/3067842_52df1096-ff74-438f-97cb-718ff6a3ebc8/img_1679.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "fantasticmrdavid",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/362585-retro-tv-raspberry-pi-case",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0704",
+      "name": "business card holder with rim",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "business card holder with rim — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/366155/images/3092146_ac7cd0fa-9ccc-48b6-91f5-ef54622ec118/img_20230111_184730_hdr.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Klabbis",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/366155-business-card-holder-with-rim",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0705",
+      "name": "Flashforge Adventurere 5M side mount tool holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Flashforge Adventurere 5M side mount tool holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/828222/images/6388143_2f3136d5-9cf9-439e-9e6d-07f262a651d2_d061aa37-1613-4a80-97ca-733786ee5db1/img_2793.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "zkobol",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/828222-flashforge-adventurere-5m-side-mount-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0706",
+      "name": "Gridfinity for Leather Tools",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity for Leather Tools — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/766531/images/5968209_6ba5ce93-85d9-47bf-9c42-1a4517514096_33511125-2f77-47c4-a60c-bc688294d615/rack02.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Bre",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/766531-gridfinity-for-leather-tools",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0707",
+      "name": "Bike Mounted Beer/Pop Can mount",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bike Mounted Beer/Pop Can mount — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/461165/images/3785308_01815f57-d98a-4202-a0d7-d17d528055c5/pxl_20230423_215605805.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Jon",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/461165-bike-mounted-beerpop-can-mount",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0708",
+      "name": "Gridfinity base for 1\" on center pegboard",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity base for 1\" on center pegboard — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/419576/images/3478284_9ee07e93-dcd7-420e-9bc7-dd38e830d970/img_0905.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "HobbyCNC",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/419576-gridfinity-base-for-1-on-center-pegboard",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0709",
+      "name": "Gridfinity Window Divider Bin",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Window Divider Bin — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/170488/images/1630006_87322bac-fafa-4362-ab10-b9e1e7b2e0c4/9c1f1d82-0862-4e80-a265-d4a4795edb59.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "CmdrMoto",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/170488-gridfinity-window-divider-bin",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0710",
+      "name": "Flashforge AD5X tool holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Flashforge AD5X tool holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/238b127d-c13b-4c3e-a132-d4cef04d9eac/images/11717084_0445e114-d499-43a1-888d-b861e6e9297d_65dacfda-c584-43f2-948a-fd390c4db6f8/camera_img_2026_01_12_21_04_07.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "Matthew",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1554321-flashforge-ad5x-tool-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0711",
+      "name": "EDC Phone Stand",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "EDC Phone Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/84116/images/897304_bc803847-64a3-4d47-94fb-b6c5cada0dd2/img_7723.png"
+      ],
+      "platform": "Printables",
+      "creator": "Cheesus",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/84116-edc-phone-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0712",
+      "name": "Gridfinity Socket Rail for 1/4\" Drive Snap-On Sockets",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Socket Rail for 1/4\" Drive Snap-On Sockets — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/193568/images/1799603_4668c482-967f-460c-90a8-c35915460c3c/127ccbbe-473e-445e-bb0f-f54532477923.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "pltaylor3",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/193568-gridfinity-socket-rail-for-14-drive-snap-on-socket",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0713",
+      "name": "stackable gridfinity lego brick drawer",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "stackable gridfinity lego brick drawer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/595732/images/4744865_501b599f-8ce8-44d0-833c-8b9308c1c1c4_1264e566-4196-48a1-b2e3-8c01fa9e4361/img_8419_resized.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "munzli",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/595732-stackable-gridfinity-lego-brick-drawer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0714",
+      "name": "\"lego\" desk organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "\"lego\" desk organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1012538/images/7697448_fa8aa019-747b-427d-b198-2dca38a763d1_e75e8b0e-d56f-4df4-82f8-92615d7ec1df/joint-1.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Diego Díaz Barahona",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1012538-lego-desk-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0715",
+      "name": "Gridfinity Basic cup",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Basic cup — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/752084/images/6002647_ce03e756-c67a-46eb-9f3a-34a968d780ed_3b423c63-71c9-4bd2-a2e1-e3406c65b6d8/multibatch_basiccup00000.png"
+      ],
+      "platform": "Printables",
+      "creator": "Max",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/752084-gridfinity-basic-cup",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0716",
+      "name": "Stackable Resistor Organizers for Gridfinity",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Stackable Resistor Organizers for Gridfinity — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1041542/images/7896917_fbf010a9-c9a7-4126-8347-01cd4f9391bc_d8187a2c-9fad-401e-8e31-487416c256eb/20241016_013837187_ios.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "DragonsHoard",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1041542-stackable-resistor-organizers-for-gridfinity",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0717",
+      "name": "CD player adapter for car phone holder",
+      "category": "Automotive",
+      "subcategory": "Accessories & Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "CD player adapter for car phone holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1095838/images/8285035_93474c33-15a8-4876-a0f4-ef39e4939f25_9c7a7471-bbb8-4401-9c8f-39ea53ebe3ee/img_8622.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "NikoToFire",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1095838-cd-player-adapter-for-car-phone-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0718",
+      "name": "Nendoroid Display Stand with Storage",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Nendoroid Display Stand with Storage — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/866999/images/6655897_05584995-2361-4799-83fd-676bac2ff3ce_ac4dac58-781e-4f1b-bc9e-c4ca34e2199d/front.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Blyatman",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/866999-nendoroid-display-stand-with-storage",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0719",
+      "name": "Display stand for 9mm scale N track model trains",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Display stand for 9mm scale N track model trains — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/114255/images/1120666_a4af0ed0-3bf3-4c3e-b84b-1b145604b186/0c65ca6bb6454f0dd96f19678f6aeb5d_display_large_11.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "ReeDoet3D",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/114255-display-stand-for-9mm-scale-n-track-model-trains",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0720",
+      "name": "Cable Organizer / Kabelmanager",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cable Organizer / Kabelmanager — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/919339/images/7017450_9176f807-dafd-4329-9345-751aa8bb3387_98b42be6-8ae6-4795-94d5-8d7750d4dd92/img_0175.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "MaWoKo_3D_Druck",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/919339-cable-organizer-kabelmanager",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0721",
+      "name": "Gridfinity Desk Tray",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Desk Tray — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/378117/images/3176448_5a2dd5b7-60a4-4ce4-a1a7-d031b1b8db0f/img20230123132050.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Zapann",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/378117-gridfinity-desk-tray",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0722",
+      "name": "Low Poly Hand Phone Stand & Controller Holder – Support-Free Print",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Low Poly Hand Phone Stand & Controller Holder – Support-Free Print — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/947403/images/7232338_cfadb288-4d14-4ba1-b9c4-c6babac7dbe8_4be3819c-4673-48fa-b94e-53eb3c4db541/large_display_fd154c78-90d5-4286-a9f8-9d06bcd8244b_947403.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "RyGuy Design",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/947403-low-poly-hand-phone-stand-controller-holder-suppor",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0723",
+      "name": "Arduino Uno Mounting Bracket/Holder",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Arduino Uno Mounting Bracket/Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/368835/images/3111056_63f155c9-b288-461e-8eec-0555b1140561/mg_1225.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "JB",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/368835-arduino-uno-mounting-bracketholder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0724",
+      "name": "Autodarts Camera mount for usage with Winmau Plasma (with M3 threaded inserts, remixed from 3DEngelen)",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Autodarts Camera mount for usage with Winmau Plasma (with M3 threaded inserts, remixed from 3DEngelen) — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/1123909/images/8501377_63a4dd26-1b54-433d-beaa-1c84c2de97ee_8cfb7cdd-451d-4c1d-9bba-b23beeef1706/img_2438.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "schellek",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/1123909-autodarts-camera-mount-for-usage-with-winmau-plasm",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0725",
+      "name": "Bike wheel wall hanger / Wall hook",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bike wheel wall hanger / Wall hook — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/409696/images/3404094_f6a7a888-67ab-4850-a610-5c64e48f45b1/mount.png"
+      ],
+      "platform": "Printables",
+      "creator": "Mark",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/409696-bike-wheel-wall-hanger-wall-hook",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0726",
+      "name": "Prusa MK3S tool holder over the PSU",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Prusa MK3S tool holder over the PSU — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/32645/images/320130_0882db55-2256-4e85-9c1c-56b195c6d4a8/img_9119.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "macpiek",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/32645-prusa-mk3s-tool-holder-over-the-psu",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0727",
+      "name": "Super Mario Tube Pen Holder",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Super Mario Tube Pen Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/414219/images/3436688_89c515f2-fde6-4c49-a362-c8e5ce0e58b3/mario-pen.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Yves1024",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/414219-super-mario-tube-pen-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0728",
+      "name": "Gridfinity Filament Swatch Organizer",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Filament Swatch Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/276758/images/2457160_f6152ba8-4b08-4cbe-b1ed-cd707b836c72/20220915_202724.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "MikkoP HAM3D",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/276758-gridfinity-filament-swatch-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0729",
+      "name": "Gridfinity bin 2x4",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity bin 2x4 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/281910/images/2494975_e2fe5f0c-c457-468c-b96a-5df2ea41c5d4/img_2568.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "theflow.fr",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/281910-gridfinity-bin-2x4",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0730",
+      "name": "The BEST Gridfinity SD Card/MicroSD Card/ USB Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "The BEST Gridfinity SD Card/MicroSD Card/ USB Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/3dfd25d4-0a67-4381-8e72-2aa831ad63e5/images/9635223_f29ae497-90a3-4b19-a8ac-cb3216fabef1_af7dba2b-7435-496f-81d7-5821845f7e4f/screenshot-2025-04-30-at-83222-am.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "rithwikmakesthings",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/1280863-the-best-gridfinity-sd-cardmicrosd-card-usb-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0731",
+      "name": "Gridfinity Forstner Drill Bit Holder",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Forstner Drill Bit Holder — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/491096/images/4004989_c063acd2-0aa4-4146-afde-1b0285443150/pxl_20230526_085649857.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Flash72",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/491096-gridfinity-forstner-drill-bit-holder",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0732",
+      "name": "Customizable Modular Desk Organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Customizable Modular Desk Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/19267/images/187796_ff93346b-f28f-4c4e-8c53-ebfa37368f3c/img_20180609_164935_19267.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "franciscorp",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/19267-customizable-modular-desk-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0733",
+      "name": "garden tool holder/hanger",
+      "category": "Garden & Outdoor",
+      "subcategory": "Garden & Outdoor",
+      "type": "Made-to-order 3D printed product",
+      "description": "garden tool holder/hanger — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/890340/images/6822751_ce18337f-d5f1-4d59-99e8-45dbc5aecdb4_d2b94aa5-b8c6-4898-a68b-fa4100c5a7ba/img_5946.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "ian123411",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/890340-garden-tool-holderhanger",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0734",
+      "name": "Gridfinity Pen Holder - Clean stand, ready to use",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity Pen Holder - Clean stand, ready to use — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/f3fcc478-6929-4e2e-8841-5e8fd79b29a9/images/10594712_469d7979-ca40-4a20-8259-65408045c603_86d8973a-c09b-4639-b170-2236ef7937e4/4x3-thumbnail2x.png"
+      ],
+      "platform": "Printables",
+      "creator": "GlennovitS 3D",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/729490-gridfinity-pen-holder-clean-stand-ready-to-use",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0735",
+      "name": "Small Desk Organizer",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Small Desk Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/149963/images/1410929_e763190b-a4a3-4841-aa86-fb2807331dca/desk_organizer_149963.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Golem72",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/149963-small-desk-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0736",
+      "name": "Hex Phone Stand Kit Card",
+      "category": "Office & Desk",
+      "subcategory": "Desk Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Hex Phone Stand Kit Card — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/526613/images/4255844_aca1ab35-e46a-4f46-a1ef-64dc904aa392/img_0270.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "R3D",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/526613-hex-phone-stand-kit-card",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0737",
+      "name": "Custom Socket Drawer Organizer",
+      "category": "Home & Living",
+      "subcategory": "Home Organization",
+      "type": "Made-to-order 3D printed product",
+      "description": "Custom Socket Drawer Organizer — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/24228/images/243511_889e6b4d-c33a-44fa-8d58-b82c6e8e8977/72658429_10112412234210078_6984374769059627008_o.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "loserish",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/24228-custom-socket-drawer-organizer",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0738",
+      "name": "Heart Sheet Display / Card Holder / Menu Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Heart Sheet Display / Card Holder / Menu Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/793744/images/6149267_779b9b6c-a024-4902-a390-96590de7c46d_295a6218-3d69-4380-9f2e-48e01e60d8f3/img_20240305_062724.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Juli",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/793744-heart-sheet-display-card-holder-menu-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0739",
+      "name": "Bug-a-Salt Replacement Cap Using Existing Hinge",
+      "category": "Repair & Replacement",
+      "subcategory": "Replacement Parts",
+      "type": "Made-to-order 3D printed product",
+      "description": "Bug-a-Salt Replacement Cap Using Existing Hinge — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/908812/images/6946566_0780c401-f2a9-4e42-919f-2d8844922907_62b67500-ed6c-451b-9643-9893c200c3f1/large_display_5c6cdfe6-c410-4d13-a78a-f060e981c874_908812.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "mcorri",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/908812-bug-a-salt-replacement-cap-using-existing-hinge",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0740",
+      "name": "Inverted Camera Mount / Stand for TP-Link Tapo C200",
+      "category": "Creator & Gaming",
+      "subcategory": "Gaming & Creator Accessories",
+      "type": "Made-to-order 3D printed product",
+      "description": "Inverted Camera Mount / Stand for TP-Link Tapo C200 — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/868806/images/6668426_a94e22ca-9256-4f08-9828-11ebf57198bb_2db0de9d-e384-4b44-9112-b70e368ac9b9/large_display_a6bfd4a2-98dd-44e6-bfed-efd7235c8174_868806.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "adlaws",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/868806-inverted-camera-mount-stand-for-tp-link-tapo-c200",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0741",
+      "name": "Lightsaber Display Stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Lightsaber Display Stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/350808/images/3009570_24f29ca9-f497-49ed-9fe1-866f4ac1f5c8/f2354a75-964f-4ae4-a58e-58fab2d80581.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "FergyMcFerguson",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/350808-lightsaber-display-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0742",
+      "name": "Display Stand For Mazda RX7 Wankel Rotary Engine 13B-REW by ericthepoolboy",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Display Stand For Mazda RX7 Wankel Rotary Engine 13B-REW by ericthepoolboy — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/667197/images/5250581_9bd351f5-d6ab-4140-b1b0-5432d0e61983_e0864c6e-b9e3-4689-995d-8281afa496d0/large_display_img_4775_667197.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "Onkel Pierre",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/667197-display-stand-for-mazda-rx7-wankel-rotary-engine-1",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0743",
+      "name": "Dovetail \"nano\" Gridfinity base",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Dovetail \"nano\" Gridfinity base — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/373575/images/3143347_f9db08f7-8a7b-4e02-9e05-61fddf0ff51a/20230118_200301.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "aTm_wRECr",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/373575-dovetail-nano-gridfinity-base",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0744",
+      "name": "Gridfinity angle grinder disc storage",
+      "category": "Tools & Workshop",
+      "subcategory": "Workshop Storage & Tools",
+      "type": "Made-to-order 3D printed product",
+      "description": "Gridfinity angle grinder disc storage — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/482472/images/3942222_f1a23ed7-e21c-4ef0-8319-87918054779f/image0.jpeg"
+      ],
+      "platform": "Printables",
+      "creator": "QuietQuacks",
+      "license": "Creative Commons — Attribution — Share Alike",
+      "source": "https://www.printables.com/model/482472-gridfinity-angle-grinder-disc-storage",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    },
+    {
+      "id": "PF-PT-0745",
+      "name": "Cat incense burner/display stand",
+      "category": "Business & Retail",
+      "subcategory": "Displays & Signage",
+      "type": "Made-to-order 3D printed product",
+      "description": "Cat incense burner/display stand — a practical made-to-order 3D printed product selected for PrintForge based on market demand.",
+      "images": [],
+      "customerTags": [
+        "Made to order",
+        "Commercial-use source verified"
+      ],
+      "imagePaths": [
+        "https://media.printables.com/media/prints/528012/images/4266019_2bcc2c19-a5bb-4c92-858d-40e2adf4d154/img_7110.jpg"
+      ],
+      "platform": "Printables",
+      "creator": "jmjefferies",
+      "license": "Creative Commons — Attribution",
+      "source": "https://www.printables.com/model/528012-cat-incense-burnerdisplay-stand",
+      "licenseGate": true,
+      "catalogBatch": "market-expansion-4000"
+    }
+  ]
+}
