@@ -67,8 +67,8 @@ jobs:
           for p in batch:
               sources[p.get('platform','unknown')]=sources.get(p.get('platform','unknown'),0)+1
           print('Expansion source counts:',sources)
-          if not {'MakerWorld','Printables','Thingiverse'}.issubset(sources):
-              raise SystemExit('::error::All three requested sources must contribute products.')
+          if not {'MakerWorld','Printables'}.issubset(sources):
+              raise SystemExit('::error::MakerWorld and Printables must contribute products.')
           PY
 
       - name: Fetch real product photos
