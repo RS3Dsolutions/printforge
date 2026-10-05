@@ -17,12 +17,12 @@ permissions:
 
 concurrency:
   group: printforge-refresh-product-photos-v3
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # 5000-product expansion retry 2
+    timeout-minutes: 360 # 5000-product expansion
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -83,31 +83,20 @@ jobs:
           python - <<'PY'
           import json
           from urllib.parse import urlparse
-
           d=json.load(open('products.json',encoding='utf-8'))
           products=d.get('products',[])
           total=len(products)
           with_images=sum(bool(p.get('imagePaths')) for p in products)
-          remote_urls=sum(
-              1 for p in products for u in (p.get('imagePaths') or [])
-              if urlparse(u).scheme in ('http','https')
-          )
-          local_refs=sum(
-              1 for p in products for u in (p.get('imagePaths') or [])
-              if urlparse(u).scheme not in ('http','https')
-          )
+          remote_urls=sum(1 for p in products for u in (p.get('imagePaths') or []) if urlparse(u).scheme in ('http','https'))
+          local_refs=sum(1 for p in products for u in (p.get('imagePaths') or []) if urlparse(u).scheme not in ('http','https'))
           manifest=json.load(open('catalogue/manifest.json',encoding='utf-8'))
-
           print(f'Products: {total}')
           print(f'Products with image assets: {with_images}/{total}')
           print(f'Remote image URLs: {remote_urls}')
           print(f'Local image references: {local_refs}')
           print(f'Manifest total: {manifest.get("totalProducts")}')
-
-          if total != 5000:
+          if total != 5000 or manifest.get('totalProducts') != 5000:
               raise SystemExit('::error::Final catalogue is not exactly 5000 products.')
-          if manifest.get('totalProducts') != 5000:
-              raise SystemExit('::error::Manifest does not report 5000 products.')
           if with_images != total:
               missing=[p.get('id') for p in products if not p.get('imagePaths')]
               print('Missing image products:', ', '.join(missing[:100]))
