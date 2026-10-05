@@ -357,6 +357,14 @@ with sync_playwright() as pw:
         dest.mkdir(parents=True, exist_ok=True)
         existing = sorted([x for x in dest.iterdir() if x.suffix.lower() in IMG_EXTS])
 
+        # The catalogue builder may already have a verified public gallery/cover URL
+        # from the source search endpoint. Preserve it as a seed image when the
+        # per-model gallery API is rate-limited or temporarily unavailable.
+        seed_remote_urls = []
+        for u in (p.get('imagePaths') or []):
+            if isinstance(u, str) and u.startswith(('http://', 'https://')):
+                seed_remote_urls.append(u)
+
         # Remove old challenge-page screenshots/partial files before resolving the
         # current source. Existing local photos are retained only if no remote/API
         # gallery can be resolved.
@@ -370,6 +378,17 @@ with sync_playwright() as pw:
             p['imagePaths'] = api_urls[:8]
             clean_old_assets(dest)
             log(f'  REMOTE: using {len(p["imagePaths"])} public source image URL(s)')
+            summary.append((pid, len(p['imagePaths'])))
+            time.sleep(0.2)
+            continue
+
+        # If the source search already supplied a real public image URL, keep it.
+        # This is especially important for Printables, whose per-model GraphQL
+        # endpoint can return HTTP 429 after sustained catalogue-scale access.
+        if seed_remote_urls:
+            p['imagePaths'] = seed_remote_urls[:8]
+            clean_old_assets(dest)
+            log(f'  REMOTE SEED: retaining {len(p["imagePaths"])} source image URL(s)')
             summary.append((pid, len(p['imagePaths'])))
             time.sleep(0.2)
             continue
