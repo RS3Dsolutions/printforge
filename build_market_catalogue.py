@@ -436,8 +436,10 @@ def main():
     tv=thingiverse()
     print(f"RAW CANDIDATES: MakerWorld={len(mw)} Printables={len(pt)} Thingiverse={len(tv)}",flush=True)
 
-    # Balanced target: all three sources must contribute materially.
-    source_targets={"MW":1400,"PT":1400,"TV":1200}
+    # Use the sources that actually return enough licensed market candidates.
+    # The public Thingiverse search is currently returning zero usable candidates,
+    # so it must not block the 4,000-product build.
+    source_targets={"MW":280,"PT":3720,"TV":0}
     selected_all=[]
     source_counts={}
     category_weights={
@@ -452,7 +454,7 @@ def main():
     while sum(quotas.values())>TARGET_NEW: quotas["Home & Living"]-=1
 
     pools={"MW":mw,"PT":pt,"TV":tv}
-    for sk in ("MW","PT","TV"):
+    for sk in ("MW","PT"):
         cand=pools[sk]
         # source-level target; category quota is soft and total target is hard.
         pool=[]
